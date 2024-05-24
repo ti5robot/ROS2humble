@@ -1,0 +1,96 @@
+[0.107s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_planners_ompl': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_pr2_description:/home/ti5/ws_moveit2/install/moveit_resources_panda_description:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_description:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_pr2_description:/home/ti5/ws_moveit2/install/moveit_resources_panda_description:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_description:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/moveit_planners_ompl -- -j4 -l4
+[0.517s] [35m[1mConsolidate compiler generated dependencies of target moveit_ompl_interface[0m
+[1.296s] [  2%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/detail/constrained_sampler.cpp.o[0m
+[143.281s] [  4%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/detail/constrained_valid_state_sampler.cpp.o[0m
+[393.751s] [  7%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/detail/constrained_goal_sampler.cpp.o[0m
+[575.176s] [  9%] [32m[1mLinking CXX shared library libmoveit_ompl_interface.so[0m
+[578.927s] [ 51%] Built target moveit_ompl_interface
+[579.063s] [ 56%] Built target gtest
+[579.166s] [ 58%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_planner_plugin.dir/src/ompl_planner_manager.cpp.o[0m
+[719.969s] [ 60%] [32m[1mLinking CXX shared library libmoveit_ompl_planner_plugin.so[0m
+[723.411s] [ 60%] Built target moveit_ompl_planner_plugin
+[723.548s] [ 63%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_generate_state_database.dir/scripts/generate_state_database.cpp.o[0m
+[830.513s] [ 65%] [32m[1mLinking CXX executable generate_state_database[0m
+[833.803s] [ 65%] Built target moveit_generate_state_database
+[833.965s] [ 70%] Built target gtest_main
+[834.083s] [ 73%] [32mBuilding CXX object ompl_interface/CMakeFiles/test_state_space.dir/test/test_state_space.cpp.o[0m
+[879.194s] [ 75%] [32mBuilding CXX object ompl_interface/CMakeFiles/test_constrained_planning_state_space.dir/test/test_constrained_planning_state_space.cpp.o[0m
+[880.256s] [ 78%] [32mBuilding CXX object ompl_interface/CMakeFiles/test_planning_context_manager.dir/test/test_planning_context_manager.cpp.o[0m
+[881.339s] [ 80%] [32mBuilding CXX object ompl_interface/CMakeFiles/test_state_validity_checker.dir/test/test_state_validity_checker.cpp.o[0m
+[886.445s] [ 82%] [32m[1mLinking CXX executable test_state_space[0m
+[890.711s] [ 82%] Built target test_state_space
+[890.842s] [ 85%] [32mBuilding CXX object ompl_interface/CMakeFiles/test_constrained_state_validity_checker.dir/test/test_constrained_state_validity_checker.cpp.o[0m
+[1100.344s] [ 87%] [32m[1mLinking CXX executable test_constrained_planning_state_space[0m
+[1104.487s] [ 87%] Built target test_constrained_planning_state_space
+[1137.597s] [ 90%] [32m[1mLinking CXX executable test_state_validity_checker[0m
+[1142.056s] [ 90%] Built target test_state_validity_checker
+[1145.453s] [ 92%] [32m[1mLinking CXX executable test_constrained_state_validity_checker[0m
+[1148.997s] [ 92%] Built target test_constrained_state_validity_checker
+[1171.033s] [ 95%] [32m[1mLinking CXX executable test_planning_context_manager[0m
+[1173.675s] [ 95%] Built target test_planning_context_manager
+[1173.791s] [ 97%] [32mBuilding CXX object ompl_interface/CMakeFiles/test_threadsafe_state_storage.dir/test/test_threadsafe_state_storage.cpp.o[0m
+[1203.146s] [100%] [32m[1mLinking CXX executable test_threadsafe_state_storage[0m
+[1205.471s] [100%] Built target test_threadsafe_state_storage
+[1205.647s] Invoked command in '/home/ti5/ws_moveit2/build/moveit_planners_ompl' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_pr2_description:/home/ti5/ws_moveit2/install/moveit_resources_panda_description:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_description:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_pr2_description:/home/ti5/ws_moveit2/install/moveit_resources_panda_description:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_description:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/moveit_planners_ompl -- -j4 -l4
+[1205.874s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_planners_ompl': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_pr2_description:/home/ti5/ws_moveit2/install/moveit_resources_panda_description:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_description:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_pr2_description:/home/ti5/ws_moveit2/install/moveit_resources_panda_description:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_description:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ti5/ws_moveit2/build/moveit_planners_ompl
+[1205.903s] -- Install configuration: "Release"
+[1205.907s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/lib/moveit_planners_ompl/generate_state_database
+[1205.913s] -- Set runtime path of "/home/ti5/ws_moveit2/install/moveit_planners_ompl/lib/moveit_planners_ompl/generate_state_database" to ""
+[1205.913s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/include
+[1205.914s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/include/moveit
+[1205.914s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface
+[1205.914s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/model_based_planning_context.h
+[1205.915s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/planning_context_manager.h
+[1205.916s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization
+[1205.917s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/work_space
+[1205.917s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/work_space/pose_model_state_space_factory.h
+[1205.918s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/work_space/pose_model_state_space.h
+[1205.919s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/model_based_state_space.h
+[1205.920s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/model_based_state_space_factory.h
+[1205.920s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/joint_space
+[1205.921s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/joint_space/constrained_planning_state_space.h
+[1205.922s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/joint_space/joint_model_state_space_factory.h
+[1205.923s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/joint_space/joint_model_state_space.h
+[1205.923s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/joint_space/constrained_planning_state_space_factory.h
+[1205.924s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/detail
+[1205.925s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/constraints_library.h
+[1205.925s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/projection_evaluators.h
+[1205.926s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/state_validity_checker.h
+[1205.927s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/constrained_valid_state_sampler.h
+[1205.928s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/constrained_goal_sampler.h
+[1205.928s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/constraint_approximations.h
+[1205.929s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/constrained_sampler.h
+[1205.930s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/ompl_constraints.h
+[1205.931s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/goal_union.h
+[1205.932s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/threadsafe_state_storage.h
+[1205.932s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/include/moveit/ompl_interface/ompl_interface.h
+[1205.934s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/lib/libmoveit_ompl_interface.so.2.5.5
+[1205.951s] -- Set runtime path of "/home/ti5/ws_moveit2/install/moveit_planners_ompl/lib/libmoveit_ompl_interface.so.2.5.5" to ""
+[1205.952s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/lib/libmoveit_ompl_interface.so
+[1205.952s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/lib/libmoveit_ompl_planner_plugin.so.2.5.5
+[1205.957s] -- Set runtime path of "/home/ti5/ws_moveit2/install/moveit_planners_ompl/lib/libmoveit_ompl_planner_plugin.so.2.5.5" to ""
+[1205.958s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/lib/libmoveit_ompl_planner_plugin.so
+[1205.960s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/environment/library_path.sh
+[1205.962s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/environment/library_path.dsv
+[1205.963s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/ompl_interface_plugin_description.xml
+[1205.965s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/share/ament_index/resource_index/package_run_dependencies/moveit_planners_ompl
+[1205.966s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/share/ament_index/resource_index/parent_prefix_path/moveit_planners_ompl
+[1205.971s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/environment/ament_prefix_path.sh
+[1205.971s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/environment/ament_prefix_path.dsv
+[1205.972s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/environment/path.sh
+[1205.973s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/environment/path.dsv
+[1205.974s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/local_setup.bash
+[1205.975s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/local_setup.sh
+[1205.976s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/local_setup.zsh
+[1205.977s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/local_setup.dsv
+[1205.978s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/package.dsv
+[1205.980s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/share/ament_index/resource_index/packages/moveit_planners_ompl
+[1205.981s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_planners_ompl
+[1205.983s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/cmake/export_moveit_planners_omplExport.cmake
+[1205.984s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/cmake/export_moveit_planners_omplExport-release.cmake
+[1205.985s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/cmake/ament_cmake_export_targets-extras.cmake
+[1205.986s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/cmake/ament_cmake_export_dependencies-extras.cmake
+[1205.987s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/cmake/moveit_planners_omplConfig.cmake
+[1205.988s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/cmake/moveit_planners_omplConfig-version.cmake
+[1205.989s] -- Installing: /home/ti5/ws_moveit2/install/moveit_planners_ompl/share/moveit_planners_ompl/package.xml
+[1206.014s] Invoked command in '/home/ti5/ws_moveit2/build/moveit_planners_ompl' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_pr2_description:/home/ti5/ws_moveit2/install/moveit_resources_panda_description:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_description:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_pr2_description:/home/ti5/ws_moveit2/install/moveit_resources_panda_description:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_description:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ti5/ws_moveit2/build/moveit_planners_ompl

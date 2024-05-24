@@ -1,0 +1,47 @@
+[0.102s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_ros_occupancy_map_monitor': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/moveit_ros_occupancy_map_monitor -- -j4 -l4
+[0.368s] [35m[1mConsolidate compiler generated dependencies of target moveit_ros_occupancy_map_monitor[0m
+[0.442s] [ 15%] Built target gmock_main
+[0.584s] [ 46%] Built target moveit_ros_occupancy_map_monitor
+[0.587s] [ 69%] Built target gmock
+[0.752s] [ 76%] [32mBuilding CXX object CMakeFiles/moveit_ros_occupancy_map_server.dir/src/occupancy_map_server.cpp.o[0m
+[0.788s] [ 84%] [32mBuilding CXX object CMakeFiles/occupancy_map_monitor_tests.dir/test/occupancy_map_monitor_tests.cpp.o[0m
+[208.311s] [ 92%] [32m[1mLinking CXX executable occupancy_map_monitor_tests[0m
+[210.953s] [ 92%] Built target occupancy_map_monitor_tests
+[423.157s] [100%] [32m[1mLinking CXX executable moveit_ros_occupancy_map_server[0m
+[425.280s] [100%] Built target moveit_ros_occupancy_map_server
+[425.579s] Invoked command in '/home/ti5/ws_moveit2/build/moveit_ros_occupancy_map_monitor' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/moveit_ros_occupancy_map_monitor -- -j4 -l4
+[425.904s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_ros_occupancy_map_monitor': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ti5/ws_moveit2/build/moveit_ros_occupancy_map_monitor
+[425.963s] -- Install configuration: "Release"
+[425.966s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib/libmoveit_ros_occupancy_map_monitor.so.2.5.5
+[425.978s] -- Set runtime path of "/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib/libmoveit_ros_occupancy_map_monitor.so.2.5.5" to ""
+[425.979s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib/libmoveit_ros_occupancy_map_monitor.so
+[425.980s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib/moveit_ros_occupancy_map_monitor/moveit_ros_occupancy_map_server
+[425.990s] -- Set runtime path of "/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib/moveit_ros_occupancy_map_monitor/moveit_ros_occupancy_map_server" to ""
+[425.994s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/include
+[425.996s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/include/moveit
+[425.998s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/include/moveit/occupancy_map_monitor
+[426.000s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/include/moveit/occupancy_map_monitor/occupancy_map_monitor.h
+[426.003s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/include/moveit/occupancy_map_monitor/occupancy_map_monitor_middleware_handle.hpp
+[426.007s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/include/moveit/occupancy_map_monitor/occupancy_map_updater.h
+[426.019s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/library_path.sh
+[426.025s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/library_path.dsv
+[426.043s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/share/ament_index/resource_index/package_run_dependencies/moveit_ros_occupancy_map_monitor
+[426.046s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/share/ament_index/resource_index/parent_prefix_path/moveit_ros_occupancy_map_monitor
+[426.051s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/ament_prefix_path.sh
+[426.056s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/ament_prefix_path.dsv
+[426.059s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/path.sh
+[426.061s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/path.dsv
+[426.063s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/local_setup.bash
+[426.065s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/local_setup.sh
+[426.068s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/local_setup.zsh
+[426.070s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/local_setup.dsv
+[426.072s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/package.dsv
+[426.074s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/share/ament_index/resource_index/packages/moveit_ros_occupancy_map_monitor
+[426.078s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/export_moveit_ros_occupancy_map_monitorExport.cmake
+[426.080s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/export_moveit_ros_occupancy_map_monitorExport-release.cmake
+[426.082s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/ament_cmake_export_targets-extras.cmake
+[426.084s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/ament_cmake_export_dependencies-extras.cmake
+[426.086s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/moveit_ros_occupancy_map_monitorConfig.cmake
+[426.090s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/moveit_ros_occupancy_map_monitorConfig-version.cmake
+[426.091s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/package.xml
+[426.111s] Invoked command in '/home/ti5/ws_moveit2/build/moveit_ros_occupancy_map_monitor' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ti5/ws_moveit2/build/moveit_ros_occupancy_map_monitor

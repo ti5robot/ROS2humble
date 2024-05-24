@@ -1,0 +1,317 @@
+[0.119s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_core': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_pr2_description:/home/ti5/ws_moveit2/install/moveit_resources_panda_description:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_pr2_description:/home/ti5/ws_moveit2/install/moveit_resources_panda_description:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/moveit_core -- -j4 -l4
+[0.600s] [  1%] Built target moveit_exceptions
+[0.654s] [  2%] Built target moveit_kinematics_base
+[0.664s] [  3%] Built target moveit_transforms
+[0.807s] [  5%] Built target moveit_distance_field
+[0.864s] [  7%] Built target moveit_utils
+[0.927s] [  8%] Built target gtest
+[0.944s] [  9%] Built target gtest_main
+[1.058s] [ 11%] Built target gmock
+[1.134s] [ 12%] Built target gmock_main
+[1.176s] [ 13%] Built target moveit_butterworth_parameters
+[1.292s] [ 14%] Built target moveit_smoothing_base
+[1.320s] [ 16%] Built target moveit_version
+[1.339s] [ 17%] Built target test_transforms
+[1.510s] [ 24%] Built target moveit_robot_model
+[1.521s] [ 25%] Built target test_voxel_grid
+[1.541s] [ 26%] Built target test_distance_field
+[1.745s] [ 27%] Built target moveit_butterworth_filter
+[1.792s] [ 30%] Built target moveit_robot_state
+[1.826s] [ 31%] Built target moveit_test_utils
+[2.037s] [ 32%] Built target test_butterworth_filter
+[2.067s] [ 34%] Built target moveit_dynamics_solver
+[2.102s] [ 35%] Built target moveit_robot_trajectory
+[2.139s] [ 41%] Built target moveit_collision_detection
+[2.309s] [ 42%] Built target test_robot_model
+[2.312s] [ 43%] Built target moveit_kinematics_metrics
+[2.348s] [ 45%] Built target test_robot_state
+[2.382s] [ 46%] Built target test_robot_state_benchmark
+[2.531s] [ 47%] Built target test_robot_state_complex
+[2.557s] [ 48%] Built target test_cartesian_interpolator
+[2.596s] [ 49%] Built target test_aabb
+[2.604s] [ 50%] Built target test_robot_trajectory
+[2.738s] [ 51%] Built target test_world
+[2.748s] [ 53%] Built target test_world_diff
+[2.831s] [ 54%] Built target test_all_valid
+[2.941s] [ 59%] Built target moveit_collision_detection_bullet
+[3.001s] [ 61%] Built target moveit_collision_detection_fcl
+[3.049s] [ 65%] Built target moveit_trajectory_processing
+[3.083s] [ 67%] Built target moveit_planning_interface
+[3.214s] [ 68%] Built target test_bullet_collision_detection_panda
+[3.242s] [ 69%] Built target test_bullet_collision_detection
+[3.370s] [ 71%] Built target test_fcl_collision_env
+[3.381s] [ 73%] Built target test_bullet_continuous_collision_checking
+[3.488s] [ 74%] Built target test_fcl_collision_detection
+[3.558s] [ 75%] Built target test_fcl_collision_detection_panda
+[3.614s] [ 76%] Built target test_time_parameterization
+[3.664s] [ 78%] Built target moveit_kinematic_constraints
+[3.667s] [ 80%] Built target test_time_optimal_trajectory_generation
+[3.791s] [ 81%] Built target test_ruckig_traj_smoothing
+[3.862s] [ 82%] Built target test_constraints
+[3.870s] [ 83%] Built target test_orientation_constraints
+[3.916s] [ 84%] Built target moveit_planning_scene
+[4.169s] [ 85%] Built target moveit_planning_request_adapter
+[4.202s] [ 88%] Built target moveit_constraint_samplers
+[4.215s] [ 89%] Built target test_planning_scene
+[4.298s] [ 92%] Built target moveit_collision_distance_field
+[4.540s] [ 93%] Built target test_collision_objects
+[4.675s] [ 94%] Built target test_multi_threaded
+[4.675s] [ 95%] Built target collision_detector_bullet_plugin
+[4.688s] [ 96%] Built target collision_detector_fcl_plugin
+[4.805s] [ 97%] Built target test_collision_distance_field
+[4.941s] [100%] Built target test_constraint_samplers
+[5.027s] Invoked command in '/home/ti5/ws_moveit2/build/moveit_core' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_pr2_description:/home/ti5/ws_moveit2/install/moveit_resources_panda_description:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_pr2_description:/home/ti5/ws_moveit2/install/moveit_resources_panda_description:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/moveit_core -- -j4 -l4
+[5.370s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_core': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_pr2_description:/home/ti5/ws_moveit2/install/moveit_resources_panda_description:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_pr2_description:/home/ti5/ws_moveit2/install/moveit_resources_panda_description:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ti5/ws_moveit2/build/moveit_core
+[5.411s] -- Install configuration: "Release"
+[5.412s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/version.h
+[5.414s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include
+[5.415s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit
+[5.416s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_distance_field
+[5.416s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_distance_field/collision_common_distance_field.h
+[5.416s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_distance_field/collision_detector_allocator_hybrid.h
+[5.417s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_distance_field/collision_env_distance_field.h
+[5.417s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_distance_field/collision_env_hybrid.h
+[5.418s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_distance_field/collision_detector_allocator_distance_field.h
+[5.419s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_distance_field/collision_distance_field_types.h
+[5.420s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit_collision_distance_field_export.h
+[5.422s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include
+[5.423s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit
+[5.424s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/constraint_samplers
+[5.425s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/constraint_samplers/constraint_sampler_allocator.h
+[5.426s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/constraint_samplers/constraint_sampler_tools.h
+[5.426s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/constraint_samplers/constraint_sampler.h
+[5.427s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/constraint_samplers/default_constraint_samplers.h
+[5.428s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/constraint_samplers/constraint_sampler_manager.h
+[5.429s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/constraint_samplers/union_constraint_sampler.h
+[5.430s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include
+[5.430s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit
+[5.431s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/controller_manager
+[5.432s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/controller_manager/controller_manager.h
+[5.433s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include
+[5.434s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit
+[5.437s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/distance_field
+[5.438s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/distance_field/propagation_distance_field.h
+[5.439s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/distance_field/distance_field.h
+[5.440s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/distance_field/find_internal_points.h
+[5.442s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/distance_field/voxel_grid.h
+[5.442s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include
+[5.443s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit
+[5.443s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/dynamics_solver
+[5.444s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/dynamics_solver/dynamics_solver.h
+[5.444s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include
+[5.445s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit
+[5.446s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/exceptions
+[5.447s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h
+[5.448s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include
+[5.450s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit
+[5.451s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/kinematics_base
+[5.452s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/kinematics_base/kinematics_base.h
+[5.453s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit_kinematics_base_export.h
+[5.454s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include
+[5.455s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit
+[5.456s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/kinematic_constraints
+[5.456s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/kinematic_constraints/kinematic_constraint.h
+[5.457s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/kinematic_constraints/utils.h
+[5.458s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include
+[5.459s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit
+[5.460s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/kinematics_metrics
+[5.460s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/kinematics_metrics/kinematics_metrics.h
+[5.461s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include
+[5.461s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit
+[5.462s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/macros
+[5.463s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/macros/declare_ptr.h
+[5.463s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/macros/class_forward.h
+[5.464s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/macros/console_colors.h
+[5.465s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/macros/deprecation.h
+[5.466s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit_butterworth_parameters
+[5.467s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit_butterworth_parameters/moveit_butterworth_parameters.hpp
+[5.468s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include
+[5.469s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit
+[5.470s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/online_signal_smoothing
+[5.470s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/online_signal_smoothing/butterworth_filter.h
+[5.471s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/online_signal_smoothing/smoothing_base_class.h
+[5.471s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit_smoothing_base_export.h
+[5.472s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit_butterworth_filter_export.h
+[5.472s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include
+[5.475s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit
+[5.476s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/planning_interface
+[5.478s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/planning_interface/planning_request.h
+[5.479s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/planning_interface/planning_interface.h
+[5.480s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/planning_interface/planning_response.h
+[5.481s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include
+[5.482s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit
+[5.482s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/planning_request_adapter
+[5.483s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/planning_request_adapter/planning_request_adapter.h
+[5.484s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include
+[5.485s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit
+[5.486s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/planning_scene
+[5.486s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/planning_scene/planning_scene.h
+[5.487s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit_planning_scene_export.h
+[5.487s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include
+[5.488s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit
+[5.489s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/robot_model
+[5.489s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/robot_model/floating_joint_model.h
+[5.490s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/robot_model/fixed_joint_model.h
+[5.491s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h
+[5.492s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/robot_model/aabb.h
+[5.493s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/robot_model/planar_joint_model.h
+[5.494s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/robot_model/link_model.h
+[5.495s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/robot_model/revolute_joint_model.h
+[5.495s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/robot_model/prismatic_joint_model.h
+[5.497s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h
+[5.498s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h
+[5.499s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include
+[5.499s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit
+[5.500s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/robot_state
+[5.502s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/robot_state/attached_body.h
+[5.503s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/robot_state/robot_state.h
+[5.503s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/robot_state/conversions.h
+[5.504s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/robot_state/cartesian_interpolator.h
+[5.504s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include
+[5.505s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit
+[5.506s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/robot_trajectory
+[5.506s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/robot_trajectory/robot_trajectory.h
+[5.508s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include
+[5.509s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit
+[5.509s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/sensor_manager
+[5.510s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/sensor_manager/sensor_manager.h
+[5.511s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include
+[5.511s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit
+[5.512s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/trajectory_processing
+[5.512s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/trajectory_processing/trajectory_tools.h
+[5.514s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/trajectory_processing/iterative_time_parameterization.h
+[5.514s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/trajectory_processing/time_parameterization.h
+[5.515s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/trajectory_processing/ruckig_traj_smoothing.h
+[5.515s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/trajectory_processing/time_optimal_trajectory_generation.h
+[5.516s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/trajectory_processing/iterative_spline_parameterization.h
+[5.518s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include
+[5.519s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit
+[5.520s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/transforms
+[5.521s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/transforms/transforms.h
+[5.521s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include
+[5.522s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit
+[5.522s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/utils
+[5.523s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/utils/moveit_error_code.h
+[5.523s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/utils/message_checks.h
+[5.524s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/utils/lexical_casts.h
+[5.525s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/utils/robot_model_test_utils.h
+[5.526s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/utils/rclcpp_utils.h
+[5.526s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/bin/moveit_version
+[5.527s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include
+[5.528s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit
+[5.528s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection
+[5.529s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_plugin_cache.h
+[5.529s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_plugin.h
+[5.530s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection/world.h
+[5.531s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_matrix.h
+[5.532s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection/test_collision_common_panda.h
+[5.533s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection/test_collision_common_pr2.h
+[5.534s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_octomap_filter.h
+[5.535s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_tools.h
+[5.536s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_common.h
+[5.536s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection/world_diff.h
+[5.537s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection/occupancy_map.h
+[5.538s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_detector_allocator.h
+[5.539s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection/allvalid
+[5.540s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection/allvalid/collision_env_allvalid.h
+[5.541s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection/allvalid/collision_detector_allocator_allvalid.h
+[5.541s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection/collision_env.h
+[5.542s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit_collision_detection_export.h
+[5.543s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include
+[5.544s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit
+[5.544s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet
+[5.545s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration
+[5.545s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/bullet_utils.h
+[5.547s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/basic_types.h
+[5.548s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/bullet_discrete_bvh_manager.h
+[5.548s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/bullet_cast_bvh_manager.h
+[5.548s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/bullet_bvh_manager.h
+[5.550s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/ros_bullet_utils.h
+[5.550s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet/bullet_integration/contact_checker_common.h
+[5.551s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet/collision_env_bullet.h
+[5.551s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet/collision_detector_bullet_plugin_loader.h
+[5.552s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection_bullet/collision_detector_allocator_bullet.h
+[5.552s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit_collision_detection_bullet_export.h
+[5.554s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include
+[5.554s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit
+[5.554s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection_fcl
+[5.555s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection_fcl/collision_detector_allocator_fcl.h
+[5.556s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection_fcl/fcl_compat.h
+[5.556s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection_fcl/collision_common.h
+[5.557s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection_fcl/collision_detector_fcl_plugin_loader.h
+[5.558s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit/collision_detection_fcl/collision_env_fcl.h
+[5.558s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/include/moveit_collision_detection_fcl_export.h
+[5.559s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libcollision_detector_bullet_plugin.so.2.5.5
+[5.559s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libcollision_detector_bullet_plugin.so
+[5.560s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_butterworth_filter.so.2.5.5
+[5.561s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_butterworth_filter.so
+[5.561s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_collision_distance_field.so.2.5.5
+[5.562s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_collision_distance_field.so
+[5.563s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_collision_detection.so.2.5.5
+[5.563s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_collision_detection.so
+[5.564s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_collision_detection_fcl.so.2.5.5
+[5.565s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_collision_detection_fcl.so
+[5.565s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_collision_detection_bullet.so.2.5.5
+[5.566s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_collision_detection_bullet.so
+[5.566s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_dynamics_solver.so.2.5.5
+[5.567s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_dynamics_solver.so
+[5.567s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_constraint_samplers.so.2.5.5
+[5.568s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_constraint_samplers.so
+[5.569s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_distance_field.so.2.5.5
+[5.570s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_distance_field.so
+[5.570s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_exceptions.so.2.5.5
+[5.571s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_exceptions.so
+[5.571s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_kinematics_base.so
+[5.572s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_kinematic_constraints.so.2.5.5
+[5.573s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_kinematic_constraints.so
+[5.573s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_kinematics_metrics.so.2.5.5
+[5.574s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_kinematics_metrics.so
+[5.575s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_planning_interface.so.2.5.5
+[5.575s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_planning_interface.so
+[5.575s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_planning_scene.so.2.5.5
+[5.577s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_planning_scene.so
+[5.578s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_planning_request_adapter.so.2.5.5
+[5.578s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_planning_request_adapter.so
+[5.579s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_robot_model.so.2.5.5
+[5.579s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_robot_model.so
+[5.581s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_robot_state.so.2.5.5
+[5.581s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_robot_state.so
+[5.582s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_robot_trajectory.so.2.5.5
+[5.582s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_robot_trajectory.so
+[5.584s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_smoothing_base.so.2.5.5
+[5.585s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_smoothing_base.so
+[5.587s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_test_utils.so.2.5.5
+[5.589s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_test_utils.so
+[5.591s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_trajectory_processing.so.2.5.5
+[5.592s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_trajectory_processing.so
+[5.594s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_transforms.so.2.5.5
+[5.595s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_transforms.so
+[5.597s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_utils.so.2.5.5
+[5.599s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_utils.so
+[5.600s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/share/moveit_core/environment/library_path.sh
+[5.601s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/share/moveit_core/environment/library_path.dsv
+[5.602s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/share/moveit_core/collision_detector_fcl_description.xml
+[5.604s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/share/moveit_core/collision_detector_bullet_description.xml
+[5.605s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/share/moveit_core/filter_plugin_butterworth.xml
+[5.606s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/share/ament_index/resource_index/package_run_dependencies/moveit_core
+[5.607s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/share/ament_index/resource_index/parent_prefix_path/moveit_core
+[5.607s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/share/moveit_core/environment/ament_prefix_path.sh
+[5.608s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/share/moveit_core/environment/ament_prefix_path.dsv
+[5.609s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/share/moveit_core/environment/path.sh
+[5.609s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/share/moveit_core/environment/path.dsv
+[5.611s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/share/moveit_core/local_setup.bash
+[5.612s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/share/moveit_core/local_setup.sh
+[5.613s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/share/moveit_core/local_setup.zsh
+[5.614s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/share/moveit_core/local_setup.dsv
+[5.615s] -- Installing: /home/ti5/ws_moveit2/install/moveit_core/share/moveit_core/package.dsv
+[5.615s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/share/ament_index/resource_index/packages/moveit_core
+[5.616s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_core
+[5.618s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/share/moveit_core/cmake/export_moveit_coreExport.cmake
+[5.618s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/share/moveit_core/cmake/export_moveit_coreExport-release.cmake
+[5.621s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/share/moveit_core/cmake/ConfigExtras.cmake
+[5.621s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/share/moveit_core/cmake/ament_cmake_export_targets-extras.cmake
+[5.623s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/share/moveit_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.623s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/share/moveit_core/cmake/moveit_coreConfig.cmake
+[5.624s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/share/moveit_core/cmake/moveit_coreConfig-version.cmake
+[5.624s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_core/share/moveit_core/package.xml
+[5.631s] Invoked command in '/home/ti5/ws_moveit2/build/moveit_core' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_pr2_description:/home/ti5/ws_moveit2/install/moveit_resources_panda_description:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_pr2_description:/home/ti5/ws_moveit2/install/moveit_resources_panda_description:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ti5/ws_moveit2/build/moveit_core

@@ -1,0 +1,13 @@
+[0.559s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_ros_perception': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/moveit_ros_perception -- -j4 -l4
+[1.362s] [35m[1mConsolidate compiler generated dependencies of target moveit_lazy_free_space_updater[0m
+[1.737s] [  5%] [32mBuilding CXX object point_containment_filter/CMakeFiles/moveit_point_containment_filter.dir/src/shape_mask.cpp.o[0m
+[1.796s] [ 20%] Built target moveit_lazy_free_space_updater
+[1.800s] [ 20%] [32mBuilding CXX object semantic_world/CMakeFiles/moveit_semantic_world.dir/src/semantic_world.cpp.o[0m
+[1.811s] [ 25%] [32mBuilding CXX object mesh_filter/CMakeFiles/moveit_mesh_filter.dir/src/mesh_filter_base.cpp.o[0m
+[1.919s] [ 30%] [32mBuilding CXX object mesh_filter/CMakeFiles/moveit_mesh_filter.dir/src/sensor_model.cpp.o[0m
+[123.977s] [ 35%] [32m[1mLinking CXX shared library libmoveit_point_containment_filter.so[0m
+[130.985s] [ 35%] Built target moveit_point_containment_filter
+[214.173s] [ 40%] [32mBuilding CXX object mesh_filter/CMakeFiles/moveit_mesh_filter.dir/src/gl_renderer.cpp.o[0m
+[225.268s] [ 45%] [32mBuilding CXX object mesh_filter/CMakeFiles/moveit_mesh_filter.dir/src/stereo_camera_model.cpp.o[0m
+[260.388s] [ 50%] [32mBuilding CXX object mesh_filter/CMakeFiles/moveit_mesh_filter.dir/src/gl_mesh.cpp.o[0m
+[270.336s] [ 55%] [32m[1mLinking CXX shared library libmoveit_mesh_filter.so[0m

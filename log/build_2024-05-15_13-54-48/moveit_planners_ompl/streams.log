@@ -1,0 +1,115 @@
+[0.228s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_planners_ompl': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_pr2_description:/home/ti5/ws_moveit2/install/moveit_resources_panda_description:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_description:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_pr2_description:/home/ti5/ws_moveit2/install/moveit_resources_panda_description:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_description:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ti5/ws_moveit2/moveit2/moveit_planners/ompl -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ti5/ws_moveit2/install/moveit_planners_ompl
+[0.647s] -- The C compiler identification is GNU 11.4.0
+[0.993s] -- The CXX compiler identification is GNU 11.4.0
+[1.051s] -- Detecting C compiler ABI info
+[1.514s] -- Detecting C compiler ABI info - done
+[1.571s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.573s] -- Detecting C compile features
+[1.576s] -- Detecting C compile features - done
+[1.613s] -- Detecting CXX compiler ABI info
+[2.207s] -- Detecting CXX compiler ABI info - done
+[2.264s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.266s] -- Detecting CXX compile features
+[2.271s] -- Detecting CXX compile features - done
+[2.281s] -- Found moveit_common: 2.5.5 (/home/ti5/ws_moveit2/install/moveit_common/share/moveit_common/cmake)
+[2.301s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.605s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.957s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[5.020s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[5.021s] -- BACKWARD_HAS_UNWIND=1
+[5.021s] -- BACKWARD_HAS_BACKTRACE=0
+[5.022s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[5.022s] -- BACKWARD_HAS_DW=1
+[5.023s] -- BACKWARD_HAS_BFD=0
+[5.026s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[6.576s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time thread serialization 
+[6.598s] -- Found moveit_core: 2.5.5 (/home/ti5/ws_moveit2/install/moveit_core/share/moveit_core/cmake)
+[6.696s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[7.015s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[7.305s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.337s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.405s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.505s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.666s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.285s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.310s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.884s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.999s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.243s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.318s] -- Found Threads: TRUE  
+[10.649s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[10.668s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[11.209s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[12.077s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[14.669s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[21.845s] -- Found moveit_ros_planning: 2.5.5 (/home/ti5/ws_moveit2/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[21.870s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[24.101s] -- Found ompl: /opt/ros/humble/include/ompl-1.6;/usr/include;/usr/include/eigen3  
+[26.354s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[27.048s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[27.049s] -- Found OpenMP: TRUE (found version "4.5")  
+[27.157s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[27.185s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[27.436s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[27.641s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[27.642s] -- Configured cppcheck include dirs: /home/ti5/ws_moveit2/moveit2/moveit_planners/ompl/ompl_interface/include
+[27.643s] -- Configured cppcheck exclude dirs and/or files: 
+[27.653s] -- Added test 'lint_cmake' to check CMake code style
+[27.662s] -- Added test 'xmllint' to check XML markup files
+[27.674s] -- Configuring done
+[28.911s] -- Generating done
+[28.934s] -- Build files have been written to: /home/ti5/ws_moveit2/build/moveit_planners_ompl
+[29.027s] Invoked command in '/home/ti5/ws_moveit2/build/moveit_planners_ompl' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_pr2_description:/home/ti5/ws_moveit2/install/moveit_resources_panda_description:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_description:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_pr2_description:/home/ti5/ws_moveit2/install/moveit_resources_panda_description:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_description:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ti5/ws_moveit2/moveit2/moveit_planners/ompl -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ti5/ws_moveit2/install/moveit_planners_ompl
+[29.029s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_planners_ompl': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_pr2_description:/home/ti5/ws_moveit2/install/moveit_resources_panda_description:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_description:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_pr2_description:/home/ti5/ws_moveit2/install/moveit_resources_panda_description:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_description:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/moveit_planners_ompl -- -j4 -l4
+[29.362s] [  2%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/ompl_interface.cpp.o[0m
+[350.252s] [  4%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/planning_context_manager.cpp.o[0m
+[825.328s] [  7%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/model_based_planning_context.cpp.o[0m
+[1202.698s] [  9%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/model_based_state_space.cpp.o[0m
+[1368.410s] [ 12%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/model_based_state_space_factory.cpp.o[0m
+[1539.265s] [ 14%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/joint_space/constrained_planning_state_space.cpp.o[0m
+[1746.210s] [ 17%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/joint_space/constrained_planning_state_space_factory.cpp.o[0m
+[1830.874s] [ 19%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/joint_space/joint_model_state_space.cpp.o[0m
+[1969.769s] [ 21%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/joint_space/joint_model_state_space_factory.cpp.o[0m
+[2049.207s] [ 24%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/work_space/pose_model_state_space.cpp.o[0m
+[2107.182s] [ 26%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/work_space/pose_model_state_space_factory.cpp.o[0m
+[2215.135s] [ 29%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/detail/ompl_constraints.cpp.o[0m
+[2297.719s] [ 31%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/detail/threadsafe_state_storage.cpp.o[0m
+[2328.952s] [ 34%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/detail/state_validity_checker.cpp.o[0m
+[2386.244s] [ 36%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/detail/projection_evaluators.cpp.o[0m
+[2466.531s] [ 39%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/detail/goal_union.cpp.o[0m
+[2477.745s] [ 41%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/detail/constraints_library.cpp.o[0m
+[2557.220s] [ 43%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/detail/constrained_sampler.cpp.o[0m
+[2563.273s] [ 46%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/detail/constrained_valid_state_sampler.cpp.o[0m
+[2981.473s] [ 48%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/detail/constrained_goal_sampler.cpp.o[0m
+[3093.629s] [ 51%] [32m[1mLinking CXX shared library libmoveit_ompl_interface.so[0m
+[3097.344s] [ 51%] Built target moveit_ompl_interface
+[3097.458s] [ 53%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3134.452s] [ 56%] [32m[1mLinking CXX static library libgtest.a[0m
+[3134.766s] [ 56%] Built target gtest
+[3134.916s] [ 58%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_planner_plugin.dir/src/ompl_planner_manager.cpp.o[0m
+[3134.940s] [ 60%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_generate_state_database.dir/scripts/generate_state_database.cpp.o[0m
+[3657.257s] [ 63%] [32m[1mLinking CXX shared library libmoveit_ompl_planner_plugin.so[0m
+[3661.049s] [ 63%] Built target moveit_ompl_planner_plugin
+[3702.323s] [ 65%] [32m[1mLinking CXX executable generate_state_database[0m
+[3705.832s] [ 65%] Built target moveit_generate_state_database
+[3705.949s] [ 68%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3713.047s] [ 70%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3713.218s] [ 70%] Built target gtest_main
+[3713.338s] [ 73%] [32mBuilding CXX object ompl_interface/CMakeFiles/test_state_space.dir/test/test_state_space.cpp.o[0m
+[3766.515s] [ 75%] [32m[1mLinking CXX executable test_state_space[0m
+[3770.558s] [ 75%] Built target test_state_space
+[3770.686s] [ 78%] [32mBuilding CXX object ompl_interface/CMakeFiles/test_constrained_planning_state_space.dir/test/test_constrained_planning_state_space.cpp.o[0m
+[3799.137s] [ 80%] [32mBuilding CXX object ompl_interface/CMakeFiles/test_constrained_state_validity_checker.dir/test/test_constrained_state_validity_checker.cpp.o[0m
+[3800.120s] [ 82%] [32mBuilding CXX object ompl_interface/CMakeFiles/test_planning_context_manager.dir/test/test_planning_context_manager.cpp.o[0m
+[3800.243s] [ 85%] [32mBuilding CXX object ompl_interface/CMakeFiles/test_state_validity_checker.dir/test/test_state_validity_checker.cpp.o[0m
+[4133.497s] [ 87%] [32m[1mLinking CXX executable test_constrained_planning_state_space[0m
+[4138.262s] [ 87%] Built target test_constrained_planning_state_space
+[4260.487s] [ 90%] [32m[1mLinking CXX executable test_state_validity_checker[0m
+[4268.082s] [ 90%] Built target test_state_validity_checker
+[4277.985s] [ 92%] [32m[1mLinking CXX executable test_constrained_state_validity_checker[0m
+[4282.183s] [ 92%] Built target test_constrained_state_validity_checker
+[4328.441s] [ 95%] [32m[1mLinking CXX executable test_planning_context_manager[0m
+[4331.267s] [ 95%] Built target test_planning_context_manager
+[4331.387s] [ 97%] [32mBuilding CXX object ompl_interface/CMakeFiles/test_threadsafe_state_storage.dir/test/test_threadsafe_state_storage.cpp.o[0m
+[4361.524s] [100%] [32m[1mLinking CXX executable test_threadsafe_state_storage[0m
+[4363.995s] [100%] Built target test_threadsafe_state_storage

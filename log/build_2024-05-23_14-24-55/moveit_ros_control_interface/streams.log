@@ -1,0 +1,90 @@
+[0.072s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_ros_control_interface': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_simple_controller_manager:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_simple_controller_manager:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ti5/ws_moveit2/moveit2/moveit_plugins/moveit_ros_control_interface -DCMAKE_INSTALL_PREFIX=/home/ti5/ws_moveit2/install/moveit_ros_control_interface
+[0.130s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.695s] -- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.827s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.843s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.878s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.949s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.047s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.824s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.832s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.384s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.521s] -- Found controller_manager_msgs: 2.40.0 (/opt/ros/humble/share/controller_manager_msgs/cmake)
+[3.958s] -- Found moveit_core: 2.5.5 (/home/ti5/ws_moveit2/install/moveit_core/share/moveit_core/cmake)
+[4.045s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[4.186s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[4.275s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[4.431s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[4.878s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[6.754s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[12.247s] -- Found moveit_simple_controller_manager: 2.5.5 (/home/ti5/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake)
+[12.264s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[14.410s] -- Found moveit_common: 2.5.5 (/home/ti5/ws_moveit2/install/moveit_common/share/moveit_common/cmake)
+[14.731s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[14.732s] -- BACKWARD_HAS_UNWIND=1
+[14.733s] -- BACKWARD_HAS_BACKTRACE=0
+[14.733s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[14.733s] -- BACKWARD_HAS_DW=1
+[14.734s] -- BACKWARD_HAS_BFD=0
+[14.735s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[14.757s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system thread 
+[14.866s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.915s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.919s] -- Configured cppcheck include dirs: /home/ti5/ws_moveit2/moveit2/moveit_plugins/moveit_ros_control_interface/include
+[14.920s] -- Configured cppcheck exclude dirs and/or files: 
+[14.923s] -- Added test 'lint_cmake' to check CMake code style
+[14.926s] -- Added test 'xmllint' to check XML markup files
+[14.937s] -- Configuring done
+[15.347s] -- Generating done
+[15.362s] -- Build files have been written to: /home/ti5/ws_moveit2/build/moveit_ros_control_interface
+[15.413s] Invoked command in '/home/ti5/ws_moveit2/build/moveit_ros_control_interface' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_simple_controller_manager:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_simple_controller_manager:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ti5/ws_moveit2/moveit2/moveit_plugins/moveit_ros_control_interface -DCMAKE_INSTALL_PREFIX=/home/ti5/ws_moveit2/install/moveit_ros_control_interface
+[15.420s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_ros_control_interface': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_simple_controller_manager:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_simple_controller_manager:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/moveit_ros_control_interface -- -j4 -l4
+[15.683s] [35m[1mConsolidate compiler generated dependencies of target moveit_ros_control_interface_plugin[0m
+[15.683s] [35m[1mConsolidate compiler generated dependencies of target moveit_ros_control_interface_gripper_plugin[0m
+[15.688s] [35m[1mConsolidate compiler generated dependencies of target moveit_ros_control_interface_trajectory_plugin[0m
+[15.717s] [35m[1mConsolidate compiler generated dependencies of target moveit_ros_control_interface_empty_plugin[0m
+[15.871s] [ 25%] Built target moveit_ros_control_interface_trajectory_plugin
+[15.907s] [ 50%] Built target moveit_ros_control_interface_plugin
+[15.916s] [ 75%] Built target moveit_ros_control_interface_empty_plugin
+[15.926s] [100%] Built target moveit_ros_control_interface_gripper_plugin
+[15.975s] Invoked command in '/home/ti5/ws_moveit2/build/moveit_ros_control_interface' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_simple_controller_manager:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_simple_controller_manager:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/moveit_ros_control_interface -- -j4 -l4
+[16.125s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_ros_control_interface': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_simple_controller_manager:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_simple_controller_manager:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ti5/ws_moveit2/build/moveit_ros_control_interface
+[16.165s] -- Install configuration: "Release"
+[16.168s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_plugin.so.2.5.5
+[16.170s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_plugin.so
+[16.173s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_trajectory_plugin.so.2.5.5
+[16.176s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_trajectory_plugin.so
+[16.179s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_gripper_plugin.so.2.5.5
+[16.181s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_gripper_plugin.so
+[16.183s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_empty_plugin.so.2.5.5
+[16.186s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_empty_plugin.so
+[16.187s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/include
+[16.188s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/include/moveit_ros_control_interface
+[16.189s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/include/moveit_ros_control_interface/ControllerHandle.h
+[16.191s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/moveit_core_plugins.xml
+[16.192s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/moveit_ros_control_interface_plugins.xml
+[16.194s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/library_path.sh
+[16.195s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/library_path.dsv
+[16.196s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/share/ament_index/resource_index/package_run_dependencies/moveit_ros_control_interface
+[16.197s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/share/ament_index/resource_index/parent_prefix_path/moveit_ros_control_interface
+[16.198s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/ament_prefix_path.sh
+[16.198s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/ament_prefix_path.dsv
+[16.199s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/path.sh
+[16.200s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/path.dsv
+[16.201s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/local_setup.bash
+[16.202s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/local_setup.sh
+[16.203s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/local_setup.zsh
+[16.203s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/local_setup.dsv
+[16.205s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/package.dsv
+[16.206s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/share/ament_index/resource_index/packages/moveit_ros_control_interface
+[16.207s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_ros_control_interface
+[16.209s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/share/ament_index/resource_index/moveit_ros_control_interface__pluginlib__plugin/moveit_ros_control_interface
+[16.211s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/export_moveit_ros_control_interfaceExport.cmake
+[16.212s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/export_moveit_ros_control_interfaceExport-release.cmake
+[16.213s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/ConfigExtras.cmake
+[16.214s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/ament_cmake_export_targets-extras.cmake
+[16.216s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.217s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/moveit_ros_control_interfaceConfig.cmake
+[16.218s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/moveit_ros_control_interfaceConfig-version.cmake
+[16.219s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/package.xml
+[16.232s] Invoked command in '/home/ti5/ws_moveit2/build/moveit_ros_control_interface' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_simple_controller_manager:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_simple_controller_manager:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ti5/ws_moveit2/build/moveit_ros_control_interface

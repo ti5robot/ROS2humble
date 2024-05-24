@@ -1,0 +1,14 @@
+[0.134s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_ros_warehouse': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/moveit_ros_warehouse -- -j4 -l4
+[0.547s] [ 40%] Built target moveit_warehouse
+[0.743s] [ 50%] Built target moveit_warehouse_broadcast
+[0.960s] [ 60%] Built target moveit_warehouse_save_as_text
+[1.073s] [ 65%] [32mBuilding CXX object CMakeFiles/moveit_init_demo_warehouse.dir/src/initialize_demo_db.cpp.o[0m
+[455.647s] [ 70%] [32m[1mLinking CXX executable moveit_init_demo_warehouse[0m
+[458.607s] [ 70%] Built target moveit_init_demo_warehouse
+[458.743s] [ 75%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_services.dir/src/warehouse_services.cpp.o[0m
+[510.943s] [ 80%] [32m[1mLinking CXX executable moveit_warehouse_services[0m
+[513.475s] [ 80%] Built target moveit_warehouse_services
+[513.641s] [ 85%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_import_from_text.dir/src/import_from_text.cpp.o[0m
+[777.325s] [ 90%] [32m[1mLinking CXX executable moveit_warehouse_import_from_text[0m
+[780.129s] [ 90%] Built target moveit_warehouse_import_from_text
+[780.270s] [ 95%] [32mBuilding CXX object CMakeFiles/moveit_save_to_warehouse.dir/src/save_to_warehouse.cpp.o[0m

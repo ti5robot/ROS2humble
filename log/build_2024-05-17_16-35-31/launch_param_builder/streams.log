@@ -1,0 +1,50 @@
+[4.645s] Invoking command in '/home/ti5/ws_moveit2/launch_param_builder': PYTHONPATH=/home/ti5/ws_moveit2/build/launch_param_builder/prefix_override:/home/ti5/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/launch_param_builder build --build-base /home/ti5/ws_moveit2/build/launch_param_builder/build install --record /home/ti5/ws_moveit2/build/launch_param_builder/install.log --single-version-externally-managed install_data
+[6.216s] running egg_info
+[6.220s] creating ../build/launch_param_builder/launch_param_builder.egg-info
+[6.221s] writing ../build/launch_param_builder/launch_param_builder.egg-info/PKG-INFO
+[6.222s] writing dependency_links to ../build/launch_param_builder/launch_param_builder.egg-info/dependency_links.txt
+[6.223s] writing entry points to ../build/launch_param_builder/launch_param_builder.egg-info/entry_points.txt
+[6.224s] writing requirements to ../build/launch_param_builder/launch_param_builder.egg-info/requires.txt
+[6.225s] writing top-level names to ../build/launch_param_builder/launch_param_builder.egg-info/top_level.txt
+[6.227s] writing manifest file '../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+[6.236s] reading manifest file '../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+[6.237s] adding license file 'LICENSE'
+[6.241s] writing manifest file '../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+[6.242s] running build
+[6.243s] running build_py
+[6.244s] creating /home/ti5/ws_moveit2/build/launch_param_builder/build
+[6.245s] creating /home/ti5/ws_moveit2/build/launch_param_builder/build/lib
+[6.245s] creating /home/ti5/ws_moveit2/build/launch_param_builder/build/lib/launch_param_builder
+[6.246s] copying launch_param_builder/launch_param_builder.py -> /home/ti5/ws_moveit2/build/launch_param_builder/build/lib/launch_param_builder
+[6.248s] copying launch_param_builder/__init__.py -> /home/ti5/ws_moveit2/build/launch_param_builder/build/lib/launch_param_builder
+[6.250s] copying launch_param_builder/utils.py -> /home/ti5/ws_moveit2/build/launch_param_builder/build/lib/launch_param_builder
+[6.253s] running install
+[6.256s] running install_lib
+[6.261s] creating /home/ti5/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+[6.264s] copying /home/ti5/ws_moveit2/build/launch_param_builder/build/lib/launch_param_builder/launch_param_builder.py -> /home/ti5/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+[6.267s] copying /home/ti5/ws_moveit2/build/launch_param_builder/build/lib/launch_param_builder/__init__.py -> /home/ti5/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+[6.268s] copying /home/ti5/ws_moveit2/build/launch_param_builder/build/lib/launch_param_builder/utils.py -> /home/ti5/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+[6.268s] byte-compiling /home/ti5/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder/launch_param_builder.py to launch_param_builder.cpython-310.pyc
+[6.270s] byte-compiling /home/ti5/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder/__init__.py to __init__.cpython-310.pyc
+[6.278s] byte-compiling /home/ti5/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder/utils.py to utils.cpython-310.pyc
+[6.280s] running install_data
+[6.281s] creating /home/ti5/ws_moveit2/install/launch_param_builder/share/ament_index
+[6.281s] creating /home/ti5/ws_moveit2/install/launch_param_builder/share/ament_index/resource_index
+[6.282s] creating /home/ti5/ws_moveit2/install/launch_param_builder/share/ament_index/resource_index/packages
+[6.283s] copying resource/launch_param_builder -> /home/ti5/ws_moveit2/install/launch_param_builder/share/ament_index/resource_index/packages
+[6.283s] creating /home/ti5/ws_moveit2/install/launch_param_builder/share/launch_param_builder/launch
+[6.284s] copying example/launch_param_builder_example.launch.py -> /home/ti5/ws_moveit2/install/launch_param_builder/share/launch_param_builder/launch
+[6.284s] creating /home/ti5/ws_moveit2/install/launch_param_builder/share/launch_param_builder/config
+[6.284s] copying test/data/parameters.yaml -> /home/ti5/ws_moveit2/install/launch_param_builder/share/launch_param_builder/config
+[6.288s] copying test/data/param_file_to_inject.yaml -> /home/ti5/ws_moveit2/install/launch_param_builder/share/launch_param_builder/config
+[6.290s] copying test/data/parameters_injection.yaml -> /home/ti5/ws_moveit2/install/launch_param_builder/share/launch_param_builder/config
+[6.292s] copying test/data/parameter_file -> /home/ti5/ws_moveit2/install/launch_param_builder/share/launch_param_builder/config
+[6.294s] copying test/data/parameter.xacro -> /home/ti5/ws_moveit2/install/launch_param_builder/share/launch_param_builder/config
+[6.297s] copying package.xml -> /home/ti5/ws_moveit2/install/launch_param_builder/share/launch_param_builder
+[6.300s] creating /home/ti5/ws_moveit2/install/launch_param_builder/lib/launch_param_builder
+[6.302s] copying example/example_node.py -> /home/ti5/ws_moveit2/install/launch_param_builder/lib/launch_param_builder
+[6.304s] running install_egg_info
+[6.314s] Copying ../build/launch_param_builder/launch_param_builder.egg-info to /home/ti5/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder-0.1.1-py3.10.egg-info
+[6.322s] running install_scripts
+[6.438s] writing list of installed files to '/home/ti5/ws_moveit2/build/launch_param_builder/install.log'
+[6.592s] Invoked command in '/home/ti5/ws_moveit2/launch_param_builder' returned '0': PYTHONPATH=/home/ti5/ws_moveit2/build/launch_param_builder/prefix_override:/home/ti5/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/launch_param_builder build --build-base /home/ti5/ws_moveit2/build/launch_param_builder/build install --record /home/ti5/ws_moveit2/build/launch_param_builder/install.log --single-version-externally-managed install_data

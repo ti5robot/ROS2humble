@@ -1,0 +1,101 @@
+[0.246s] Invoking command in '/home/ti5/ws_moveit2/build/pilz_industrial_motion_planner': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/ti5/ws_moveit2/install/moveit_ros_planning_interface:/home/ti5/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/ti5/ws_moveit2/install/moveit_ros_move_group:/home/ti5/ws_moveit2/install/moveit_ros_warehouse:/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ti5/ws_moveit2/install/moveit_configs_utils:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_prbt_support:/home/ti5/ws_moveit2/install/moveit_resources_panda_description:/home/ti5/ws_moveit2/install/moveit_common:/home/ti5/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/ti5/ws_moveit2/install/moveit_ros_planning_interface:/home/ti5/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/ti5/ws_moveit2/install/moveit_ros_move_group:/home/ti5/ws_moveit2/install/moveit_ros_warehouse:/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_prbt_support:/home/ti5/ws_moveit2/install/moveit_resources_panda_description:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/ti5/ws_moveit2/install/moveit_ros_move_group/lib:/home/ti5/ws_moveit2/install/moveit_ros_warehouse/lib:/home/ti5/ws_moveit2/install/moveit_kinematics/lib:/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/ti5/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/pilz_industrial_motion_planner -- -j4 -l4
+[0.615s] [  1%] [32mBuilding CXX object CMakeFiles/planning_context_loader_base.dir/src/planning_context_loader.cpp.o[0m
+[98.428s] [  2%] [32m[1mLinking CXX shared library libplanning_context_loader_base.so[0m
+[177.331s] [  2%] Built target planning_context_loader_base
+[177.473s] [  4%] Built target gtest_main
+[177.541s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[177.634s] [  7%] Built target gtest
+[177.752s] [  8%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[187.837s] [  9%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[188.041s] [  9%] Built target gmock_main
+[188.179s] [ 10%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[236.656s] [ 12%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[258.675s] [ 13%] [32m[1mLinking CXX static library libgmock.a[0m
+[258.997s] [ 13%] Built target gmock
+[259.137s] [ 14%] [32mBuilding CXX object CMakeFiles/trajectory_generation_common.dir/src/trajectory_functions.cpp.o[0m
+[433.791s] [ 15%] [32mBuilding CXX object CMakeFiles/trajectory_generation_common.dir/src/trajectory_blender_transition_window.cpp.o[0m
+[658.718s] [ 16%] [32mBuilding CXX object CMakeFiles/trajectory_generation_common.dir/src/trajectory_generator.cpp.o[0m
+[873.447s] [ 18%] [32m[1mLinking CXX shared library libtrajectory_generation_common.so[0m
+[875.321s] [ 18%] Built target trajectory_generation_common
+[875.473s] [ 19%] [32mBuilding CXX object CMakeFiles/joint_limits_common.dir/src/joint_limits_aggregator.cpp.o[0m
+[964.044s] [ 20%] [32mBuilding CXX object CMakeFiles/joint_limits_common.dir/src/cartesian_limit.cpp.o[0m
+[964.281s] [ 21%] [32mBuilding CXX object CMakeFiles/joint_limits_common.dir/src/cartesian_limits_aggregator.cpp.o[0m
+[985.452s] [ 22%] [32mBuilding CXX object CMakeFiles/joint_limits_common.dir/src/limits_container.cpp.o[0m
+[990.195s] [ 24%] [32mBuilding CXX object CMakeFiles/joint_limits_common.dir/src/joint_limits_validator.cpp.o[0m
+[1025.351s] [ 25%] [32m[1mLinking CXX shared library libjoint_limits_common.so[0m
+[1031.588s] [ 26%] Built target joint_limits_common
+[1031.737s] [ 27%] [32mBuilding CXX object CMakeFiles/command_list_manager.dir/src/command_list_manager.cpp.o[0m
+[1160.608s] [ 28%] [32mBuilding CXX object CMakeFiles/command_list_manager.dir/src/plan_components_builder.cpp.o[0m
+[1219.381s] [ 30%] [32m[1mLinking CXX shared library libcommand_list_manager.so[0m
+[1221.091s] [ 30%] Built target command_list_manager
+[1221.249s] [ 31%] [32mBuilding CXX object CMakeFiles/planning_context_loader_lin.dir/src/planning_context_loader_lin.cpp.o[0m
+[1289.520s] [ 32%] [32mBuilding CXX object CMakeFiles/planning_context_loader_lin.dir/src/trajectory_generator_lin.cpp.o[0m
+[1496.137s] [ 33%] [32mBuilding CXX object CMakeFiles/planning_context_loader_lin.dir/src/velocity_profile_atrap.cpp.o[0m
+[1500.553s] [ 34%] [32m[1mLinking CXX shared library libplanning_context_loader_lin.so[0m
+[1502.538s] [ 34%] Built target planning_context_loader_lin
+[1502.695s] [ 36%] [32mBuilding CXX object CMakeFiles/planning_context_loader_circ.dir/src/planning_context_loader_circ.cpp.o[0m
+[1566.191s] [ 37%] [32mBuilding CXX object CMakeFiles/planning_context_loader_circ.dir/src/trajectory_generator_circ.cpp.o[0m
+[1773.741s] [ 38%] [32mBuilding CXX object CMakeFiles/planning_context_loader_circ.dir/src/path_circle_generator.cpp.o[0m
+[1781.941s] [ 39%] [32m[1mLinking CXX shared library libplanning_context_loader_circ.so[0m
+[1783.991s] [ 39%] Built target planning_context_loader_circ
+[1784.161s] [ 40%] [32mBuilding CXX object CMakeFiles/sequence_capability.dir/src/move_group_sequence_action.cpp.o[0m
+[2111.867s] [ 42%] [32mBuilding CXX object CMakeFiles/sequence_capability.dir/src/move_group_sequence_service.cpp.o[0m
+[2270.437s] [ 43%] [32m[1mLinking CXX shared library libsequence_capability.so[0m
+[2273.017s] [ 43%] Built target sequence_capability
+[2273.153s] [ 44%] [32mBuilding CXX object test/CMakeFiles/pilz_industrial_motion_planner_test_utils.dir/test_utils.cpp.o[0m
+[2390.306s] [ 45%] [32m[1mLinking CXX static library libpilz_industrial_motion_planner_test_utils.a[0m
+[2390.486s] [ 45%] Built target pilz_industrial_motion_planner_test_utils
+[2390.625s] [ 46%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_joint_limit.dir/src/unittest_joint_limit.cpp.o[0m
+[2420.321s] [ 48%] [32m[1mLinking CXX executable unittest_joint_limit[0m
+[2422.536s] [ 48%] Built target unittest_joint_limit
+[2422.684s] [ 49%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_joint_limits_aggregator.dir/src/unittest_joint_limits_aggregator.cpp.o[0m
+[2481.314s] [ 50%] [32m[1mLinking CXX executable unittest_joint_limits_aggregator[0m
+[2483.867s] [ 50%] Built target unittest_joint_limits_aggregator
+[2484.015s] [ 51%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_joint_limits_container.dir/src/unittest_joint_limits_container.cpp.o[0m
+[2497.277s] [ 53%] [32m[1mLinking CXX executable unittest_joint_limits_container[0m
+[2499.154s] [ 53%] Built target unittest_joint_limits_container
+[2499.291s] [ 54%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_joint_limits_validator.dir/src/unittest_joint_limits_validator.cpp.o[0m
+[2515.298s] [ 55%] [32m[1mLinking CXX executable unittest_joint_limits_validator[0m
+[2517.471s] [ 55%] Built target unittest_joint_limits_validator
+[2517.612s] [ 56%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_cartesian_limits_aggregator.dir/src/unittest_cartesian_limits_aggregator.cpp.o[0m
+[2546.069s] [ 57%] [32m[1mLinking CXX executable unittest_cartesian_limits_aggregator[0m
+[2548.565s] [ 57%] Built target unittest_cartesian_limits_aggregator
+[2548.753s] [ 59%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_trajectory_functions.dir/src/unittest_trajectory_functions.cpp.o[0m
+[2789.598s] [ 60%] [32m[1mLinking CXX executable unittest_trajectory_functions[0m
+[2792.000s] [ 60%] Built target unittest_trajectory_functions
+[2792.130s] [ 61%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_trajectory_blender_transition_window.dir/src/unittest_trajectory_blender_transition_window.cpp.o[0m
+[2993.756s] [ 62%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_trajectory_blender_transition_window.dir/__/__/src/trajectory_blender_transition_window.cpp.o[0m
+[3060.880s] [ 63%] [32m[1mLinking CXX executable unittest_trajectory_blender_transition_window[0m
+[3063.733s] [ 63%] Built target unittest_trajectory_blender_transition_window
+[3063.879s] [ 65%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_trajectory_generator_circ.dir/src/unittest_trajectory_generator_circ.cpp.o[0m
+[3288.945s] [ 66%] [32m[1mLinking CXX executable unittest_trajectory_generator_circ[0m
+[3292.405s] [ 66%] Built target unittest_trajectory_generator_circ
+[3292.562s] [ 67%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_trajectory_generator_lin.dir/src/unittest_trajectory_generator_lin.cpp.o[0m
+[3776.278s] [ 68%] [32m[1mLinking CXX executable unittest_trajectory_generator_lin[0m
+[3780.641s] [ 68%] Built target unittest_trajectory_generator_lin
+[3780.924s] [ 69%] [32mBuilding CXX object CMakeFiles/planning_context_loader_ptp.dir/src/planning_context_loader_ptp.cpp.o[0m
+[3886.397s] [ 71%] [32mBuilding CXX object CMakeFiles/planning_context_loader_ptp.dir/src/velocity_profile_atrap.cpp.o[0m
+[3890.513s] [ 72%] [32mBuilding CXX object CMakeFiles/planning_context_loader_ptp.dir/src/trajectory_generator_ptp.cpp.o[0m
+[4154.176s] [ 73%] [32m[1mLinking CXX shared library libplanning_context_loader_ptp.so[0m
+[4156.101s] [ 73%] Built target planning_context_loader_ptp
+[4156.277s] [ 74%] [32mBuilding CXX object CMakeFiles/pilz_industrial_motion_planner.dir/src/pilz_industrial_motion_planner.cpp.o[0m
+[4346.278s] [ 75%] [32m[1mLinking CXX shared library libpilz_industrial_motion_planner.so[0m
+[4348.559s] [ 75%] Built target pilz_industrial_motion_planner
+[4348.761s] [ 77%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_trajectory_generator_ptp.dir/src/unittest_trajectory_generator_ptp.cpp.o[0m
+[4679.826s] [ 78%] [32m[1mLinking CXX executable unittest_trajectory_generator_ptp[0m
+[4682.859s] [ 78%] Built target unittest_trajectory_generator_ptp
+[4683.006s] [ 79%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_velocity_profile_atrap.dir/src/unittest_velocity_profile_atrap.cpp.o[0m
+[4709.616s] [ 80%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_velocity_profile_atrap.dir/__/__/src/velocity_profile_atrap.cpp.o[0m
+[4714.260s] [ 81%] [32m[1mLinking CXX executable unittest_velocity_profile_atrap[0m
+[4716.515s] [ 81%] Built target unittest_velocity_profile_atrap
+[4716.674s] [ 83%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_trajectory_generator.dir/src/unittest_trajectory_generator.cpp.o[0m
+[4801.934s] [ 84%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_trajectory_generator.dir/__/__/src/trajectory_generator.cpp.o[0m
+[4999.554s] [ 85%] [32m[1mLinking CXX executable unittest_trajectory_generator[0m
+[5002.173s] [ 85%] Built target unittest_trajectory_generator
+[5002.323s] [ 86%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_pilz_industrial_motion_planner.dir/src/unittest_pilz_industrial_motion_planner.cpp.o[0m
+[5195.059s] [ 87%] [32m[1mLinking CXX executable unittest_pilz_industrial_motion_planner[0m
+[5197.565s] [ 87%] Built target unittest_pilz_industrial_motion_planner
+[5197.715s] [ 89%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_planning_context_loaders.dir/src/unittest_planning_context_loaders.cpp.o[0m
+[5253.288s] [ 90%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_planning_context.dir/src/unittest_planning_context.cpp.o[0m
+[5255.278s] [ 91%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_pilz_industrial_motion_planner_direct.dir/src/unittest_pilz_industrial_motion_planner_direct.cpp.o[0m
+[5257.745s] [ 92%] [32mBuilding CXX object test/unit_tests/CMakeFiles/unittest_trajectory_generator_common.dir/src/unittest_trajectory_generator_common.cpp.o[0m

@@ -1,0 +1,97 @@
+[0.201s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_ros_warehouse': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ti5/ws_moveit2/moveit2/moveit_ros/warehouse -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ti5/ws_moveit2/install/moveit_ros_warehouse
+[0.663s] -- The C compiler identification is GNU 11.4.0
+[1.139s] -- The CXX compiler identification is GNU 11.4.0
+[1.182s] -- Detecting C compiler ABI info
+[1.648s] -- Detecting C compiler ABI info - done
+[1.691s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.692s] -- Detecting C compile features
+[1.695s] -- Detecting C compile features - done
+[1.710s] -- Detecting CXX compiler ABI info
+[2.197s] -- Detecting CXX compiler ABI info - done
+[2.281s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.282s] -- Detecting CXX compile features
+[2.283s] -- Detecting CXX compile features - done
+[2.289s] -- Found moveit_common: 2.5.5 (/home/ti5/ws_moveit2/install/moveit_common/share/moveit_common/cmake)
+[2.340s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.896s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.050s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[5.096s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[5.097s] -- BACKWARD_HAS_UNWIND=1
+[5.097s] -- BACKWARD_HAS_BACKTRACE=0
+[5.099s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[5.100s] -- BACKWARD_HAS_DW=1
+[5.101s] -- BACKWARD_HAS_BFD=0
+[5.102s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[5.120s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[5.415s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.456s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.525s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.772s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.003s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.524s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.546s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.212s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.331s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.601s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.664s] -- Looking for pthread.h
+[8.180s] -- Looking for pthread.h - found
+[8.192s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.727s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.734s] -- Found Threads: TRUE  
+[9.899s] -- Found moveit_core: 2.5.5 (/home/ti5/ws_moveit2/install/moveit_core/share/moveit_core/cmake)
+[10.099s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[10.356s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[10.467s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[10.483s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[10.807s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[11.767s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[14.061s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[21.354s] -- Found warehouse_ros: 2.0.4 (/opt/ros/humble/share/warehouse_ros/cmake)
+[21.731s] -- Found moveit_ros_planning: 2.5.5 (/home/ti5/ws_moveit2/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[21.756s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[24.718s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[24.749s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[25.587s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[25.596s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[26.292s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[26.294s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[26.935s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[27.238s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[27.331s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[27.338s] -- Configured cppcheck include dirs: /home/ti5/ws_moveit2/moveit2/moveit_ros/warehouse/include
+[27.338s] -- Configured cppcheck exclude dirs and/or files: 
+[27.342s] -- Added test 'lint_cmake' to check CMake code style
+[27.352s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[27.353s] -- Added test 'xmllint' to check XML markup files
+[27.364s] -- Configuring done
+[28.209s] -- Generating done
+[28.229s] -- Build files have been written to: /home/ti5/ws_moveit2/build/moveit_ros_warehouse
+[28.320s] Invoked command in '/home/ti5/ws_moveit2/build/moveit_ros_warehouse' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ti5/ws_moveit2/moveit2/moveit_ros/warehouse -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ti5/ws_moveit2/install/moveit_ros_warehouse
+[28.328s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_ros_warehouse': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/moveit_ros_warehouse -- -j4 -l4
+[28.614s] [  5%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/moveit_message_storage.cpp.o[0m
+[82.607s] [ 10%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/constraints_storage.cpp.o[0m
+[125.187s] [ 15%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/trajectory_constraints_storage.cpp.o[0m
+[170.456s] [ 20%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/state_storage.cpp.o[0m
+[207.020s] [ 25%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/warehouse_connector.cpp.o[0m
+[213.099s] [ 30%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/planning_scene_world_storage.cpp.o[0m
+[249.054s] [ 35%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/planning_scene_storage.cpp.o[0m
+[353.602s] [ 40%] [32m[1mLinking CXX shared library libmoveit_warehouse.so[0m
+[358.481s] [ 40%] Built target moveit_warehouse
+[358.611s] [ 45%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_broadcast.dir/src/broadcast.cpp.o[0m
+[545.637s] [ 50%] [32m[1mLinking CXX executable moveit_warehouse_broadcast[0m
+[547.998s] [ 50%] Built target moveit_warehouse_broadcast
+[548.134s] [ 55%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_save_as_text.dir/src/save_as_text.cpp.o[0m
+[812.819s] [ 60%] [32m[1mLinking CXX executable moveit_warehouse_save_as_text[0m
+[816.464s] [ 60%] Built target moveit_warehouse_save_as_text
+[816.604s] [ 65%] [32mBuilding CXX object CMakeFiles/moveit_init_demo_warehouse.dir/src/initialize_demo_db.cpp.o[0m
+[1176.261s] [ 70%] [32m[1mLinking CXX executable moveit_init_demo_warehouse[0m
+[1179.362s] [ 70%] Built target moveit_init_demo_warehouse
+[1179.501s] [ 75%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_services.dir/src/warehouse_services.cpp.o[0m
+[1247.394s] [ 80%] [32m[1mLinking CXX executable moveit_warehouse_services[0m
+[1249.906s] [ 80%] Built target moveit_warehouse_services
+[1250.063s] [ 85%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_import_from_text.dir/src/import_from_text.cpp.o[0m
+[1582.905s] [ 90%] [32m[1mLinking CXX executable moveit_warehouse_import_from_text[0m
+[1587.189s] [ 90%] Built target moveit_warehouse_import_from_text
+[1587.366s] [ 95%] [32mBuilding CXX object CMakeFiles/moveit_save_to_warehouse.dir/src/save_to_warehouse.cpp.o[0m
+[2522.540s] [100%] [32m[1mLinking CXX executable moveit_save_to_warehouse[0m
+[2526.411s] [100%] Built target moveit_save_to_warehouse

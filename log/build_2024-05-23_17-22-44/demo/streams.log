@@ -1,0 +1,33 @@
+[0.156s] Invoking command in '/home/ti5/ws_moveit2/build/demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ti5/ws_moveit2/install/moveit_configs_utils:/home/ti5/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/ti5/ws_moveit2/build/demo -- -j4 -l4
+[0.541s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.758s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[2.222s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.290s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.402s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.602s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.859s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.525s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.586s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.136s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.062s] -- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+[12.631s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.220s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.222s] -- Configured cppcheck include dirs: 
+[13.222s] -- Configured cppcheck exclude dirs and/or files: 
+[13.228s] -- Added test 'lint_cmake' to check CMake code style
+[13.237s] -- Added test 'uncrustify' to check C / C++ code style
+[13.238s] -- Configured uncrustify additional arguments: 
+[13.240s] -- Added test 'xmllint' to check XML markup files
+[13.250s] -- Configuring done
+[13.316s] -- Generating done
+[13.331s] -- Build files have been written to: /home/ti5/ws_moveit2/build/demo
+[13.758s] [35m[1mConsolidate compiler generated dependencies of target demo[0m
+[13.972s] [ 50%] [32mBuilding CXX object CMakeFiles/demo.dir/src/demo.cpp.o[0m
+[14.067s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[14.068s]     1 | #include [01;31m[K<rclcpp/rclcpp.hpp>[m[K
+[14.068s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[14.068s] compilation terminated.
+[14.070s] gmake[2]: *** [CMakeFiles/demo.dir/build.make:76: CMakeFiles/demo.dir/src/demo.cpp.o] Error 1
+[14.071s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/demo.dir/all] Error 2
+[14.072s] gmake: *** [Makefile:146: all] Error 2
+[14.082s] Invoked command in '/home/ti5/ws_moveit2/build/demo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ti5/ws_moveit2/install/moveit_configs_utils:/home/ti5/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/ti5/ws_moveit2/build/demo -- -j4 -l4

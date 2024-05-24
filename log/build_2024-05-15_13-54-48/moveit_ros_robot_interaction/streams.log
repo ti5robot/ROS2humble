@@ -1,0 +1,124 @@
+[0.212s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_ros_robot_interaction': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ti5/ws_moveit2/moveit2/moveit_ros/robot_interaction -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ti5/ws_moveit2/install/moveit_ros_robot_interaction
+[0.668s] -- The C compiler identification is GNU 11.4.0
+[1.097s] -- The CXX compiler identification is GNU 11.4.0
+[1.149s] -- Detecting C compiler ABI info
+[1.615s] -- Detecting C compiler ABI info - done
+[1.675s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.676s] -- Detecting C compile features
+[1.678s] -- Detecting C compile features - done
+[1.693s] -- Detecting CXX compiler ABI info
+[2.330s] -- Detecting CXX compiler ABI info - done
+[2.387s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.389s] -- Detecting CXX compile features
+[2.392s] -- Detecting CXX compile features - done
+[2.402s] -- Found moveit_common: 2.5.5 (/home/ti5/ws_moveit2/install/moveit_common/share/moveit_common/cmake)
+[2.416s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.071s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.134s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[5.154s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[5.156s] -- BACKWARD_HAS_UNWIND=1
+[5.157s] -- BACKWARD_HAS_BACKTRACE=0
+[5.157s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[5.158s] -- BACKWARD_HAS_DW=1
+[5.159s] -- BACKWARD_HAS_BFD=0
+[5.164s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[5.170s] -- Found moveit_core: 2.5.5 (/home/ti5/ws_moveit2/install/moveit_core/share/moveit_core/cmake)
+[6.807s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[7.079s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[7.327s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.360s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.421s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.526s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.669s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.170s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.190s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.777s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.885s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.117s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.177s] -- Found Threads: TRUE  
+[10.364s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[10.386s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[10.749s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[11.659s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[13.979s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[21.342s] -- Found moveit_ros_planning: 2.5.5 (/home/ti5/ws_moveit2/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[21.380s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[23.942s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[24.040s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[24.719s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[24.725s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[25.466s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[25.470s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[26.071s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[26.122s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[26.146s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[26.195s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[26.367s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[26.368s] -- Configured cppcheck include dirs: /home/ti5/ws_moveit2/moveit2/moveit_ros/robot_interaction/include
+[26.369s] -- Configured cppcheck exclude dirs and/or files: 
+[26.379s] -- Added test 'lint_cmake' to check CMake code style
+[26.389s] -- Added test 'xmllint' to check XML markup files
+[26.419s] -- Configuring done
+[26.756s] -- Generating done
+[26.772s] -- Build files have been written to: /home/ti5/ws_moveit2/build/moveit_ros_robot_interaction
+[26.860s] Invoked command in '/home/ti5/ws_moveit2/build/moveit_ros_robot_interaction' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ti5/ws_moveit2/moveit2/moveit_ros/robot_interaction -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ti5/ws_moveit2/install/moveit_ros_robot_interaction
+[26.862s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_ros_robot_interaction': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/moveit_ros_robot_interaction -- -j4 -l4
+[27.170s] [  7%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/interactive_marker_helpers.cpp.o[0m
+[78.167s] [ 15%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/kinematic_options.cpp.o[0m
+[126.885s] [ 23%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/kinematic_options_map.cpp.o[0m
+[176.497s] [ 30%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/locked_robot_state.cpp.o[0m
+[210.247s] [ 38%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/interaction_handler.cpp.o[0m
+[381.456s] [ 46%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/robot_interaction.cpp.o[0m
+[725.449s] [ 53%] [32m[1mLinking CXX shared library libmoveit_robot_interaction.so[0m
+[727.876s] [ 53%] Built target moveit_robot_interaction
+[728.027s] [ 61%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[782.344s] [ 69%] [32m[1mLinking CXX static library libgtest.a[0m
+[782.581s] [ 69%] Built target gtest
+[782.738s] [ 76%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[790.855s] [ 84%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[791.032s] [ 84%] Built target gtest_main
+[791.147s] [ 92%] [32mBuilding CXX object CMakeFiles/locked_robot_state_test.dir/test/locked_robot_state_test.cpp.o[0m
+[852.062s] [100%] [32m[1mLinking CXX executable locked_robot_state_test[0m
+[855.781s] [100%] Built target locked_robot_state_test
+[855.994s] Invoked command in '/home/ti5/ws_moveit2/build/moveit_ros_robot_interaction' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/moveit_ros_robot_interaction -- -j4 -l4
+[856.319s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_ros_robot_interaction': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ti5/ws_moveit2/build/moveit_ros_robot_interaction
+[856.401s] -- Install configuration: "Release"
+[856.406s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/lib/libmoveit_robot_interaction.so.2.5.5
+[856.429s] -- Set runtime path of "/home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/lib/libmoveit_robot_interaction.so.2.5.5" to ""
+[856.430s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/lib/libmoveit_robot_interaction.so
+[856.434s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/include
+[856.437s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/include/moveit
+[856.440s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/include/moveit/robot_interaction
+[856.443s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/interactive_marker_helpers.h
+[856.445s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/kinematic_options.h
+[856.447s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/kinematic_options_map.h
+[856.449s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/locked_robot_state.h
+[856.451s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/interaction.h
+[856.453s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/robot_interaction.h
+[856.455s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/interaction_handler.h
+[856.457s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/include/moveit_robot_interaction_export.h
+[856.458s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/resources
+[856.460s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/resources/access-denied.stl
+[856.461s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/resources/access-denied.dae
+[856.466s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/library_path.sh
+[856.468s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/library_path.dsv
+[856.471s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/share/ament_index/resource_index/package_run_dependencies/moveit_ros_robot_interaction
+[856.472s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/share/ament_index/resource_index/parent_prefix_path/moveit_ros_robot_interaction
+[856.477s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/ament_prefix_path.sh
+[856.479s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/ament_prefix_path.dsv
+[856.482s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/path.sh
+[856.484s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/path.dsv
+[856.487s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/local_setup.bash
+[856.489s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/local_setup.sh
+[856.492s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/local_setup.zsh
+[856.494s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/local_setup.dsv
+[856.497s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/package.dsv
+[856.502s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/share/ament_index/resource_index/packages/moveit_ros_robot_interaction
+[856.508s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/export_moveit_ros_robot_interactionExport.cmake
+[856.522s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/export_moveit_ros_robot_interactionExport-release.cmake
+[856.534s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/ament_cmake_export_targets-extras.cmake
+[856.541s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/ament_cmake_export_dependencies-extras.cmake
+[856.544s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/moveit_ros_robot_interactionConfig.cmake
+[856.547s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/moveit_ros_robot_interactionConfig-version.cmake
+[856.548s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/package.xml
+[856.575s] Invoked command in '/home/ti5/ws_moveit2/build/moveit_ros_robot_interaction' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ti5/ws_moveit2/build/moveit_ros_robot_interaction

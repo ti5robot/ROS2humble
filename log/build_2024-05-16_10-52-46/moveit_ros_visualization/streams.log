@@ -1,0 +1,115 @@
+[0.240s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_ros_visualization': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning_interface:/home/ti5/ws_moveit2/install/moveit_ros_move_group:/home/ti5/ws_moveit2/install/moveit_ros_warehouse:/home/ti5/ws_moveit2/install/moveit_ros_robot_interaction:/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning_interface:/home/ti5/ws_moveit2/install/moveit_ros_move_group:/home/ti5/ws_moveit2/install/moveit_ros_warehouse:/home/ti5/ws_moveit2/install/moveit_ros_robot_interaction:/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/ti5/ws_moveit2/install/moveit_ros_move_group/lib:/home/ti5/ws_moveit2/install/moveit_ros_warehouse/lib:/home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/ti5/ws_moveit2/install/moveit_kinematics/lib:/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ti5/ws_moveit2/moveit2/moveit_ros/visualization -DCMAKE_INSTALL_PREFIX=/home/ti5/ws_moveit2/install/moveit_ros_visualization
+[0.729s] -- The C compiler identification is GNU 11.4.0
+[1.046s] -- The CXX compiler identification is GNU 11.4.0
+[1.085s] -- Detecting C compiler ABI info
+[1.485s] -- Detecting C compiler ABI info - done
+[1.538s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.541s] -- Detecting C compile features
+[1.544s] -- Detecting C compile features - done
+[1.576s] -- Detecting CXX compiler ABI info
+[2.020s] -- Detecting CXX compiler ABI info - done
+[2.092s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.093s] -- Detecting CXX compile features
+[2.096s] -- Detecting CXX compile features - done
+[2.109s] -- Found moveit_common: 2.5.5 (/home/ti5/ws_moveit2/install/moveit_common/share/moveit_common/cmake)
+[2.155s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.129s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.237s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[4.267s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[4.268s] -- BACKWARD_HAS_UNWIND=1
+[4.268s] -- BACKWARD_HAS_BACKTRACE=0
+[4.269s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[4.270s] -- BACKWARD_HAS_DW=1
+[4.270s] -- BACKWARD_HAS_BFD=0
+[4.270s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[4.271s] [0mmoveit_ros_visualization: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[4.289s] -- Found class_loader: 2.2.0 (/opt/ros/humble/share/class_loader/cmake)
+[4.437s] -- Found geometric_shapes: 2.1.3 (/opt/ros/humble/share/geometric_shapes/cmake)
+[4.504s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[4.836s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.878s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.941s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.048s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.171s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.585s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.623s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.323s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.450s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.725s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.812s] -- Looking for pthread.h
+[8.382s] -- Looking for pthread.h - found
+[8.384s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.925s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.931s] -- Found Threads: TRUE  
+[10.208s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[12.081s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[12.260s] -- Found moveit_ros_planning: 2.5.5 (/home/ti5/ws_moveit2/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[12.407s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[15.153s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[15.366s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[15.479s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[15.500s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[15.920s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[22.921s] -- Found moveit_ros_planning_interface: 2.5.5 (/home/ti5/ws_moveit2/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+[22.945s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[23.871s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[25.160s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[27.409s] -- Found moveit_ros_robot_interaction: 2.5.5 (/home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake)
+[28.096s] -- Found rclpy: 3.3.12 (/opt/ros/humble/share/rclpy/cmake)
+[28.113s] -- Found rviz2: 11.2.12 (/opt/ros/humble/share/rviz2/cmake)
+[28.136s] -- Found rviz_common: 11.2.12 (/opt/ros/humble/share/rviz_common/cmake)
+[28.313s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[28.322s] -- Found OGRE
+[28.323s] --   static     : OFF
+[28.324s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[28.325s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[28.325s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[28.327s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[28.327s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[28.328s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[28.329s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[28.331s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[28.333s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[28.336s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[28.337s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[28.343s] -- Could not find freeimage library
+[28.457s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[28.487s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[29.034s] -- Found X11: /usr/include   
+[29.038s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[29.738s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[29.740s] -- Looking for gethostbyname
+[30.871s] -- Looking for gethostbyname - found
+[30.873s] -- Looking for connect
+[32.094s] -- Looking for connect - found
+[32.096s] -- Looking for remove
+[33.339s] -- Looking for remove - found
+[33.339s] -- Looking for shmat
+[34.333s] -- Looking for shmat - found
+[34.335s] -- Looking for IceConnectionNumber in ICE
+[35.899s] -- Looking for IceConnectionNumber in ICE - found
+[35.934s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[35.935s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[37.367s] -- Found rviz_default_plugins: 11.2.12 (/opt/ros/humble/share/rviz_default_plugins/cmake)
+[46.032s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread date_time system filesystem 
+[46.363s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[48.287s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[48.303s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[49.614s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[49.616s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[51.360s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[52.066s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[52.547s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[52.551s] -- Configured cppcheck include dirs: /home/ti5/ws_moveit2/moveit2/moveit_ros/visualization/rviz_plugin_render_tools/include;/home/ti5/ws_moveit2/moveit2/moveit_ros/visualization/robot_state_rviz_plugin/include;/home/ti5/ws_moveit2/moveit2/moveit_ros/visualization/planning_scene_rviz_plugin/include;/home/ti5/ws_moveit2/moveit2/moveit_ros/visualization/motion_planning_rviz_plugin/include;/home/ti5/ws_moveit2/moveit2/moveit_ros/visualization/trajectory_rviz_plugin/include
+[52.552s] -- Configured cppcheck exclude dirs and/or files: 
+[52.591s] -- Added test 'lint_cmake' to check CMake code style
+[52.627s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[52.671s] -- Added test 'xmllint' to check XML markup files
+[52.908s] -- Configuring done
+[57.841s] -- Generating done
+[57.903s] -- Build files have been written to: /home/ti5/ws_moveit2/build/moveit_ros_visualization
+[58.653s] Invoked command in '/home/ti5/ws_moveit2/build/moveit_ros_visualization' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning_interface:/home/ti5/ws_moveit2/install/moveit_ros_move_group:/home/ti5/ws_moveit2/install/moveit_ros_warehouse:/home/ti5/ws_moveit2/install/moveit_ros_robot_interaction:/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning_interface:/home/ti5/ws_moveit2/install/moveit_ros_move_group:/home/ti5/ws_moveit2/install/moveit_ros_warehouse:/home/ti5/ws_moveit2/install/moveit_ros_robot_interaction:/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/ti5/ws_moveit2/install/moveit_ros_move_group/lib:/home/ti5/ws_moveit2/install/moveit_ros_warehouse/lib:/home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/ti5/ws_moveit2/install/moveit_kinematics/lib:/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ti5/ws_moveit2/moveit2/moveit_ros/visualization -DCMAKE_INSTALL_PREFIX=/home/ti5/ws_moveit2/install/moveit_ros_visualization
+[58.672s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_ros_visualization': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning_interface:/home/ti5/ws_moveit2/install/moveit_ros_move_group:/home/ti5/ws_moveit2/install/moveit_ros_warehouse:/home/ti5/ws_moveit2/install/moveit_ros_robot_interaction:/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning_interface:/home/ti5/ws_moveit2/install/moveit_ros_move_group:/home/ti5/ws_moveit2/install/moveit_ros_warehouse:/home/ti5/ws_moveit2/install/moveit_ros_robot_interaction:/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/ti5/ws_moveit2/install/moveit_ros_move_group/lib:/home/ti5/ws_moveit2/install/moveit_ros_warehouse/lib:/home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/ti5/ws_moveit2/install/moveit_kinematics/lib:/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/moveit_ros_visualization -- -j4 -l4
+[60.021s] [  1%] [34m[1mAutomatic MOC for target moveit_rviz_plugin_render_tools[0m
+[70.850s] [  1%] Built target moveit_rviz_plugin_render_tools_autogen
+[70.865s] [  3%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/moveit_rviz_plugin_render_tools_autogen/mocs_compilation.cpp.o[0m

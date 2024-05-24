@@ -1,0 +1,165 @@
+[0.337s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_task_constructor_core': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_planners:/home/ti5/ws_moveit2/install/pilz_industrial_motion_planner:/home/ti5/ws_moveit2/install/moveit_ros_planning_interface:/home/ti5/ws_moveit2/install/moveit_ros_move_group:/home/ti5/ws_moveit2/install/moveit_ros_warehouse:/home/ti5/ws_moveit2/install/moveit_planners_ompl:/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/rviz_marker_tools:/home/ti5/ws_moveit2/install/moveit_configs_utils:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_task_constructor_msgs:/home/ti5/ws_moveit2/install/moveit_common:/home/ti5/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_planners:/home/ti5/ws_moveit2/install/pilz_industrial_motion_planner:/home/ti5/ws_moveit2/install/moveit_ros_planning_interface:/home/ti5/ws_moveit2/install/moveit_ros_move_group:/home/ti5/ws_moveit2/install/moveit_ros_warehouse:/home/ti5/ws_moveit2/install/moveit_planners_ompl:/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/rviz_marker_tools:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_task_constructor_msgs:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/ti5/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/ti5/ws_moveit2/install/moveit_ros_move_group/lib:/home/ti5/ws_moveit2/install/moveit_ros_warehouse/lib:/home/ti5/ws_moveit2/install/moveit_planners_ompl/lib:/home/ti5/ws_moveit2/install/moveit_kinematics/lib:/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/rviz_marker_tools/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:/home/ti5/ws_moveit2/install/moveit_task_constructor_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/ti5/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/ti5/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/moveit_task_constructor_core -- -j4 -l4
+[0.942s] [  1%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/task.cpp.o[0m
+[391.371s] [  2%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/utils.cpp.o[0m
+[446.806s] [  3%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/solvers/joint_interpolation.cpp.o[0m
+[492.827s] [  5%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/solvers/pipeline_planner.cpp.o[0m
+[607.372s] [  6%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/solvers/multi_planner.cpp.o[0m
+[649.483s] [  7%] [32m[1mLinking CXX shared library libmoveit_task_constructor_core.so[0m
+[652.347s] [ 20%] Built target moveit_task_constructor_core
+[652.547s] [ 22%] Built target gmock_main
+[652.693s] [ 25%] Built target gtest
+[652.827s] [ 26%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/modify_planning_scene.cpp.o[0m
+[707.097s] [ 27%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/fix_collision_objects.cpp.o[0m
+[811.385s] [ 29%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/current_state.cpp.o[0m
+[865.025s] [ 30%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/fixed_state.cpp.o[0m
+[1020.716s] [ 31%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/fixed_cartesian_poses.cpp.o[0m
+[1171.848s] [ 32%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/generate_pose.cpp.o[0m
+[1237.438s] [ 34%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/generate_random_pose.cpp.o[0m
+[1296.949s] [ 35%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/generate_grasp_pose.cpp.o[0m
+[1357.892s] [ 36%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/generate_place_pose.cpp.o[0m
+[1420.477s] [ 37%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/compute_ik.cpp.o[0m
+[1482.007s] [ 39%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/passthrough.cpp.o[0m
+[1528.786s] [ 40%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/predicate_filter.cpp.o[0m
+[1570.561s] [ 41%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/connect.cpp.o[0m
+[1662.994s] [ 43%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/move_to.cpp.o[0m
+[1901.590s] [ 44%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/move_relative.cpp.o[0m
+[2423.121s] [ 45%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/simple_grasp.cpp.o[0m
+[2500.656s] [ 46%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/pick.cpp.o[0m
+[2547.031s] [ 48%] [32m[1mLinking CXX shared library libmoveit_task_constructor_core_stages.so[0m
+[2549.379s] [ 48%] Built target moveit_task_constructor_core_stages
+[2549.512s] [ 49%] [32mBuilding CXX object test/CMakeFiles/gtest_utils.dir/gtest_value_printers.cpp.o[0m
+[2573.355s] [ 50%] [32mBuilding CXX object test/CMakeFiles/gtest_utils.dir/models.cpp.o[0m
+[2601.327s] [ 51%] [32mBuilding CXX object test/CMakeFiles/gtest_utils.dir/stage_mockups.cpp.o[0m
+[2650.884s] [ 53%] [32m[1mLinking CXX shared library libgtest_utils.so[0m
+[2652.561s] [ 53%] Built target gtest_utils
+[2652.714s] [ 54%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stage_plugins.dir/plugins.cpp.o[0m
+[2652.735s] [ 56%] Built target gtest_main
+[2652.764s] [ 60%] Built target gmock
+[2652.890s] [ 62%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-stage.dir/test_stage.cpp.o[0m
+[2652.941s] [ 63%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-container.dir/test_container.cpp.o[0m
+[2652.981s] [ 64%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-properties.dir/test_properties.cpp.o[0m
+[2671.327s] [ 65%] [32m[1mLinking CXX shared library libmoveit_task_constructor_core_stage_plugins.so[0m
+[2673.307s] [ 65%] Built target moveit_task_constructor_core_stage_plugins
+[2673.579s] [ 67%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-cost-terms.dir/test_cost_terms.cpp.o[0m
+[2676.630s] [ 68%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-properties[0m
+[2680.765s] [ 68%] Built target moveit_task_constructor_core-test-properties
+[2680.963s] [ 69%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-fallback.dir/test_fallback.cpp.o[0m
+[2995.082s] [ 70%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-stage[0m
+[2998.320s] [ 70%] Built target moveit_task_constructor_core-test-stage
+[3057.363s] [ 72%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-cost-terms[0m
+[3060.826s] [ 72%] Built target moveit_task_constructor_core-test-cost-terms
+[3061.603s] [ 73%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-fallback[0m
+[3064.196s] [ 73%] Built target moveit_task_constructor_core-test-fallback
+[3073.297s] [ 74%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-container[0m
+[3075.722s] [ 74%] Built target moveit_task_constructor_core-test-container
+[3075.855s] [ 75%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-move-to.dir/test_move_to.cpp.o[0m
+[3119.329s] [ 77%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-move-relative.dir/test_move_relative.cpp.o[0m
+[3120.468s] [ 78%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-interface-state.dir/test_interface_state.cpp.o[0m
+[3121.554s] [ 79%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-cost-queue.dir/test_cost_queue.cpp.o[0m
+[3163.584s] [ 81%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-move-to[0m
+[3163.594s] [ 82%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-cost-queue[0m
+[3167.659s] [ 82%] Built target moveit_task_constructor_core-test-move-to
+[3167.927s] [ 82%] Built target moveit_task_constructor_core-test-cost-queue
+[3227.452s] [ 83%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-move-relative[0m
+[3229.349s] [ 84%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-interface-state[0m
+[3230.738s] [ 84%] Built target moveit_task_constructor_core-test-move-relative
+[3231.852s] [ 84%] Built target moveit_task_constructor_core-test-interface-state
+[3231.990s] [ 86%] [32mBuilding CXX object test/CMakeFiles/pick_pa10.dir/pick_pa10.cpp.o[0m
+[3259.101s] [ 87%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-mockups.dir/test_mockups.cpp.o[0m
+[3261.334s] [ 88%] [32mBuilding CXX object test/CMakeFiles/pick_pr2.dir/pick_pr2.cpp.o[0m
+[3263.438s] [ 89%] [32mBuilding CXX object test/CMakeFiles/pick_ur5.dir/pick_ur5.cpp.o[0m
+[3495.814s] [ 91%] [32m[1mLinking CXX executable pick_pa10[0m
+[3498.829s] [ 91%] Built target pick_pa10
+[3523.326s] [ 92%] [32m[1mLinking CXX executable pick_pr2[0m
+[3525.829s] [ 93%] [32m[1mLinking CXX executable pick_ur5[0m
+[3526.404s] [ 93%] Built target pick_pr2
+[3528.321s] [ 93%] Built target pick_ur5
+[3554.888s] [ 94%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-mockups[0m
+[3557.597s] [ 94%] Built target moveit_task_constructor_core-test-mockups
+[3557.741s] [ 96%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-pruning.dir/test_pruning.cpp.o[0m
+[3626.668s] [ 97%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-pruning[0m
+[3631.465s] [ 97%] Built target moveit_task_constructor_core-test-pruning
+[3631.709s] [ 98%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-serial.dir/test_serial.cpp.o[0m
+[3724.660s] [100%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-serial[0m
+[3727.591s] [100%] Built target moveit_task_constructor_core-test-serial
+[3727.834s] Invoked command in '/home/ti5/ws_moveit2/build/moveit_task_constructor_core' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_planners:/home/ti5/ws_moveit2/install/pilz_industrial_motion_planner:/home/ti5/ws_moveit2/install/moveit_ros_planning_interface:/home/ti5/ws_moveit2/install/moveit_ros_move_group:/home/ti5/ws_moveit2/install/moveit_ros_warehouse:/home/ti5/ws_moveit2/install/moveit_planners_ompl:/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/rviz_marker_tools:/home/ti5/ws_moveit2/install/moveit_configs_utils:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_task_constructor_msgs:/home/ti5/ws_moveit2/install/moveit_common:/home/ti5/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_planners:/home/ti5/ws_moveit2/install/pilz_industrial_motion_planner:/home/ti5/ws_moveit2/install/moveit_ros_planning_interface:/home/ti5/ws_moveit2/install/moveit_ros_move_group:/home/ti5/ws_moveit2/install/moveit_ros_warehouse:/home/ti5/ws_moveit2/install/moveit_planners_ompl:/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/rviz_marker_tools:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_task_constructor_msgs:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/ti5/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/ti5/ws_moveit2/install/moveit_ros_move_group/lib:/home/ti5/ws_moveit2/install/moveit_ros_warehouse/lib:/home/ti5/ws_moveit2/install/moveit_planners_ompl/lib:/home/ti5/ws_moveit2/install/moveit_kinematics/lib:/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/rviz_marker_tools/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:/home/ti5/ws_moveit2/install/moveit_task_constructor_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/ti5/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/ti5/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/moveit_task_constructor_core -- -j4 -l4
+[3728.219s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_task_constructor_core': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_planners:/home/ti5/ws_moveit2/install/pilz_industrial_motion_planner:/home/ti5/ws_moveit2/install/moveit_ros_planning_interface:/home/ti5/ws_moveit2/install/moveit_ros_move_group:/home/ti5/ws_moveit2/install/moveit_ros_warehouse:/home/ti5/ws_moveit2/install/moveit_planners_ompl:/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/rviz_marker_tools:/home/ti5/ws_moveit2/install/moveit_configs_utils:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_task_constructor_msgs:/home/ti5/ws_moveit2/install/moveit_common:/home/ti5/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_planners:/home/ti5/ws_moveit2/install/pilz_industrial_motion_planner:/home/ti5/ws_moveit2/install/moveit_ros_planning_interface:/home/ti5/ws_moveit2/install/moveit_ros_move_group:/home/ti5/ws_moveit2/install/moveit_ros_warehouse:/home/ti5/ws_moveit2/install/moveit_planners_ompl:/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/rviz_marker_tools:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_task_constructor_msgs:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/ti5/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/ti5/ws_moveit2/install/moveit_ros_move_group/lib:/home/ti5/ws_moveit2/install/moveit_ros_warehouse/lib:/home/ti5/ws_moveit2/install/moveit_planners_ompl/lib:/home/ti5/ws_moveit2/install/moveit_kinematics/lib:/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/rviz_marker_tools/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:/home/ti5/ws_moveit2/install/moveit_task_constructor_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/ti5/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/ti5/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ti5/ws_moveit2/build/moveit_task_constructor_core
+[3728.286s] -- Install configuration: "Release"
+[3728.291s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include
+[3728.294s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit
+[3728.296s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/python
+[3728.297s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/python/task_constructor
+[3728.299s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/python/task_constructor/properties.h
+[3728.301s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/python/python_tools
+[3728.303s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/python/python_tools/ros_types.h
+[3728.304s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor
+[3728.305s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/merge.h
+[3728.305s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/utils.h
+[3728.307s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/container.h
+[3728.308s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/cost_queue.h
+[3728.309s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/stages
+[3728.310s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fix_collision_objects.h
+[3728.312s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_random_pose.h
+[3728.314s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h
+[3728.318s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/connect.h
+[3728.320s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/compute_ik.h
+[3728.322s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_to.h
+[3728.324s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_pose.h
+[3728.325s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/simple_grasp.h
+[3728.328s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_grasp_pose.h
+[3728.331s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_place_pose.h
+[3728.339s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/pick.h
+[3728.339s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/current_state.h
+[3728.341s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/passthrough.h
+[3728.343s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/predicate_filter.h
+[3728.344s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_state.h
+[3728.345s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_relative.h
+[3728.347s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_cartesian_poses.h
+[3728.348s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/storage.h
+[3728.349s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/marker_tools.h
+[3728.351s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/moveit_compat.h
+[3728.352s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/properties.h
+[3728.357s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers
+[3728.358s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/cartesian_path.h
+[3728.361s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/pipeline_planner.h
+[3728.363s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/joint_interpolation.h
+[3728.365s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/planner_interface.h
+[3728.368s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/multi_planner.h
+[3728.370s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers.h
+[3728.372s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/stages.h
+[3728.375s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/type_traits.h
+[3728.378s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/cost_terms.h
+[3728.380s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/stage.h
+[3728.383s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/trajectory_execution_info.h
+[3728.385s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/introspection.h
+[3728.387s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/task.h
+[3728.392s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/motion_planning_stages_plugin_description.xml
+[3728.399s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/library_path.sh
+[3728.402s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/library_path.dsv
+[3728.408s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/share/ament_index/resource_index/package_run_dependencies/moveit_task_constructor_core
+[3728.412s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/share/ament_index/resource_index/parent_prefix_path/moveit_task_constructor_core
+[3728.420s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/ament_prefix_path.sh
+[3728.422s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/ament_prefix_path.dsv
+[3728.425s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/path.sh
+[3728.427s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/path.dsv
+[3728.434s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/local_setup.bash
+[3728.437s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/local_setup.sh
+[3728.441s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/local_setup.zsh
+[3728.444s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/local_setup.dsv
+[3728.447s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/package.dsv
+[3728.449s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/share/ament_index/resource_index/packages/moveit_task_constructor_core
+[3728.451s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/share/ament_index/resource_index/moveit_task_constructor_core__pluginlib__plugin/moveit_task_constructor_core
+[3728.454s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreTargetsExport.cmake
+[3728.456s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreTargetsExport-release.cmake
+[3728.458s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/ament_cmake_export_targets-extras.cmake
+[3728.460s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[3728.463s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreConfig.cmake
+[3728.464s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreConfig-version.cmake
+[3728.466s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/package.xml
+[3728.467s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/lib/libmoveit_task_constructor_core.so
+[3728.490s] -- Set runtime path of "/home/ti5/ws_moveit2/install/moveit_task_constructor_core/lib/libmoveit_task_constructor_core.so" to ""
+[3728.491s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/lib/libmoveit_task_constructor_core_stages.so
+[3728.503s] -- Set runtime path of "/home/ti5/ws_moveit2/install/moveit_task_constructor_core/lib/libmoveit_task_constructor_core_stages.so" to ""
+[3728.504s] -- Installing: /home/ti5/ws_moveit2/install/moveit_task_constructor_core/lib/libmoveit_task_constructor_core_stage_plugins.so
+[3728.506s] -- Set runtime path of "/home/ti5/ws_moveit2/install/moveit_task_constructor_core/lib/libmoveit_task_constructor_core_stage_plugins.so" to ""
+[3728.522s] Invoked command in '/home/ti5/ws_moveit2/build/moveit_task_constructor_core' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_planners:/home/ti5/ws_moveit2/install/pilz_industrial_motion_planner:/home/ti5/ws_moveit2/install/moveit_ros_planning_interface:/home/ti5/ws_moveit2/install/moveit_ros_move_group:/home/ti5/ws_moveit2/install/moveit_ros_warehouse:/home/ti5/ws_moveit2/install/moveit_planners_ompl:/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/rviz_marker_tools:/home/ti5/ws_moveit2/install/moveit_configs_utils:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_task_constructor_msgs:/home/ti5/ws_moveit2/install/moveit_common:/home/ti5/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_planners:/home/ti5/ws_moveit2/install/pilz_industrial_motion_planner:/home/ti5/ws_moveit2/install/moveit_ros_planning_interface:/home/ti5/ws_moveit2/install/moveit_ros_move_group:/home/ti5/ws_moveit2/install/moveit_ros_warehouse:/home/ti5/ws_moveit2/install/moveit_planners_ompl:/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/rviz_marker_tools:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_task_constructor_msgs:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/ti5/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/ti5/ws_moveit2/install/moveit_ros_move_group/lib:/home/ti5/ws_moveit2/install/moveit_ros_warehouse/lib:/home/ti5/ws_moveit2/install/moveit_planners_ompl/lib:/home/ti5/ws_moveit2/install/moveit_kinematics/lib:/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/rviz_marker_tools/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:/home/ti5/ws_moveit2/install/moveit_task_constructor_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/ti5/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/ti5/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ti5/ws_moveit2/build/moveit_task_constructor_core

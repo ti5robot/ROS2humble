@@ -1,0 +1,32 @@
+[0.149s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_ros_visualization': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning_interface:/home/ti5/ws_moveit2/install/moveit_ros_move_group:/home/ti5/ws_moveit2/install/moveit_ros_warehouse:/home/ti5/ws_moveit2/install/moveit_ros_robot_interaction:/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning_interface:/home/ti5/ws_moveit2/install/moveit_ros_move_group:/home/ti5/ws_moveit2/install/moveit_ros_warehouse:/home/ti5/ws_moveit2/install/moveit_ros_robot_interaction:/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/ti5/ws_moveit2/install/moveit_ros_move_group/lib:/home/ti5/ws_moveit2/install/moveit_ros_warehouse/lib:/home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/ti5/ws_moveit2/install/moveit_kinematics/lib:/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/moveit_ros_visualization -- -j4 -l4
+[0.561s] [  1%] [34m[1mAutomatic MOC for target moveit_rviz_plugin_render_tools[0m
+[0.873s] [  1%] Built target moveit_rviz_plugin_render_tools_autogen
+[1.478s] [ 18%] Built target moveit_rviz_plugin_render_tools
+[1.710s] [ 20%] [34m[1mAutomatic MOC for target moveit_robot_state_rviz_plugin_core[0m
+[1.739s] [ 22%] [34m[1mAutomatic MOC for target moveit_planning_scene_rviz_plugin_core[0m
+[2.016s] [ 22%] Built target moveit_robot_state_rviz_plugin_core_autogen
+[2.158s] [ 22%] Built target moveit_planning_scene_rviz_plugin_core_autogen
+[2.506s] [ 27%] Built target moveit_robot_state_rviz_plugin_core
+[2.780s] [ 29%] [34m[1mAutomatic MOC for target moveit_robot_state_rviz_plugin[0m
+[2.847s] [ 36%] Built target moveit_planning_scene_rviz_plugin_core
+[3.068s] [ 36%] Built target moveit_robot_state_rviz_plugin_autogen
+[3.139s] [ 37%] [34m[1mAutomatic MOC for target moveit_trajectory_rviz_plugin_core[0m
+[3.207s] [ 39%] [34m[1mAutomatic MOC for target moveit_planning_scene_rviz_plugin[0m
+[3.445s] [ 39%] Built target moveit_trajectory_rviz_plugin_core_autogen
+[3.451s] [ 39%] Built target moveit_planning_scene_rviz_plugin_autogen
+[3.618s] [ 44%] Built target moveit_robot_state_rviz_plugin
+[3.965s] [ 50%] Built target moveit_trajectory_rviz_plugin_core
+[3.977s] [ 55%] Built target moveit_planning_scene_rviz_plugin
+[4.196s] [ 56%] [34m[1mAutomatic MOC for target moveit_trajectory_rviz_plugin[0m
+[4.238s] [ 58%] [34m[1mAutomatic MOC for target moveit_motion_planning_rviz_plugin_core[0m
+[4.442s] [ 58%] Built target moveit_trajectory_rviz_plugin_autogen
+[4.594s] [ 58%] Built target moveit_motion_planning_rviz_plugin_core_autogen
+[4.774s] [ 63%] Built target moveit_trajectory_rviz_plugin
+[5.000s] [ 65%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_frame.cpp.o[0m
+[5.037s] [ 67%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_frame_states.cpp.o[0m
+[5.044s] [ 68%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_frame_objects.cpp.o[0m
+[5.060s] [ 70%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_frame_joints_widget.cpp.o[0m
+[474.397s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[474.411s] compilation terminated.
+[474.412s] gmake[2]: *** [motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/build.make:191: motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_frame_joints_widget.cpp.o] Error 1
+[474.412s] gmake[2]: *** Waiting for unfinished jobs....

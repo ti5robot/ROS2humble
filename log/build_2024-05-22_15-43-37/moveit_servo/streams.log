@@ -1,0 +1,31 @@
+[0.199s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_servo': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning_interface:/home/ti5/ws_moveit2/install/moveit_ros_move_group:/home/ti5/ws_moveit2/install/moveit_ros_warehouse:/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ti5/ws_moveit2/install/moveit_configs_utils:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_panda_description:/home/ti5/ws_moveit2/install/moveit_common:/home/ti5/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning_interface:/home/ti5/ws_moveit2/install/moveit_ros_move_group:/home/ti5/ws_moveit2/install/moveit_ros_warehouse:/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_panda_description:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/ti5/ws_moveit2/install/moveit_ros_move_group/lib:/home/ti5/ws_moveit2/install/moveit_ros_warehouse/lib:/home/ti5/ws_moveit2/install/moveit_kinematics/lib:/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/ti5/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/moveit_servo -- -j4 -l4
+[0.549s] [  3%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib_parameters.dir/src/servo_parameters.cpp.o[0m
+[215.026s] [  6%] [32m[1mLinking CXX shared library libmoveit_servo_lib_parameters.so[0m
+[217.429s] [  9%] Built target moveit_servo_lib_parameters
+[217.603s] [ 15%] Built target gtest_main
+[217.684s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[217.770s] [ 21%] Built target gtest
+[217.905s] [ 24%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib.dir/src/collision_check.cpp.o[0m
+[469.746s] [ 27%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib.dir/src/enforce_limits.cpp.o[0m
+[503.451s] [ 30%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib.dir/src/servo.cpp.o[0m
+[749.759s] [ 33%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib.dir/src/servo_calcs.cpp.o[0m
+[3086.124s] [ 36%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib.dir/src/utilities.cpp.o[0m
+[3270.208s] [ 39%] [32m[1mLinking CXX shared library libmoveit_servo_lib.so[0m
+[3273.915s] [ 39%] Built target moveit_servo_lib
+[3274.056s] [ 42%] [32mBuilding CXX object CMakeFiles/test_servo_integration.dir/test/test_servo_interface.cpp.o[0m
+[3346.693s] [ 45%] [32mBuilding CXX object CMakeFiles/test_servo_collision.dir/test/test_servo_collision.cpp.o[0m
+[3347.824s] [ 51%] Built target fake_command_publisher
+[3347.928s] [ 54%] [32mBuilding CXX object CMakeFiles/servo_controller_input.dir/src/teleop_demo/joystick_servo_example.cpp.o[0m
+[3347.996s] [ 57%] [32mBuilding CXX object CMakeFiles/servo_calcs_unit_tests.dir/test/servo_calcs_unit_tests.cpp.o[0m
+[3768.021s] [ 60%] [32m[1mLinking CXX shared library libservo_controller_input.so[0m
+[3771.611s] [ 60%] Built target servo_controller_input
+[4624.991s] [ 63%] [32m[1mLinking CXX executable servo_calcs_unit_tests[0m
+[4628.627s] [ 63%] Built target servo_calcs_unit_tests
+[4975.403s] [ 66%] [32m[1mLinking CXX executable test_servo_integration[0m
+[4978.969s] [ 66%] Built target test_servo_integration
+[5012.959s] [ 69%] [32m[1mLinking CXX executable test_servo_collision[0m
+[5016.258s] [ 69%] Built target test_servo_collision
+[5016.384s] [ 72%] [32mBuilding CXX object CMakeFiles/servo_node.dir/src/servo_node.cpp.o[0m
+[5153.049s] [ 75%] [32m[1mLinking CXX shared library libservo_node.so[0m
+[5155.725s] [ 75%] Built target servo_node
+[5155.866s] [ 78%] [32mBuilding CXX object CMakeFiles/pose_tracking.dir/src/pose_tracking.cpp.o[0m

@@ -1,0 +1,33 @@
+[0.066s] Invoking command in '/home/ti5/ws_moveit2/build/ti5_description': /usr/bin/cmake /home/ti5/ws_moveit2/src/ti5/src/ti5_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ti5/ws_moveit2/install/ti5_description
+[0.710s] -- The C compiler identification is GNU 11.4.0
+[1.258s] -- The CXX compiler identification is GNU 11.4.0
+[1.314s] -- Detecting C compiler ABI info
+[1.822s] -- Detecting C compiler ABI info - done
+[1.939s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.943s] -- Detecting C compile features
+[1.947s] -- Detecting C compile features - done
+[1.976s] -- Detecting CXX compiler ABI info
+[2.449s] -- Detecting CXX compiler ABI info - done
+[2.511s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.513s] -- Detecting CXX compile features
+[2.516s] -- Detecting CXX compile features - done
+[2.567s] -- Configuring incomplete, errors occurred!
+[2.568s] See also "/home/ti5/ws_moveit2/build/ti5_description/CMakeFiles/CMakeOutput.log".
+[2.568s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[2.569s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[2.570s]   asked CMake to find a package configuration file provided by "catkin", but
+[2.570s]   CMake did not find one.
+[2.571s] 
+[2.571s]   Could not find a package configuration file provided by "catkin" with any
+[2.572s]   of the following names:
+[2.572s] 
+[2.573s]     catkinConfig.cmake
+[2.573s]     catkin-config.cmake
+[2.574s] 
+[2.574s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[2.574s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[2.575s]   provides a separate development package or SDK, be sure it has been
+[2.576s]   installed.
+[2.582s] 
+[2.583s] [0m
+[2.584s] Invoked command in '/home/ti5/ws_moveit2/build/ti5_description' returned '1': /usr/bin/cmake /home/ti5/ws_moveit2/src/ti5/src/ti5_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ti5/ws_moveit2/install/ti5_description

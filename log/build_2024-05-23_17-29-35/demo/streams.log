@@ -1,0 +1,30 @@
+[0.173s] Invoking command in '/home/ti5/ws_moveit2/build/demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ti5/ws_moveit2/install/moveit_configs_utils:/home/ti5/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/ti5/ws_moveit2/build/demo -- -j4 -l4
+[0.457s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.321s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.508s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.536s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.581s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.730s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.953s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.574s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.605s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.967s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.664s] -- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+[11.065s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.500s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.501s] -- Configured cppcheck include dirs: 
+[11.501s] -- Configured cppcheck exclude dirs and/or files: 
+[11.504s] -- Added test 'lint_cmake' to check CMake code style
+[11.511s] -- Added test 'uncrustify' to check C / C++ code style
+[11.512s] -- Configured uncrustify additional arguments: 
+[11.513s] -- Added test 'xmllint' to check XML markup files
+[11.518s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[11.519s]   ament_target_dependencies() the first argument must be a valid target name
+[11.519s] Call Stack (most recent call first):
+[11.520s]   CMakeLists.txt:31 (ament_target_dependencies)
+[11.520s] 
+[11.521s] [0m
+[11.522s] -- Configuring incomplete, errors occurred!
+[11.522s] See also "/home/ti5/ws_moveit2/build/demo/CMakeFiles/CMakeOutput.log".
+[11.566s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[11.700s] Invoked command in '/home/ti5/ws_moveit2/build/demo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ti5/ws_moveit2/install/moveit_configs_utils:/home/ti5/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/ti5/ws_moveit2/build/demo -- -j4 -l4

@@ -1,0 +1,177 @@
+[0.129s] Invoking command in '/home/ti5/ws_moveit2/build/demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ti5/ws_moveit2/install/moveit_configs_utils:/home/ti5/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/ti5/ws_moveit2/build/demo -- -j4 -l4
+[0.803s] [35m[1mConsolidate compiler generated dependencies of target demo[0m
+[1.028s] [ 50%] [32mBuilding CXX object CMakeFiles/demo.dir/src/demo.cpp.o[0m
+[19.956s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:39:79:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmoveit_msgs::msg::DisplayTrajectory_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[19.956s]    39 |         void callback(const moveit_msgs::msg::DisplayTrajectory::ConstPtr &msg[01;35m[K)[m[K
+[19.957s]       |                                                                               [01;35m[K^[m[K
+[19.957s] In file included from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/display_trajectory.hpp:7[m[K,
+[19.958s]                  from [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:4[m[K:
+[19.958s] [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/display_trajectory__struct.hpp:131:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[19.959s]   131 |     [01;36m[KConstPtr[m[K;
+[19.960s]       |     [01;36m[K^~~~~~~~[m[K
+[20.556s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:[m[K In member function ‘[01m[Kvoid Listener::callback(const ConstPtr&)[m[K’:
+[20.557s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:55:17:[m[K [01;31m[Kerror: [m[K‘[01m[KsendCanCommand[m[K’ was not declared in this scope
+[20.557s]    55 |                 [01;31m[KsendCanCommand[m[K(6,canidlist,cmd_v_p,para_v_p);
+[20.558s]       |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[20.564s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:73:24:[m[K [01;35m[Kwarning: [m[Kcomparisons like ‘[01m[KX<=Y<=Z[m[K’ do not have their mathematical meaning [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[20.565s]    73 |                 if ([01;35m[K0.3<periodTime[m[K<0.5)
+[20.566s]       |                     [01;35m[K~~~^~~~~~~~~~~[m[K
+[20.567s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:75:30:[m[K [01;35m[Kwarning: [m[Kcomparisons like ‘[01m[KX<=Y<=Z[m[K’ do not have their mathematical meaning [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[20.568s]    75 |                 else if([01;35m[K0.001<periodTime[m[K<0.3)
+[20.569s]       |                         [01;35m[K~~~~~^~~~~~~~~~~[m[K
+[20.580s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:84:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcanidlist2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[20.581s]    84 |                 uint8_t [01;35m[Kcanidlist2[m[K[10] = {1, 2, 3, 4, 5, 6}, cmd2[10] = {30, 30, 30, 30, 30, 30};
+[20.582s]       |                         [01;35m[K^~~~~~~~~~[m[K
+[20.583s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:84:62:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcmd2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[20.584s]    84 |                 uint8_t canidlist2[10] = {1, 2, 3, 4, 5, 6}, [01;35m[Kcmd2[m[K[10] = {30, 30, 30, 30, 30, 30};
+[20.584s]       |                                                              [01;35m[K^~~~[m[K
+[20.619s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:[m[K In function ‘[01m[Kint32_t sendSimpleCanCommand(uint8_t, uint8_t*, uint8_t*)[m[K’:
+[20.620s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:157:9:[m[K [01;31m[Kerror: [m[K‘[01m[KVCI_CAN_OBJ[m[K’ was not declared in this scope
+[20.620s]   157 |         [01;31m[KVCI_CAN_OBJ[m[K send[1];
+[20.621s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[20.647s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:158:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend[m[K’ was not declared in this scope
+[20.648s]   158 |         [01;31m[Ksend[m[K[0].SendType = 0;
+[20.648s]       |         [01;31m[K^~~~[m[K
+[20.669s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:168:34:[m[K [01;31m[Kerror: [m[K‘[01m[KVCI_USBCAN2[m[K’ was not declared in this scope
+[20.670s]   168 |                 if (VCI_Transmit([01;31m[KVCI_USBCAN2[m[K, 0, 0, send, 1) == 1)
+[20.671s]       |                                  [01;31m[K^~~~~~~~~~~[m[K
+[20.744s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:168:21:[m[K [01;31m[Kerror: [m[K‘[01m[KVCI_Transmit[m[K’ was not declared in this scope
+[20.745s]   168 |                 if ([01;31m[KVCI_Transmit[m[K(VCI_USBCAN2, 0, 0, send, 1) == 1)
+[20.745s]       |                     [01;31m[K^~~~~~~~~~~~[m[K
+[20.746s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:170:36:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Krec[m[K’
+[20.746s]   170 |                         VCI_CAN_OBJ[01;31m[K [m[K[32m[Krec[m[K[3000];
+[20.747s]       |                                    [01;31m[K^[m[K[32m[K~~~[m[K
+[20.747s]       |                                    [32m[K;[m[K
+[20.759s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:173:74:[m[K [01;31m[Kerror: [m[K‘[01m[Krec[m[K’ was not declared in this scope
+[20.759s]   173 |                         while((reclen = VCI_Receive(VCI_USBCAN2, 0, ind, [01;31m[Krec[m[K, 3000, 100)) <= 0 && cnt)  cnt--;
+[20.761s]       |                                                                          [01;31m[K^~~[m[K
+[20.822s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:173:41:[m[K [01;31m[Kerror: [m[K‘[01m[KVCI_Receive[m[K’ was not declared in this scope
+[20.823s]   173 |                         while((reclen = [01;31m[KVCI_Receive[m[K(VCI_USBCAN2, 0, ind, rec, 3000, 100)) <= 0 && cnt)  cnt--;
+[20.824s]       |                                         [01;31m[K^~~~~~~~~~~[m[K
+[20.866s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:179:69:[m[K [01;31m[Kerror: [m[K‘[01m[Krec[m[K’ was not declared in this scope
+[20.866s]   179 |                                         std::uint8_t hexArray[4] = {[01;31m[Krec[m[K[j].Data[4], rec[j].Data[3], rec[j].Data[2], rec[j].Data[1]};
+[20.867s]       |                                                                     [01;31m[K^~~[m[K
+[20.867s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:180:54:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdecimal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[20.868s]   180 |                                         std::int32_t [01;35m[Kdecimal[m[K = convertHexArrayToDecimal(hexArray);
+[20.868s]       |                                                      [01;35m[K^~~~~~~[m[K
+[20.869s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:188:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[20.869s]   188 | [01;35m[K}[m[K
+[20.870s]       | [01;35m[K^[m[K
+[20.939s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:[m[K In function ‘[01m[Kint32_t sendCanCommand(uint8_t, uint8_t*, uint8_t*, uint32_t*)[m[K’:
+[20.940s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:194:9:[m[K [01;31m[Kerror: [m[K‘[01m[KVCI_CAN_OBJ[m[K’ was not declared in this scope
+[20.940s]   194 |         [01;31m[KVCI_CAN_OBJ[m[K send[1];
+[20.941s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[20.962s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:195:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend[m[K’ was not declared in this scope
+[20.963s]   195 |         [01;31m[Ksend[m[K[0].SendType = 0;
+[20.963s]       |         [01;31m[K^~~~[m[K
+[21.021s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:209:45:[m[K [01;31m[Kerror: [m[K‘[01m[KVCI_USBCAN2[m[K’ was not declared in this scope
+[21.021s]   209 |                 while(reclen = VCI_Transmit([01;31m[KVCI_USBCAN2[m[K,0,0,send,1) <= 0 && cnt) cnt--;
+[21.021s]       |                                             [01;31m[K^~~~~~~~~~~[m[K
+[21.059s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:209:32:[m[K [01;31m[Kerror: [m[K‘[01m[KVCI_Transmit[m[K’ was not declared in this scope
+[21.060s]   209 |                 while(reclen = [01;31m[KVCI_Transmit[m[K(VCI_USBCAN2,0,0,send,1) <= 0 && cnt) cnt--;
+[21.060s]       |                                [01;31m[K^~~~~~~~~~~~[m[K
+[21.068s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:213:34:[m[K [01;31m[Kerror: [m[Kinitializer in range-based ‘[01m[Kfor[m[K’ loop
+[21.069s]   213 |                         for(int c[01;31m[K=[m[K0:c<send[0].DataLen;c++)
+[21.069s]       |                                  [01;31m[K^[m[K
+[21.070s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:213:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[21.070s]   213 |                         for[34m[K([m[Kint c=0:c<send[0].DataLen[01;31m[K;[m[Kc++)
+[21.070s]       |                            [34m[K~[m[K                         [01;31m[K^[m[K
+[21.076s]       |                                                      [32m[K)[m[K
+[21.076s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:213:25:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kfor[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+[21.076s]   213 |                         [01;35m[Kfor[m[K(int c=0:c<send[0].DataLen;c++)
+[21.077s]       |                         [01;35m[K^~~[m[K
+[21.077s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:213:55:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kfor[m[K’
+[21.078s]   213 |                         for(int c=0:c<send[0].DataLen;[01;36m[Kc[m[K++)
+[21.078s]       |                                                       [01;36m[K^[m[K
+[21.082s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:213:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ was not declared in this scope
+[21.099s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:219:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[21.099s]   219 | [01;35m[K}[m[K
+[21.100s]       | [01;35m[K^[m[K
+[21.146s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:[m[K In function ‘[01m[Kbool init_can()[m[K’:
+[21.146s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:314:9:[m[K [01;31m[Kerror: [m[K‘[01m[KVCI_BOARD_INFO[m[K’ was not declared in this scope
+[21.147s]   314 |         [01;31m[KVCI_BOARD_INFO[m[K pInfo, pInfo1[50];
+[21.147s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[21.177s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:321:9:[m[K [01;31m[Kerror: [m[K‘[01m[KDWORD[m[K’ was not declared in this scope
+[21.177s]   321 |         [01;31m[KDWORD[m[K dwRel;
+[21.178s]       |         [01;31m[K^~~~~[m[K
+[21.242s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:322:9:[m[K [01;31m[Kerror: [m[K‘[01m[KVCI_INIT_CONFIG[m[K’ was not declared in this scope
+[21.242s]   322 |         [01;31m[KVCI_INIT_CONFIG[m[K vic;
+[21.242s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[21.287s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:323:9:[m[K [01;31m[Kerror: [m[K‘[01m[KdwRel[m[K’ was not declared in this scope
+[21.288s]   323 |         [01;31m[KdwRel[m[K = VCI_OpenDevice(nDeviceType, nDeviceInd, 0);
+[21.288s]       |         [01;31m[K^~~~~[m[K
+[21.343s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:323:17:[m[K [01;31m[Kerror: [m[K‘[01m[KVCI_OpenDevice[m[K’ was not declared in this scope
+[21.344s]   323 |         dwRel = [01;31m[KVCI_OpenDevice[m[K(nDeviceType, nDeviceInd, 0);
+[21.347s]       |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[21.395s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:327:24:[m[K [01;31m[Kerror: [m[K‘[01m[KFALSE[m[K’ was not declared in this scope
+[21.395s]   327 |                 return [01;31m[KFALSE[m[K;
+[21.396s]       |                        [01;31m[K^~~~~[m[K
+[21.447s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:332:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvic[m[K’ was not declared in this scope
+[21.448s]   332 |         [01;31m[Kvic[m[K.AccCode = 0x80000008;
+[21.448s]       |         [01;31m[K^~~[m[K
+[21.479s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:339:17:[m[K [01;31m[Kerror: [m[K‘[01m[KVCI_InitCAN[m[K’ was not declared in this scope
+[21.480s]   339 |         dwRel = [01;31m[KVCI_InitCAN[m[K(nDeviceType, nDeviceInd, nCANInd, &vic);
+[21.480s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[21.511s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:344:17:[m[K [01;31m[Kerror: [m[K‘[01m[KVCI_CloseDevice[m[K’ was not declared in this scope
+[21.511s]   344 |                 [01;31m[KVCI_CloseDevice[m[K(nDeviceType, nDeviceInd);
+[21.512s]       |                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[21.528s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:345:24:[m[K [01;31m[Kerror: [m[K‘[01m[KFALSE[m[K’ was not declared in this scope
+[21.529s]   345 |                 return [01;31m[KFALSE[m[K;
+[21.529s]       |                        [01;31m[K^~~~~[m[K
+[21.549s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:350:26:[m[K [01;31m[Kerror: [m[K‘[01m[KVCI_USBCAN2[m[K’ was not declared in this scope
+[21.550s]   350 |         if (VCI_StartCAN([01;31m[KVCI_USBCAN2[m[K, 0, 0) != 1)
+[21.550s]       |                          [01;31m[K^~~~~~~~~~~[m[K
+[21.572s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:350:13:[m[K [01;31m[Kerror: [m[K‘[01m[KVCI_StartCAN[m[K’ was not declared in this scope
+[21.572s]   350 |         if ([01;31m[KVCI_StartCAN[m[K(VCI_USBCAN2, 0, 0) != 1)
+[21.573s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[21.601s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:353:17:[m[K [01;31m[Kerror: [m[K‘[01m[KVCI_CloseDevice[m[K’ was not declared in this scope
+[21.603s]   353 |                 [01;31m[KVCI_CloseDevice[m[K(VCI_USBCAN2, 0);
+[21.604s]       |                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[21.604s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:[m[K In function ‘[01m[Kvoid move_up()[m[K’:
+[21.605s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:364:32:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Ktmp0[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[21.605s]   364 |         uint32_t para_v_p[10]={[01;35m[Ktmp0[m[K,tmp0,tmp0,tmp0,tmp0,tmp0},para_v_n[10]={tmp1,tmp1,tmp1,tmp1,tmp1,tmp1};
+[21.606s]       |                                [01;35m[K^~~~[m[K
+[21.607s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:364:37:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Ktmp0[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[21.608s]   364 |         uint32_t para_v_p[10]={tmp0,[01;35m[Ktmp0[m[K,tmp0,tmp0,tmp0,tmp0},para_v_n[10]={tmp1,tmp1,tmp1,tmp1,tmp1,tmp1};
+[21.608s]       |                                     [01;35m[K^~~~[m[K
+[21.609s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:364:42:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Ktmp0[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[21.609s]   364 |         uint32_t para_v_p[10]={tmp0,tmp0,[01;35m[Ktmp0[m[K,tmp0,tmp0,tmp0},para_v_n[10]={tmp1,tmp1,tmp1,tmp1,tmp1,tmp1};
+[21.610s]       |                                          [01;35m[K^~~~[m[K
+[21.610s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:364:47:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Ktmp0[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[21.625s]   364 |         uint32_t para_v_p[10]={tmp0,tmp0,tmp0,[01;35m[Ktmp0[m[K,tmp0,tmp0},para_v_n[10]={tmp1,tmp1,tmp1,tmp1,tmp1,tmp1};
+[21.626s]       |                                               [01;35m[K^~~~[m[K
+[21.627s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:364:52:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Ktmp0[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[21.628s]   364 |         uint32_t para_v_p[10]={tmp0,tmp0,tmp0,tmp0,[01;35m[Ktmp0[m[K,tmp0},para_v_n[10]={tmp1,tmp1,tmp1,tmp1,tmp1,tmp1};
+[21.628s]       |                                                    [01;35m[K^~~~[m[K
+[21.629s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:364:57:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Ktmp0[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[21.629s]   364 |         uint32_t para_v_p[10]={tmp0,tmp0,tmp0,tmp0,tmp0,[01;35m[Ktmp0[m[K},para_v_n[10]={tmp1,tmp1,tmp1,tmp1,tmp1,tmp1};
+[21.630s]       |                                                         [01;35m[K^~~~[m[K
+[21.630s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:364:77:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Ktmp1[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[21.631s]   364 |         uint32_t para_v_p[10]={tmp0,tmp0,tmp0,tmp0,tmp0,tmp0},para_v_n[10]={[01;35m[Ktmp1[m[K,tmp1,tmp1,tmp1,tmp1,tmp1};
+[21.631s]       |                                                                             [01;35m[K^~~~[m[K
+[21.632s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:364:82:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Ktmp1[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[21.632s]   364 |         uint32_t para_v_p[10]={tmp0,tmp0,tmp0,tmp0,tmp0,tmp0},para_v_n[10]={tmp1,[01;35m[Ktmp1[m[K,tmp1,tmp1,tmp1,tmp1};
+[21.633s]       |                                                                                  [01;35m[K^~~~[m[K
+[21.633s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:364:87:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Ktmp1[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[21.634s]   364 |         uint32_t para_v_p[10]={tmp0,tmp0,tmp0,tmp0,tmp0,tmp0},para_v_n[10]={tmp1,tmp1,[01;35m[Ktmp1[m[K,tmp1,tmp1,tmp1};
+[21.634s]       |                                                                                       [01;35m[K^~~~[m[K
+[21.635s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:364:92:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Ktmp1[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[21.635s]   364 |         uint32_t para_v_p[10]={tmp0,tmp0,tmp0,tmp0,tmp0,tmp0},para_v_n[10]={tmp1,tmp1,tmp1,[01;35m[Ktmp1[m[K,tmp1,tmp1};
+[21.636s]       |                                                                                            [01;35m[K^~~~[m[K
+[21.636s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:364:97:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Ktmp1[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[21.637s]   364 |         uint32_t para_v_p[10]={tmp0,tmp0,tmp0,tmp0,tmp0,tmp0},para_v_n[10]={tmp1,tmp1,tmp1,tmp1,[01;35m[Ktmp1[m[K,tmp1};
+[21.638s]       |                                                                                                 [01;35m[K^~~~[m[K
+[21.639s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:364:102:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Ktmp1[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[21.639s]   364 |         uint32_t para_v_p[10]={tmp0,tmp0,tmp0,tmp0,tmp0,tmp0},para_v_n[10]={tmp1,tmp1,tmp1,tmp1,tmp1,[01;35m[Ktmp1[m[K};
+[21.640s]       |                                                                                                      [01;35m[K^~~~[m[K
+[21.643s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:368:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kcanidlist[m[K’ was not declared in this scope; did you mean ‘[01m[Kcanidlsit[m[K’?
+[21.644s]   368 |         sendCanCommand(6,[01;31m[Kcanidlist[m[K,cmd_v_p,para_v_p);
+[21.644s]       |                          [01;31m[K^~~~~~~~~[m[K
+[21.645s]       |                          [32m[Kcanidlsit[m[K
+[21.645s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:365:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcanidlsit[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[21.646s]   365 |         uint8_t [01;35m[Kcanidlsit[m[K[10]={1,2,3,4,5,6};
+[21.646s]       |                 [01;35m[K^~~~~~~~~[m[K
+[37.488s] gmake[2]: *** [CMakeFiles/demo.dir/build.make:76: CMakeFiles/demo.dir/src/demo.cpp.o] Error 1
+[37.489s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/demo.dir/all] Error 2
+[37.489s] gmake: *** [Makefile:146: all] Error 2
+[37.504s] Invoked command in '/home/ti5/ws_moveit2/build/demo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ti5/ws_moveit2/install/moveit_configs_utils:/home/ti5/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/ti5/ws_moveit2/build/demo -- -j4 -l4

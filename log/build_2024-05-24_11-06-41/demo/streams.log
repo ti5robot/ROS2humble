@@ -1,0 +1,111 @@
+[0.235s] Invoking command in '/home/ti5/ws_moveit2/build/demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ti5/ws_moveit2/install/moveit_configs_utils:/home/ti5/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/ti5/ws_moveit2/build/demo -- -j4 -l4
+[0.905s] [35m[1mConsolidate compiler generated dependencies of target demo[0m
+[1.139s] [ 50%] [32mBuilding CXX object CMakeFiles/demo.dir/src/demo.cpp.o[0m
+[22.261s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:[m[K In function ‘[01m[Kbool init_can()[m[K’:
+[22.268s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:30:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KpInfo[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[22.269s]    30 |         VCI_BOARD_INFO [01;35m[KpInfo[m[K, pInfo1[50];
+[22.269s]       |                        [01;35m[K^~~~~[m[K
+[22.270s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:30:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KpInfo1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[22.270s]    30 |         VCI_BOARD_INFO pInfo, [01;35m[KpInfo1[m[K[50];
+[22.271s]       |                               [01;35m[K^~~~~~[m[K
+[22.279s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:[m[K In function ‘[01m[Kint32_t sendSimpleCanCommand(uint8_t, uint8_t*, uint8_t*)[m[K’:
+[22.280s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:125:54:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdecimal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[22.280s]   125 |                                         std::int32_t [01;35m[Kdecimal[m[K = convertHexArrayToDecimal(hexArray);
+[22.281s]       |                                                      [01;35m[K^~~~~~~[m[K
+[22.282s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:133:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[22.282s]   133 | [01;35m[K}[m[K
+[22.284s]       | [01;35m[K^[m[K
+[22.284s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:[m[K In function ‘[01m[Kint32_t sendCanCommand(uint8_t, uint8_t*, uint8_t*, uint32_t*)[m[K’:
+[22.285s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:154:30:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around assignment used as truth value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[22.286s]   154 |                 while([01;35m[Kreclen = VCI_Transmit(VCI_USBCAN2,0,0,send,1) <= 0 && cnt[m[K) cnt--;
+[22.287s]       |                       [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[22.287s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:165:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[22.288s]   165 | [01;35m[K}[m[K
+[22.289s]       | [01;35m[K^[m[K
+[22.290s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:[m[K At global scope:
+[22.293s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:179:79:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmoveit_msgs::msg::DisplayTrajectory_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[22.294s]   179 | void callback(const moveit_msgs::msg::DisplayTrajectory::ConstPtr &msg[01;35m[K)[m[K
+[22.300s]       |                                                                       [01;35m[K^[m[K
+[22.301s] 
+[22.301s] In file included from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/display_trajectory.hpp:7[m[K,
+[22.302s]                  from [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:4[m[K:
+[22.305s] [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/display_trajectory__struct.hpp:131:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[22.306s]   131 |     [01;36m[KConstPtr[m[K;
+[22.306s]       |     [01;36m[K^~~~~~~~[m[K
+[22.701s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:[m[K In member function ‘[01m[Kvoid Listener::callback(const ConstPtr&)[m[K’:
+[22.702s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:213:24:[m[K [01;35m[Kwarning: [m[Kcomparisons like ‘[01m[KX<=Y<=Z[m[K’ do not have their mathematical meaning [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[22.703s]   213 |                 if ([01;35m[K0.3<periodTime[m[K<0.5)
+[22.703s]       |                     [01;35m[K~~~^~~~~~~~~~~[m[K
+[22.704s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:215:30:[m[K [01;35m[Kwarning: [m[Kcomparisons like ‘[01m[KX<=Y<=Z[m[K’ do not have their mathematical meaning [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[22.706s]   215 |                 else if([01;35m[K0.001<periodTime[m[K<0.3)
+[22.707s]       |                         [01;35m[K~~~~~^~~~~~~~~~~[m[K
+[22.715s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:[m[K In function ‘[01m[Kvoid move_up()[m[K’:
+[22.723s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:273:32:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Ktmp0[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[22.725s]   273 |         uint32_t para_v_p[10]={[01;35m[Ktmp0[m[K,tmp0,tmp0,tmp0,tmp0,tmp0},para_v_n[10]={tmp1,tmp1,tmp1,tmp1,tmp1,tmp1};
+[22.725s]       |                                [01;35m[K^~~~[m[K
+[22.726s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:273:37:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Ktmp0[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[22.727s]   273 |         uint32_t para_v_p[10]={tmp0,[01;35m[Ktmp0[m[K,tmp0,tmp0,tmp0,tmp0},para_v_n[10]={tmp1,tmp1,tmp1,tmp1,tmp1,tmp1};
+[22.727s]       |                                     [01;35m[K^~~~[m[K
+[22.728s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:273:42:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Ktmp0[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[22.729s]   273 |         uint32_t para_v_p[10]={tmp0,tmp0,[01;35m[Ktmp0[m[K,tmp0,tmp0,tmp0},para_v_n[10]={tmp1,tmp1,tmp1,tmp1,tmp1,tmp1};
+[22.730s]       |                                          [01;35m[K^~~~[m[K
+[22.730s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:273:47:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Ktmp0[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[22.731s]   273 |         uint32_t para_v_p[10]={tmp0,tmp0,tmp0,[01;35m[Ktmp0[m[K,tmp0,tmp0},para_v_n[10]={tmp1,tmp1,tmp1,tmp1,tmp1,tmp1};
+[22.732s]       |                                               [01;35m[K^~~~[m[K
+[22.732s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:273:52:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Ktmp0[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[22.733s]   273 |         uint32_t para_v_p[10]={tmp0,tmp0,tmp0,tmp0,[01;35m[Ktmp0[m[K,tmp0},para_v_n[10]={tmp1,tmp1,tmp1,tmp1,tmp1,tmp1};
+[22.733s]       |                                                    [01;35m[K^~~~[m[K
+[22.734s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:273:57:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Ktmp0[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[22.738s]   273 |         uint32_t para_v_p[10]={tmp0,tmp0,tmp0,tmp0,tmp0,[01;35m[Ktmp0[m[K},para_v_n[10]={tmp1,tmp1,tmp1,tmp1,tmp1,tmp1};
+[22.739s]       |                                                         [01;35m[K^~~~[m[K
+[22.739s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:273:77:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Ktmp1[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[22.740s]   273 |  para_v_p[10]={tmp0,tmp0,tmp0,tmp0,tmp0,tmp0},para_v_n[10]={[01;35m[Ktmp1[m[K,tmp1,tmp1,tmp1,tmp1,tmp1};
+[22.740s]       |                                                             [01;35m[K^~~~[m[K
+[22.741s] 
+[22.742s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:273:82:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Ktmp1[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[22.743s]   273 | _v_p[10]={tmp0,tmp0,tmp0,tmp0,tmp0,tmp0},para_v_n[10]={tmp1,[01;35m[Ktmp1[m[K,tmp1,tmp1,tmp1,tmp1};
+[22.744s]       |                                                             [01;35m[K^~~~[m[K
+[22.745s] 
+[22.746s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:273:87:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Ktmp1[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[22.747s]   273 | 10]={tmp0,tmp0,tmp0,tmp0,tmp0,tmp0},para_v_n[10]={tmp1,tmp1,[01;35m[Ktmp1[m[K,tmp1,tmp1,tmp1};
+[22.747s]       |                                                             [01;35m[K^~~~[m[K
+[22.748s] 
+[22.749s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:273:92:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Ktmp1[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[22.750s]   273 | tmp0,tmp0,tmp0,tmp0,tmp0,tmp0},para_v_n[10]={tmp1,tmp1,tmp1,[01;35m[Ktmp1[m[K,tmp1,tmp1};
+[22.751s]       |                                                             [01;35m[K^~~~[m[K
+[22.752s] 
+[22.754s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:273:97:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Ktmp1[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[22.754s]   273 | tmp0,tmp0,tmp0,tmp0,tmp0},para_v_n[10]={tmp1,tmp1,tmp1,tmp1,[01;35m[Ktmp1[m[K,tmp1};
+[22.755s]       |                                                             [01;35m[K^~~~[m[K
+[22.756s] 
+[22.756s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:273:102:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Ktmp1[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[22.757s]   273 | tmp0,tmp0,tmp0,tmp0,tmp0},para_v_n[10]={tmp1,tmp1,tmp1,tmp1,tmp1,[01;35m[Ktmp1[m[K};
+[22.758s]       |                                                                  [01;35m[K^~~~[m[K
+[22.758s] 
+[42.846s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:[m[K In function ‘[01m[Kbool init_can()[m[K’:
+[42.847s] [01m[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:73:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[42.848s]    73 | [01;35m[K}[m[K
+[42.848s]       | [01;35m[K^[m[K
+[77.178s] [100%] [32m[1mLinking CXX executable demo[0m
+[84.078s] [100%] Built target demo
+[84.188s] Invoked command in '/home/ti5/ws_moveit2/build/demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ti5/ws_moveit2/install/moveit_configs_utils:/home/ti5/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/ti5/ws_moveit2/build/demo -- -j4 -l4
+[84.565s] Invoking command in '/home/ti5/ws_moveit2/build/demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ti5/ws_moveit2/install/moveit_configs_utils:/home/ti5/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/ti5/ws_moveit2/build/demo
+[84.724s] -- Install configuration: ""
+[84.728s] -- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/ament_index/resource_index/package_run_dependencies/demo
+[84.730s] -- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/ament_index/resource_index/parent_prefix_path/demo
+[84.731s] -- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/demo/environment/ament_prefix_path.sh
+[84.734s] -- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/demo/environment/ament_prefix_path.dsv
+[84.735s] -- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/demo/environment/path.sh
+[84.735s] -- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/demo/environment/path.dsv
+[84.736s] -- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/demo/local_setup.bash
+[84.752s] -- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/demo/local_setup.sh
+[84.755s] -- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/demo/local_setup.zsh
+[84.755s] -- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/demo/local_setup.dsv
+[84.756s] -- Installing: /home/ti5/ws_moveit2/install/demo/share/demo/package.dsv
+[84.775s] -- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/ament_index/resource_index/packages/demo
+[84.775s] -- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/demo/cmake/demoConfig.cmake
+[84.776s] -- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/demo/cmake/demoConfig-version.cmake
+[84.776s] -- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/demo/package.xml
+[84.786s] -- Installing: /home/ti5/ws_moveit2/install/demo/lib/demo/demo
+[84.898s] -- Set runtime path of "/home/ti5/ws_moveit2/install/demo/lib/demo/demo" to ""
+[84.931s] Invoked command in '/home/ti5/ws_moveit2/build/demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ti5/ws_moveit2/install/moveit_configs_utils:/home/ti5/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/ti5/ws_moveit2/build/demo

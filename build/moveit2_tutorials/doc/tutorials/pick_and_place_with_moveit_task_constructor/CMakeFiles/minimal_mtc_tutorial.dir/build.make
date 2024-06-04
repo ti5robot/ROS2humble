@@ -254,11 +254,6 @@ doc/tutorials/pick_and_place_with_moveit_task_constructor/minimal_mtc_tutorial: 
 doc/tutorials/pick_and_place_with_moveit_task_constructor/minimal_mtc_tutorial: /opt/ros/humble/lib/liburdf.so
 doc/tutorials/pick_and_place_with_moveit_task_constructor/minimal_mtc_tutorial: /opt/ros/humble/lib/x86_64-linux-gnu/libruckig.so
 doc/tutorials/pick_and_place_with_moveit_task_constructor/minimal_mtc_tutorial: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_transforms.so.2.5.5
-doc/tutorials/pick_and_place_with_moveit_task_constructor/minimal_mtc_tutorial: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_sensor.so.3.0
-doc/tutorials/pick_and_place_with_moveit_task_constructor/minimal_mtc_tutorial: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model_state.so.3.0
-doc/tutorials/pick_and_place_with_moveit_task_constructor/minimal_mtc_tutorial: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model.so.3.0
-doc/tutorials/pick_and_place_with_moveit_task_constructor/minimal_mtc_tutorial: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_world.so.3.0
-doc/tutorials/pick_and_place_with_moveit_task_constructor/minimal_mtc_tutorial: /usr/lib/x86_64-linux-gnu/libtinyxml.so
 doc/tutorials/pick_and_place_with_moveit_task_constructor/minimal_mtc_tutorial: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_utils.so.2.5.5
 doc/tutorials/pick_and_place_with_moveit_task_constructor/minimal_mtc_tutorial: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.74.0
 doc/tutorials/pick_and_place_with_moveit_task_constructor/minimal_mtc_tutorial: /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.74.0
@@ -281,6 +276,11 @@ doc/tutorials/pick_and_place_with_moveit_task_constructor/minimal_mtc_tutorial: 
 doc/tutorials/pick_and_place_with_moveit_task_constructor/minimal_mtc_tutorial: /opt/ros/humble/lib/x86_64-linux-gnu/liboctomath.so
 doc/tutorials/pick_and_place_with_moveit_task_constructor/minimal_mtc_tutorial: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.74.0
 doc/tutorials/pick_and_place_with_moveit_task_constructor/minimal_mtc_tutorial: /home/ti5/ws_moveit2/install/rviz_marker_tools/lib/librviz_marker_tools.so
+doc/tutorials/pick_and_place_with_moveit_task_constructor/minimal_mtc_tutorial: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_sensor.so.3.0
+doc/tutorials/pick_and_place_with_moveit_task_constructor/minimal_mtc_tutorial: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model_state.so.3.0
+doc/tutorials/pick_and_place_with_moveit_task_constructor/minimal_mtc_tutorial: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model.so.3.0
+doc/tutorials/pick_and_place_with_moveit_task_constructor/minimal_mtc_tutorial: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_world.so.3.0
+doc/tutorials/pick_and_place_with_moveit_task_constructor/minimal_mtc_tutorial: /usr/lib/x86_64-linux-gnu/libtinyxml.so
 doc/tutorials/pick_and_place_with_moveit_task_constructor/minimal_mtc_tutorial: /opt/ros/humble/lib/libtf2_ros.so
 doc/tutorials/pick_and_place_with_moveit_task_constructor/minimal_mtc_tutorial: /opt/ros/humble/lib/librclcpp_action.so
 doc/tutorials/pick_and_place_with_moveit_task_constructor/minimal_mtc_tutorial: /opt/ros/humble/lib/librcl_action.so

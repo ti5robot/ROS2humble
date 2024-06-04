@@ -168,11 +168,6 @@ ik_clearance_cost: /home/ti5/ws_moveit2/install/srdfdom/lib/libsrdfdom.so.2.0.4
 ik_clearance_cost: /opt/ros/humble/lib/liburdf.so
 ik_clearance_cost: /opt/ros/humble/lib/x86_64-linux-gnu/libruckig.so
 ik_clearance_cost: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_transforms.so.2.5.5
-ik_clearance_cost: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_sensor.so.3.0
-ik_clearance_cost: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model_state.so.3.0
-ik_clearance_cost: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model.so.3.0
-ik_clearance_cost: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_world.so.3.0
-ik_clearance_cost: /usr/lib/x86_64-linux-gnu/libtinyxml.so
 ik_clearance_cost: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_utils.so.2.5.5
 ik_clearance_cost: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.74.0
 ik_clearance_cost: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.74.0
@@ -199,6 +194,11 @@ ik_clearance_cost: /usr/lib/x86_64-linux-gnu/liborocos-kdl.so
 ik_clearance_cost: /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so
 ik_clearance_cost: /usr/lib/x86_64-linux-gnu/libcrypto.so
 ik_clearance_cost: /home/ti5/ws_moveit2/install/rviz_marker_tools/lib/librviz_marker_tools.so
+ik_clearance_cost: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_sensor.so.3.0
+ik_clearance_cost: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model_state.so.3.0
+ik_clearance_cost: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model.so.3.0
+ik_clearance_cost: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_world.so.3.0
+ik_clearance_cost: /usr/lib/x86_64-linux-gnu/libtinyxml.so
 ik_clearance_cost: /home/ti5/ws_moveit2/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.so
 ik_clearance_cost: /opt/ros/humble/lib/libmoveit_msgs__rosidl_typesupport_fastrtps_c.so
 ik_clearance_cost: /opt/ros/humble/lib/liboctomap_msgs__rosidl_typesupport_fastrtps_c.so

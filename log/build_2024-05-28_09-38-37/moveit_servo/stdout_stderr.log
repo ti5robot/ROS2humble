@@ -1,0 +1,15 @@
+[  6%] Built target fake_command_publisher
+[ 12%] Built target gtest_main
+[ 18%] Built target servo_controller_input
+[ 27%] Built target moveit_servo_lib_parameters
+[ 33%] Built target gtest
+[ 36%] [32mBuilding CXX object CMakeFiles/test_servo_collision.dir/test/test_servo_collision.cpp.o[0m
+[ 54%] Built target moveit_servo_lib
+[ 57%] [32m[1mLinking CXX executable test_servo_integration[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/pose_tracking.dir/src/pose_tracking.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/servo_node.dir/src/servo_node.cpp.o[0m
+/usr/bin/ld: gtest/libgtest.a: error adding symbols: archive has no index; run ranlib to add one
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/test_servo_integration.dir/build.make:372: test_servo_integration] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:393: CMakeFiles/test_servo_integration.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....

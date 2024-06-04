@@ -254,11 +254,6 @@ doc/examples/motion_planning_api/motion_planning_api_tutorial: /home/ti5/ws_move
 doc/examples/motion_planning_api/motion_planning_api_tutorial: /opt/ros/humble/lib/liburdf.so
 doc/examples/motion_planning_api/motion_planning_api_tutorial: /opt/ros/humble/lib/x86_64-linux-gnu/libruckig.so
 doc/examples/motion_planning_api/motion_planning_api_tutorial: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_transforms.so.2.5.5
-doc/examples/motion_planning_api/motion_planning_api_tutorial: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_sensor.so.3.0
-doc/examples/motion_planning_api/motion_planning_api_tutorial: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model_state.so.3.0
-doc/examples/motion_planning_api/motion_planning_api_tutorial: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model.so.3.0
-doc/examples/motion_planning_api/motion_planning_api_tutorial: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_world.so.3.0
-doc/examples/motion_planning_api/motion_planning_api_tutorial: /usr/lib/x86_64-linux-gnu/libtinyxml.so
 doc/examples/motion_planning_api/motion_planning_api_tutorial: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_utils.so.2.5.5
 doc/examples/motion_planning_api/motion_planning_api_tutorial: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.74.0
 doc/examples/motion_planning_api/motion_planning_api_tutorial: /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.74.0
@@ -281,6 +276,11 @@ doc/examples/motion_planning_api/motion_planning_api_tutorial: /opt/ros/humble/l
 doc/examples/motion_planning_api/motion_planning_api_tutorial: /opt/ros/humble/lib/x86_64-linux-gnu/liboctomath.so
 doc/examples/motion_planning_api/motion_planning_api_tutorial: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.74.0
 doc/examples/motion_planning_api/motion_planning_api_tutorial: /home/ti5/ws_moveit2/install/rviz_marker_tools/lib/librviz_marker_tools.so
+doc/examples/motion_planning_api/motion_planning_api_tutorial: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_sensor.so.3.0
+doc/examples/motion_planning_api/motion_planning_api_tutorial: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model_state.so.3.0
+doc/examples/motion_planning_api/motion_planning_api_tutorial: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model.so.3.0
+doc/examples/motion_planning_api/motion_planning_api_tutorial: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_world.so.3.0
+doc/examples/motion_planning_api/motion_planning_api_tutorial: /usr/lib/x86_64-linux-gnu/libtinyxml.so
 doc/examples/motion_planning_api/motion_planning_api_tutorial: /opt/ros/humble/lib/libtf2_ros.so
 doc/examples/motion_planning_api/motion_planning_api_tutorial: /opt/ros/humble/lib/librclcpp_action.so
 doc/examples/motion_planning_api/motion_planning_api_tutorial: /opt/ros/humble/lib/librcl_action.so

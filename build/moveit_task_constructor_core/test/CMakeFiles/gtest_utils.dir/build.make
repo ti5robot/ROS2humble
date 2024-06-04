@@ -198,11 +198,6 @@ test/libgtest_utils.so: /home/ti5/ws_moveit2/install/srdfdom/lib/libsrdfdom.so.2
 test/libgtest_utils.so: /opt/ros/humble/lib/liburdf.so
 test/libgtest_utils.so: /opt/ros/humble/lib/x86_64-linux-gnu/libruckig.so
 test/libgtest_utils.so: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_transforms.so.2.5.5
-test/libgtest_utils.so: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_sensor.so.3.0
-test/libgtest_utils.so: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model_state.so.3.0
-test/libgtest_utils.so: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model.so.3.0
-test/libgtest_utils.so: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_world.so.3.0
-test/libgtest_utils.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
 test/libgtest_utils.so: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_utils.so.2.5.5
 test/libgtest_utils.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.74.0
 test/libgtest_utils.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.74.0
@@ -341,7 +336,12 @@ test/libgtest_utils.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_c.so
 test/libgtest_utils.so: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so
 test/libgtest_utils.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so
 test/libgtest_utils.so: /opt/ros/humble/lib/libtf2.so
+test/libgtest_utils.so: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_sensor.so.3.0
+test/libgtest_utils.so: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model_state.so.3.0
+test/libgtest_utils.so: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model.so.3.0
+test/libgtest_utils.so: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_world.so.3.0
 test/libgtest_utils.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
+test/libgtest_utils.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
 test/libgtest_utils.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so
 test/libgtest_utils.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 test/libgtest_utils.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so

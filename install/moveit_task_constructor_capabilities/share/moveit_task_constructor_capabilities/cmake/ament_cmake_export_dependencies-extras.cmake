@@ -1,6 +1,6 @@
 # generated from ament_cmake_export_dependencies/cmake/ament_cmake_export_dependencies-extras.cmake.in
 
-set(_exported_dependencies "moveit_core;moveit_ros_move_group;moveit_task_constructor_msgs;pluginlib;rclcpp_action;std_msgs")
+set(_exported_dependencies "moveit_core;moveit_ros_move_group;moveit_ros_planning;moveit_task_constructor_core;moveit_task_constructor_msgs;pluginlib;rclcpp_action;std_msgs")
 
 find_package(ament_cmake_libraries QUIET REQUIRED)
 

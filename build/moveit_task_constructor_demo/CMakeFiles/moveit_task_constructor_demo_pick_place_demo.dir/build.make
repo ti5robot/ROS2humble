@@ -169,11 +169,6 @@ pick_place_demo: /home/ti5/ws_moveit2/install/srdfdom/lib/libsrdfdom.so.2.0.4
 pick_place_demo: /opt/ros/humble/lib/liburdf.so
 pick_place_demo: /opt/ros/humble/lib/x86_64-linux-gnu/libruckig.so
 pick_place_demo: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_transforms.so.2.5.5
-pick_place_demo: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_sensor.so.3.0
-pick_place_demo: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model_state.so.3.0
-pick_place_demo: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model.so.3.0
-pick_place_demo: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_world.so.3.0
-pick_place_demo: /usr/lib/x86_64-linux-gnu/libtinyxml.so
 pick_place_demo: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_utils.so.2.5.5
 pick_place_demo: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.74.0
 pick_place_demo: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.74.0
@@ -200,6 +195,11 @@ pick_place_demo: /usr/lib/x86_64-linux-gnu/liborocos-kdl.so
 pick_place_demo: /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so
 pick_place_demo: /usr/lib/x86_64-linux-gnu/libcrypto.so
 pick_place_demo: /home/ti5/ws_moveit2/install/rviz_marker_tools/lib/librviz_marker_tools.so
+pick_place_demo: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_sensor.so.3.0
+pick_place_demo: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model_state.so.3.0
+pick_place_demo: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model.so.3.0
+pick_place_demo: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_world.so.3.0
+pick_place_demo: /usr/lib/x86_64-linux-gnu/libtinyxml.so
 pick_place_demo: /home/ti5/ws_moveit2/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.so
 pick_place_demo: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so
 pick_place_demo: /opt/ros/humble/lib/libmoveit_msgs__rosidl_typesupport_fastrtps_c.so

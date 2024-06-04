@@ -1,0 +1,97 @@
+[0.155s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_simple_controller_manager': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ti5/ws_moveit2/moveit2/moveit_plugins/moveit_simple_controller_manager -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ti5/ws_moveit2/install/moveit_simple_controller_manager
+[0.601s] -- The C compiler identification is GNU 11.4.0
+[0.940s] -- The CXX compiler identification is GNU 11.4.0
+[0.984s] -- Detecting C compiler ABI info
+[1.369s] -- Detecting C compiler ABI info - done
+[1.436s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.438s] -- Detecting C compile features
+[1.441s] -- Detecting C compile features - done
+[1.461s] -- Detecting CXX compiler ABI info
+[1.923s] -- Detecting CXX compiler ABI info - done
+[1.975s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.976s] -- Detecting CXX compile features
+[1.978s] -- Detecting CXX compile features - done
+[1.985s] -- Found moveit_common: 2.5.5 (/home/ti5/ws_moveit2/install/moveit_common/share/moveit_common/cmake)
+[1.996s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.912s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.037s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[4.061s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[4.073s] -- BACKWARD_HAS_UNWIND=1
+[4.073s] -- BACKWARD_HAS_BACKTRACE=0
+[4.074s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[4.074s] -- BACKWARD_HAS_DW=1
+[4.075s] -- BACKWARD_HAS_BFD=0
+[4.076s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[4.076s] -- Found moveit_core: 2.5.5 (/home/ti5/ws_moveit2/install/moveit_core/share/moveit_core/cmake)
+[5.405s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[5.654s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[5.905s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.944s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.996s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.103s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.260s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.734s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.749s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.306s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.413s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.634s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.692s] -- Found Threads: TRUE  
+[9.072s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[9.089s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[9.476s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[10.257s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[12.537s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[19.667s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[22.176s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[22.298s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[22.640s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[22.641s] -- Configured cppcheck include dirs: /home/ti5/ws_moveit2/moveit2/moveit_plugins/moveit_simple_controller_manager/include
+[22.642s] -- Configured cppcheck exclude dirs and/or files: 
+[22.646s] -- Added test 'lint_cmake' to check CMake code style
+[22.662s] -- Added test 'xmllint' to check XML markup files
+[22.672s] -- Configuring done
+[23.207s] -- Generating done
+[23.247s] -- Build files have been written to: /home/ti5/ws_moveit2/build/moveit_simple_controller_manager
+[23.442s] Invoked command in '/home/ti5/ws_moveit2/build/moveit_simple_controller_manager' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ti5/ws_moveit2/moveit2/moveit_plugins/moveit_simple_controller_manager -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ti5/ws_moveit2/install/moveit_simple_controller_manager
+[23.467s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_simple_controller_manager': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/moveit_simple_controller_manager -- -j4 -l4
+[24.375s] [ 33%] [32mBuilding CXX object CMakeFiles/moveit_simple_controller_manager.dir/src/follow_joint_trajectory_controller_handle.cpp.o[0m
+[24.421s] [ 66%] [32mBuilding CXX object CMakeFiles/moveit_simple_controller_manager.dir/src/moveit_simple_controller_manager.cpp.o[0m
+[439.740s] [100%] [32m[1mLinking CXX shared library libmoveit_simple_controller_manager.so[0m
+[441.942s] [100%] Built target moveit_simple_controller_manager
+[442.251s] Invoked command in '/home/ti5/ws_moveit2/build/moveit_simple_controller_manager' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/moveit_simple_controller_manager -- -j4 -l4
+[442.689s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_simple_controller_manager': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ti5/ws_moveit2/build/moveit_simple_controller_manager
+[442.809s] -- Install configuration: "Release"
+[442.817s] -- Installing: /home/ti5/ws_moveit2/install/moveit_simple_controller_manager/lib/libmoveit_simple_controller_manager.so.2.5.5
+[442.834s] -- Set runtime path of "/home/ti5/ws_moveit2/install/moveit_simple_controller_manager/lib/libmoveit_simple_controller_manager.so.2.5.5" to ""
+[442.835s] -- Installing: /home/ti5/ws_moveit2/install/moveit_simple_controller_manager/lib/libmoveit_simple_controller_manager.so
+[442.836s] -- Installing: /home/ti5/ws_moveit2/install/moveit_simple_controller_manager/include
+[442.837s] -- Installing: /home/ti5/ws_moveit2/install/moveit_simple_controller_manager/include/moveit_simple_controller_manager
+[442.838s] -- Installing: /home/ti5/ws_moveit2/install/moveit_simple_controller_manager/include/moveit_simple_controller_manager/action_based_controller_handle.h
+[442.841s] -- Installing: /home/ti5/ws_moveit2/install/moveit_simple_controller_manager/include/moveit_simple_controller_manager/gripper_controller_handle.h
+[442.844s] -- Installing: /home/ti5/ws_moveit2/install/moveit_simple_controller_manager/include/moveit_simple_controller_manager/follow_joint_trajectory_controller_handle.h
+[442.848s] -- Installing: /home/ti5/ws_moveit2/install/moveit_simple_controller_manager/include/moveit_simple_controller_manager/empty_controller_handle.h
+[442.863s] -- Installing: /home/ti5/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/environment/library_path.sh
+[442.867s] -- Installing: /home/ti5/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/environment/library_path.dsv
+[442.872s] -- Installing: /home/ti5/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/moveit_simple_controller_manager_plugin_description.xml
+[442.880s] -- Installing: /home/ti5/ws_moveit2/install/moveit_simple_controller_manager/share/ament_index/resource_index/package_run_dependencies/moveit_simple_controller_manager
+[442.888s] -- Installing: /home/ti5/ws_moveit2/install/moveit_simple_controller_manager/share/ament_index/resource_index/parent_prefix_path/moveit_simple_controller_manager
+[442.903s] -- Installing: /home/ti5/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/environment/ament_prefix_path.sh
+[442.904s] -- Installing: /home/ti5/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/environment/ament_prefix_path.dsv
+[442.907s] -- Installing: /home/ti5/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/environment/path.sh
+[442.915s] -- Installing: /home/ti5/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/environment/path.dsv
+[442.918s] -- Installing: /home/ti5/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/local_setup.bash
+[442.924s] -- Installing: /home/ti5/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/local_setup.sh
+[442.934s] -- Installing: /home/ti5/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/local_setup.zsh
+[442.940s] -- Installing: /home/ti5/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/local_setup.dsv
+[442.947s] -- Installing: /home/ti5/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/package.dsv
+[442.952s] -- Installing: /home/ti5/ws_moveit2/install/moveit_simple_controller_manager/share/ament_index/resource_index/packages/moveit_simple_controller_manager
+[442.960s] -- Installing: /home/ti5/ws_moveit2/install/moveit_simple_controller_manager/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_simple_controller_manager
+[442.967s] -- Installing: /home/ti5/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake/export_moveit_simple_controller_managerExport.cmake
+[442.973s] -- Installing: /home/ti5/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake/export_moveit_simple_controller_managerExport-release.cmake
+[442.978s] -- Installing: /home/ti5/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake/ConfigExtras.cmake
+[442.984s] -- Installing: /home/ti5/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake/ament_cmake_export_targets-extras.cmake
+[442.999s] -- Installing: /home/ti5/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[443.000s] -- Installing: /home/ti5/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake/moveit_simple_controller_managerConfig.cmake
+[443.004s] -- Installing: /home/ti5/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake/moveit_simple_controller_managerConfig-version.cmake
+[443.007s] -- Installing: /home/ti5/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/package.xml
+[443.024s] Invoked command in '/home/ti5/ws_moveit2/build/moveit_simple_controller_manager' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ti5/ws_moveit2/build/moveit_simple_controller_manager

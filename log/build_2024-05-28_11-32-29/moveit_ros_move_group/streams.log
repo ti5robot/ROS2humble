@@ -1,0 +1,129 @@
+[0.184s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_ros_move_group': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_description:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_description:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_kinematics/lib:/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ti5/ws_moveit2/moveit2/moveit_ros/move_group -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ti5/ws_moveit2/install/moveit_ros_move_group
+[0.731s] -- The C compiler identification is GNU 11.4.0
+[1.153s] -- The CXX compiler identification is GNU 11.4.0
+[1.194s] -- Detecting C compiler ABI info
+[1.598s] -- Detecting C compiler ABI info - done
+[1.647s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.652s] -- Detecting C compile features
+[1.667s] -- Detecting C compile features - done
+[1.691s] -- Detecting CXX compiler ABI info
+[2.144s] -- Detecting CXX compiler ABI info - done
+[2.241s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.244s] -- Detecting CXX compile features
+[2.249s] -- Detecting CXX compile features - done
+[2.273s] -- Found moveit_common: 2.5.5 (/home/ti5/ws_moveit2/install/moveit_common/share/moveit_common/cmake)
+[2.376s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.502s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.484s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[4.512s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[4.512s] -- BACKWARD_HAS_UNWIND=1
+[4.513s] -- BACKWARD_HAS_BACKTRACE=0
+[4.513s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[4.514s] -- BACKWARD_HAS_DW=1
+[4.514s] -- BACKWARD_HAS_BFD=0
+[4.516s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[4.525s] -- Found moveit_core: 2.5.5 (/home/ti5/ws_moveit2/install/moveit_core/share/moveit_core/cmake)
+[5.906s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[6.224s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[6.631s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.676s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.745s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.953s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.147s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.674s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.695s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.328s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.443s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.683s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.805s] -- Found Threads: TRUE  
+[10.382s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[10.404s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[10.835s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[11.736s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[14.201s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[21.857s] -- Found moveit_ros_planning: 2.5.5 (/home/ti5/ws_moveit2/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[21.886s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[24.448s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[24.667s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[25.014s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[25.208s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[25.218s] -- Configured cppcheck include dirs: /home/ti5/ws_moveit2/moveit2/moveit_ros/move_group/include
+[25.219s] -- Configured cppcheck exclude dirs and/or files: 
+[25.228s] -- Added test 'lint_cmake' to check CMake code style
+[25.234s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[25.258s] -- Added test 'xmllint' to check XML markup files
+[25.277s] -- Configuring done
+[26.282s] -- Generating done
+[26.300s] -- Build files have been written to: /home/ti5/ws_moveit2/build/moveit_ros_move_group
+[26.558s] Invoked command in '/home/ti5/ws_moveit2/build/moveit_ros_move_group' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_description:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_description:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_kinematics/lib:/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ti5/ws_moveit2/moveit2/moveit_ros/move_group -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ti5/ws_moveit2/install/moveit_ros_move_group
+[26.590s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_ros_move_group': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_description:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_description:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_kinematics/lib:/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/moveit_ros_move_group -- -j4 -l4
+[27.377s] [  5%] [32mBuilding CXX object CMakeFiles/moveit_move_group_capabilities_base.dir/src/move_group_context.cpp.o[0m
+[368.048s] [ 10%] [32mBuilding CXX object CMakeFiles/moveit_move_group_capabilities_base.dir/src/move_group_capability.cpp.o[0m
+[731.077s] [ 15%] [32m[1mLinking CXX shared library libmoveit_move_group_capabilities_base.so[0m
+[732.967s] [ 15%] Built target moveit_move_group_capabilities_base
+[733.096s] [ 21%] [32mBuilding CXX object CMakeFiles/list_move_group_capabilities.dir/src/list_capabilities.cpp.o[0m
+[1112.597s] [ 26%] [32m[1mLinking CXX executable list_move_group_capabilities[0m
+[1114.156s] [ 26%] Built target list_move_group_capabilities
+[1114.285s] [ 31%] [32mBuilding CXX object CMakeFiles/move_group.dir/src/move_group.cpp.o[0m
+[1522.156s] [ 36%] [32m[1mLinking CXX executable move_group[0m
+[1525.396s] [ 36%] Built target move_group
+[1525.577s] [ 42%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/move_action_capability.cpp.o[0m
+[1923.048s] [ 47%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/query_planners_service_capability.cpp.o[0m
+[2290.193s] [ 52%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/kinematics_service_capability.cpp.o[0m
+[2445.212s] [ 57%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/state_validation_service_capability.cpp.o[0m
+[2540.621s] [ 63%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/cartesian_path_service_capability.cpp.o[0m
+[2658.265s] [ 68%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/get_planning_scene_service_capability.cpp.o[0m
+[2659.180s] [ 73%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/execute_trajectory_action_capability.cpp.o[0m
+[2661.292s] [ 78%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/plan_service_capability.cpp.o[0m
+[3065.022s] [ 84%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/tf_publisher_capability.cpp.o[0m
+[3146.862s] [ 89%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/clear_octomap_service_capability.cpp.o[0m
+[3409.220s] [ 94%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/apply_planning_scene_service_capability.cpp.o[0m
+[3470.774s] [100%] [32m[1mLinking CXX shared library libmoveit_move_group_default_capabilities.so[0m
+[3473.542s] [100%] Built target moveit_move_group_default_capabilities
+[3473.705s] Invoked command in '/home/ti5/ws_moveit2/build/moveit_ros_move_group' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_description:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_description:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_kinematics/lib:/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/moveit_ros_move_group -- -j4 -l4
+[3474.043s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_ros_move_group': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_description:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_description:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_kinematics/lib:/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ti5/ws_moveit2/build/moveit_ros_move_group
+[3474.077s] -- Install configuration: "Release"
+[3474.080s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/lib/moveit_ros_move_group/move_group
+[3474.087s] -- Set runtime path of "/home/ti5/ws_moveit2/install/moveit_ros_move_group/lib/moveit_ros_move_group/move_group" to ""
+[3474.087s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/lib/moveit_ros_move_group/list_move_group_capabilities
+[3474.092s] -- Set runtime path of "/home/ti5/ws_moveit2/install/moveit_ros_move_group/lib/moveit_ros_move_group/list_move_group_capabilities" to ""
+[3474.093s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/lib/libmoveit_move_group_default_capabilities.so.2.5.5
+[3474.108s] -- Set runtime path of "/home/ti5/ws_moveit2/install/moveit_ros_move_group/lib/libmoveit_move_group_default_capabilities.so.2.5.5" to ""
+[3474.109s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/lib/libmoveit_move_group_default_capabilities.so
+[3474.109s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/lib/libmoveit_move_group_capabilities_base.so.2.5.5
+[3474.112s] -- Set runtime path of "/home/ti5/ws_moveit2/install/moveit_ros_move_group/lib/libmoveit_move_group_capabilities_base.so.2.5.5" to ""
+[3474.113s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/lib/libmoveit_move_group_capabilities_base.so
+[3474.115s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/include
+[3474.116s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/include/moveit
+[3474.116s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/include/moveit/move_group
+[3474.117s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/include/moveit/move_group/node_name.h
+[3474.118s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/include/moveit/move_group/move_group_capability.h
+[3474.119s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/include/moveit/move_group/move_group_context.h
+[3474.119s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/include/moveit/move_group/capability_names.h
+[3474.122s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/environment/library_path.sh
+[3474.124s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/environment/library_path.dsv
+[3474.125s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/lib/moveit_ros_move_group/load_map
+[3474.126s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/lib/moveit_ros_move_group/save_map
+[3474.127s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/default_capabilities_plugin_description.xml
+[3474.129s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/share/ament_index/resource_index/package_run_dependencies/moveit_ros_move_group
+[3474.131s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/share/ament_index/resource_index/parent_prefix_path/moveit_ros_move_group
+[3474.134s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/environment/ament_prefix_path.sh
+[3474.135s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/environment/ament_prefix_path.dsv
+[3474.137s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/environment/path.sh
+[3474.138s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/environment/path.dsv
+[3474.139s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/local_setup.bash
+[3474.140s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/local_setup.sh
+[3474.142s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/local_setup.zsh
+[3474.143s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/local_setup.dsv
+[3474.144s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/package.dsv
+[3474.145s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/share/ament_index/resource_index/packages/moveit_ros_move_group
+[3474.147s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/share/ament_index/resource_index/moveit_ros_move_group__pluginlib__plugin/moveit_ros_move_group
+[3474.149s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/export_moveit_ros_move_groupExport.cmake
+[3474.150s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/export_moveit_ros_move_groupExport-release.cmake
+[3474.152s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/ConfigExtras.cmake
+[3474.153s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/ament_cmake_export_targets-extras.cmake
+[3474.154s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/ament_cmake_export_dependencies-extras.cmake
+[3474.156s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/moveit_ros_move_groupConfig.cmake
+[3474.157s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/moveit_ros_move_groupConfig-version.cmake
+[3474.158s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/package.xml
+[3474.172s] Invoked command in '/home/ti5/ws_moveit2/build/moveit_ros_move_group' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_description:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_description:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_kinematics/lib:/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ti5/ws_moveit2/build/moveit_ros_move_group

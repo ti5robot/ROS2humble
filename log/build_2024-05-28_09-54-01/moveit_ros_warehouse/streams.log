@@ -1,0 +1,101 @@
+[0.164s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_ros_warehouse': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ti5/ws_moveit2/moveit2/moveit_ros/warehouse -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ti5/ws_moveit2/install/moveit_ros_warehouse
+[0.270s] -- Found moveit_common: 2.5.5 (/home/ti5/ws_moveit2/install/moveit_common/share/moveit_common/cmake)
+[0.271s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.542s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[1.543s] -- BACKWARD_HAS_UNWIND=1
+[1.544s] -- BACKWARD_HAS_BACKTRACE=0
+[1.545s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[1.546s] -- BACKWARD_HAS_DW=1
+[1.547s] -- BACKWARD_HAS_BFD=0
+[1.552s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[1.557s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.722s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.741s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.786s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.876s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.017s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.445s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.454s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.127s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.479s] -- Found moveit_core: 2.5.5 (/home/ti5/ws_moveit2/install/moveit_core/share/moveit_core/cmake)
+[4.574s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[4.705s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[4.789s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[5.069s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[5.538s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[7.626s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[15.664s] -- Found warehouse_ros: 2.0.4 (/opt/ros/humble/share/warehouse_ros/cmake)
+[16.052s] -- Found moveit_ros_planning: 2.5.5 (/home/ti5/ws_moveit2/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[16.101s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[18.837s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[19.090s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[19.137s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[19.146s] -- Configured cppcheck include dirs: /home/ti5/ws_moveit2/moveit2/moveit_ros/warehouse/include
+[19.147s] -- Configured cppcheck exclude dirs and/or files: 
+[19.147s] -- Added test 'lint_cmake' to check CMake code style
+[19.151s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[19.154s] -- Added test 'xmllint' to check XML markup files
+[19.164s] -- Configuring done
+[20.216s] -- Generating done
+[20.250s] -- Build files have been written to: /home/ti5/ws_moveit2/build/moveit_ros_warehouse
+[20.392s] Invoked command in '/home/ti5/ws_moveit2/build/moveit_ros_warehouse' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ti5/ws_moveit2/moveit2/moveit_ros/warehouse -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ti5/ws_moveit2/install/moveit_ros_warehouse
+[20.397s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_ros_warehouse': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/moveit_ros_warehouse -- -j4 -l4
+[21.043s] [35m[1mConsolidate compiler generated dependencies of target moveit_warehouse[0m
+[21.438s] [ 40%] Built target moveit_warehouse
+[21.520s] [35m[1mConsolidate compiler generated dependencies of target moveit_warehouse_broadcast[0m
+[21.835s] [ 50%] Built target moveit_warehouse_broadcast
+[21.942s] [35m[1mConsolidate compiler generated dependencies of target moveit_warehouse_save_as_text[0m
+[22.234s] [ 60%] Built target moveit_warehouse_save_as_text
+[22.323s] [35m[1mConsolidate compiler generated dependencies of target moveit_init_demo_warehouse[0m
+[22.551s] [ 70%] Built target moveit_init_demo_warehouse
+[22.619s] [35m[1mConsolidate compiler generated dependencies of target moveit_warehouse_services[0m
+[22.750s] [ 80%] Built target moveit_warehouse_services
+[22.819s] [35m[1mConsolidate compiler generated dependencies of target moveit_warehouse_import_from_text[0m
+[23.026s] [ 90%] Built target moveit_warehouse_import_from_text
+[23.092s] [35m[1mConsolidate compiler generated dependencies of target moveit_save_to_warehouse[0m
+[23.280s] [100%] Built target moveit_save_to_warehouse
+[23.333s] Invoked command in '/home/ti5/ws_moveit2/build/moveit_ros_warehouse' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/moveit_ros_warehouse -- -j4 -l4
+[23.638s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_ros_warehouse': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ti5/ws_moveit2/build/moveit_ros_warehouse
+[23.678s] -- Install configuration: "Release"
+[23.681s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_save_to_warehouse
+[23.687s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_broadcast
+[23.693s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_import_from_text
+[23.696s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_save_as_text
+[23.699s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_init_demo_warehouse
+[23.702s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_services
+[23.703s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/include
+[23.704s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/include/moveit
+[23.705s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/include/moveit/warehouse
+[23.706s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/include/moveit/warehouse/state_storage.h
+[23.706s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/include/moveit/warehouse/planning_scene_world_storage.h
+[23.707s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/include/moveit/warehouse/warehouse_connector.h
+[23.707s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/include/moveit/warehouse/planning_scene_storage.h
+[23.708s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/include/moveit/warehouse/moveit_message_storage.h
+[23.708s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/include/moveit/warehouse/trajectory_constraints_storage.h
+[23.709s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/include/moveit/warehouse/constraints_storage.h
+[23.709s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/include/moveit_warehouse_export.h
+[23.710s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so.2.5.5
+[23.710s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so
+[23.712s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/library_path.sh
+[23.712s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/library_path.dsv
+[23.714s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/share/ament_index/resource_index/package_run_dependencies/moveit_ros_warehouse
+[23.714s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/share/ament_index/resource_index/parent_prefix_path/moveit_ros_warehouse
+[23.715s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/ament_prefix_path.sh
+[23.716s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/ament_prefix_path.dsv
+[23.724s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/path.sh
+[23.725s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/path.dsv
+[23.725s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.bash
+[23.726s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.sh
+[23.726s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.zsh
+[23.727s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.dsv
+[23.727s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/package.dsv
+[23.727s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/share/ament_index/resource_index/packages/moveit_ros_warehouse
+[23.728s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/export_moveit_ros_warehouseExport.cmake
+[23.738s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/export_moveit_ros_warehouseExport-release.cmake
+[23.739s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ConfigExtras.cmake
+[23.739s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ament_cmake_export_targets-extras.cmake
+[23.740s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.740s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig.cmake
+[23.741s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig-version.cmake
+[23.741s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/package.xml
+[23.742s] Invoked command in '/home/ti5/ws_moveit2/build/moveit_ros_warehouse' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ti5/ws_moveit2/build/moveit_ros_warehouse

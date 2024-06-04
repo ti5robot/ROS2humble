@@ -1,0 +1,80 @@
+[0.092s] Invoking command in '/home/ti5/ws_moveit2/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ti5/ws_moveit2/install/moveit_configs_utils:/home/ti5/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/ti5/ws_moveit2/rosparam_shortcuts -DCMAKE_INSTALL_PREFIX=/home/ti5/ws_moveit2/install/rosparam_shortcuts
+[0.170s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.032s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.040s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.181s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.197s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.233s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.319s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.434s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.230s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[2.530s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.551s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.207s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.313s] -- Found tf2_eigen: 0.25.6 (/opt/ros/humble/share/tf2_eigen/cmake)
+[6.736s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.751s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[6.770s] -- Found ros_testing: 0.4.0 (/opt/ros/humble/share/ros_testing/cmake)
+[6.785s] -- Found launch_testing_ament_cmake: 1.0.5 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[6.790s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[7.054s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.055s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[7.056s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[7.411s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[7.498s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.517s] -- Added test 'lint_cmake' to check CMake code style
+[7.521s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.527s] -- Added test 'xmllint' to check XML markup files
+[7.534s] -- Configuring done
+[7.716s] -- Generating done
+[7.731s] -- Build files have been written to: /home/ti5/ws_moveit2/build/rosparam_shortcuts
+[7.773s] Invoked command in '/home/ti5/ws_moveit2/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ti5/ws_moveit2/install/moveit_configs_utils:/home/ti5/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/ti5/ws_moveit2/rosparam_shortcuts -DCMAKE_INSTALL_PREFIX=/home/ti5/ws_moveit2/install/rosparam_shortcuts
+[7.779s] Invoking command in '/home/ti5/ws_moveit2/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ti5/ws_moveit2/install/moveit_configs_utils:/home/ti5/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/ti5/ws_moveit2/build/rosparam_shortcuts -- -j4 -l4
+[8.092s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[8.116s] [35m[1mConsolidate compiler generated dependencies of target rosparam_shortcuts[0m
+[8.152s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[8.275s] [ 15%] Built target gtest_main
+[8.306s] [ 30%] Built target gtest
+[8.350s] [ 53%] Built target rosparam_shortcuts
+[8.440s] [35m[1mConsolidate compiler generated dependencies of target rosparam_shortcuts_node_parameters_example[0m
+[8.491s] [35m[1mConsolidate compiler generated dependencies of target rosparam_shortcuts_example[0m
+[8.510s] [35m[1mConsolidate compiler generated dependencies of target test_node_parameters[0m
+[8.671s] [ 69%] Built target rosparam_shortcuts_node_parameters_example
+[8.709s] [ 84%] Built target rosparam_shortcuts_example
+[8.716s] [100%] Built target test_node_parameters
+[8.772s] Invoked command in '/home/ti5/ws_moveit2/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ti5/ws_moveit2/install/moveit_configs_utils:/home/ti5/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/ti5/ws_moveit2/build/rosparam_shortcuts -- -j4 -l4
+[9.181s] Invoking command in '/home/ti5/ws_moveit2/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ti5/ws_moveit2/install/moveit_configs_utils:/home/ti5/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/ti5/ws_moveit2/build/rosparam_shortcuts
+[9.262s] -- Install configuration: "Release"
+[9.279s] -- Up-to-date: /home/ti5/ws_moveit2/install/rosparam_shortcuts/lib/librosparam_shortcuts.so
+[9.285s] -- Up-to-date: /home/ti5/ws_moveit2/install/rosparam_shortcuts/lib/rosparam_shortcuts/example
+[9.291s] -- Up-to-date: /home/ti5/ws_moveit2/install/rosparam_shortcuts/lib/rosparam_shortcuts/node_parameters_example
+[9.291s] -- Up-to-date: /home/ti5/ws_moveit2/install/rosparam_shortcuts/include
+[9.292s] -- Up-to-date: /home/ti5/ws_moveit2/install/rosparam_shortcuts/include/rosparam_shortcuts
+[9.295s] -- Up-to-date: /home/ti5/ws_moveit2/install/rosparam_shortcuts/include/rosparam_shortcuts/node_parameters.h
+[9.296s] -- Up-to-date: /home/ti5/ws_moveit2/install/rosparam_shortcuts/include/rosparam_shortcuts/rosparam_shortcuts.h
+[9.297s] -- Up-to-date: /home/ti5/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/launch
+[9.300s] -- Up-to-date: /home/ti5/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/launch/example.launch.py
+[9.301s] -- Up-to-date: /home/ti5/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/config
+[9.302s] -- Up-to-date: /home/ti5/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/config/example.yaml
+[9.303s] -- Up-to-date: /home/ti5/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/library_path.sh
+[9.303s] -- Installing: /home/ti5/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/library_path.dsv
+[9.304s] -- Up-to-date: /home/ti5/ws_moveit2/install/rosparam_shortcuts/share/ament_index/resource_index/package_run_dependencies/rosparam_shortcuts
+[9.305s] -- Up-to-date: /home/ti5/ws_moveit2/install/rosparam_shortcuts/share/ament_index/resource_index/parent_prefix_path/rosparam_shortcuts
+[9.305s] -- Up-to-date: /home/ti5/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/ament_prefix_path.sh
+[9.306s] -- Installing: /home/ti5/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/ament_prefix_path.dsv
+[9.307s] -- Up-to-date: /home/ti5/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/path.sh
+[9.307s] -- Installing: /home/ti5/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/path.dsv
+[9.308s] -- Up-to-date: /home/ti5/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.bash
+[9.308s] -- Up-to-date: /home/ti5/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.sh
+[9.309s] -- Up-to-date: /home/ti5/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.zsh
+[9.318s] -- Installing: /home/ti5/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.dsv
+[9.318s] -- Installing: /home/ti5/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/package.dsv
+[9.319s] -- Up-to-date: /home/ti5/ws_moveit2/install/rosparam_shortcuts/share/ament_index/resource_index/packages/rosparam_shortcuts
+[9.319s] -- Up-to-date: /home/ti5/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/export_rosparam_shortcutsExport.cmake
+[9.320s] -- Up-to-date: /home/ti5/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/export_rosparam_shortcutsExport-release.cmake
+[9.320s] -- Up-to-date: /home/ti5/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/ament_cmake_export_targets-extras.cmake
+[9.321s] -- Up-to-date: /home/ti5/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.322s] -- Up-to-date: /home/ti5/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/rosparam_shortcutsConfig.cmake
+[9.322s] -- Up-to-date: /home/ti5/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/rosparam_shortcutsConfig-version.cmake
+[9.323s] -- Up-to-date: /home/ti5/ws_moveit2/install/rosparam_shortcuts/share/rosparam_shortcuts/package.xml
+[9.335s] Invoked command in '/home/ti5/ws_moveit2/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ti5/ws_moveit2/install/moveit_configs_utils:/home/ti5/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/ti5/ws_moveit2/build/rosparam_shortcuts

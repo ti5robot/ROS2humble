@@ -157,11 +157,6 @@ libmoveit_task_constructor_demo_pick_place_task.so: /home/ti5/ws_moveit2/install
 libmoveit_task_constructor_demo_pick_place_task.so: /opt/ros/humble/lib/liburdf.so
 libmoveit_task_constructor_demo_pick_place_task.so: /opt/ros/humble/lib/x86_64-linux-gnu/libruckig.so
 libmoveit_task_constructor_demo_pick_place_task.so: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_transforms.so.2.5.5
-libmoveit_task_constructor_demo_pick_place_task.so: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_sensor.so.3.0
-libmoveit_task_constructor_demo_pick_place_task.so: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model_state.so.3.0
-libmoveit_task_constructor_demo_pick_place_task.so: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model.so.3.0
-libmoveit_task_constructor_demo_pick_place_task.so: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_world.so.3.0
-libmoveit_task_constructor_demo_pick_place_task.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
 libmoveit_task_constructor_demo_pick_place_task.so: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_utils.so.2.5.5
 libmoveit_task_constructor_demo_pick_place_task.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.74.0
 libmoveit_task_constructor_demo_pick_place_task.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.74.0
@@ -188,6 +183,11 @@ libmoveit_task_constructor_demo_pick_place_task.so: /usr/lib/x86_64-linux-gnu/li
 libmoveit_task_constructor_demo_pick_place_task.so: /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so
 libmoveit_task_constructor_demo_pick_place_task.so: /usr/lib/x86_64-linux-gnu/libcrypto.so
 libmoveit_task_constructor_demo_pick_place_task.so: /home/ti5/ws_moveit2/install/rviz_marker_tools/lib/librviz_marker_tools.so
+libmoveit_task_constructor_demo_pick_place_task.so: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_sensor.so.3.0
+libmoveit_task_constructor_demo_pick_place_task.so: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model_state.so.3.0
+libmoveit_task_constructor_demo_pick_place_task.so: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model.so.3.0
+libmoveit_task_constructor_demo_pick_place_task.so: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_world.so.3.0
+libmoveit_task_constructor_demo_pick_place_task.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
 libmoveit_task_constructor_demo_pick_place_task.so: /home/ti5/ws_moveit2/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.so
 libmoveit_task_constructor_demo_pick_place_task.so: /opt/ros/humble/lib/libmoveit_msgs__rosidl_typesupport_fastrtps_c.so
 libmoveit_task_constructor_demo_pick_place_task.so: /opt/ros/humble/lib/liboctomap_msgs__rosidl_typesupport_fastrtps_c.so

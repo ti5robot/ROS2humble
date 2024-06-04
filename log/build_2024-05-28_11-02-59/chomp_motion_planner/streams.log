@@ -1,0 +1,72 @@
+[0.103s] Invoking command in '/home/ti5/ws_moveit2/build/chomp_motion_planner': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ti5/ws_moveit2/moveit2/moveit_planners/chomp/chomp_motion_planner -DCMAKE_INSTALL_PREFIX=/home/ti5/ws_moveit2/install/chomp_motion_planner
+[0.182s] -- Found moveit_common: 2.5.5 (/home/ti5/ws_moveit2/install/moveit_common/share/moveit_common/cmake)
+[0.184s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.499s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[1.500s] -- BACKWARD_HAS_UNWIND=1
+[1.501s] -- BACKWARD_HAS_BACKTRACE=0
+[1.501s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[1.502s] -- BACKWARD_HAS_DW=1
+[1.502s] -- BACKWARD_HAS_BFD=0
+[1.504s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[1.516s] -- Found moveit_core: 2.5.5 (/home/ti5/ws_moveit2/install/moveit_core/share/moveit_core/cmake)
+[1.584s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.711s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.854s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.870s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.908s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.982s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.091s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.485s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.496s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.103s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.402s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[4.695s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[5.187s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[7.254s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[14.130s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.175s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.177s] -- Configured cppcheck include dirs: /home/ti5/ws_moveit2/moveit2/moveit_planners/chomp/chomp_motion_planner/include
+[14.177s] -- Configured cppcheck exclude dirs and/or files: 
+[14.180s] -- Added test 'xmllint' to check XML markup files
+[14.187s] -- Configuring done
+[14.363s] -- Generating done
+[14.376s] -- Build files have been written to: /home/ti5/ws_moveit2/build/chomp_motion_planner
+[14.432s] Invoked command in '/home/ti5/ws_moveit2/build/chomp_motion_planner' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ti5/ws_moveit2/moveit2/moveit_planners/chomp/chomp_motion_planner -DCMAKE_INSTALL_PREFIX=/home/ti5/ws_moveit2/install/chomp_motion_planner
+[14.434s] Invoking command in '/home/ti5/ws_moveit2/build/chomp_motion_planner': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/chomp_motion_planner -- -j4 -l4
+[14.754s] [35m[1mConsolidate compiler generated dependencies of target chomp_motion_planner[0m
+[15.058s] [100%] Built target chomp_motion_planner
+[15.142s] Invoked command in '/home/ti5/ws_moveit2/build/chomp_motion_planner' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/chomp_motion_planner -- -j4 -l4
+[15.360s] Invoking command in '/home/ti5/ws_moveit2/build/chomp_motion_planner': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ti5/ws_moveit2/build/chomp_motion_planner
+[15.410s] -- Install configuration: "Release"
+[15.412s] -- Up-to-date: /home/ti5/ws_moveit2/install/chomp_motion_planner/lib/libchomp_motion_planner.so.2.5.5
+[15.413s] -- Up-to-date: /home/ti5/ws_moveit2/install/chomp_motion_planner/lib/libchomp_motion_planner.so
+[15.414s] -- Up-to-date: /home/ti5/ws_moveit2/install/chomp_motion_planner/include
+[15.415s] -- Up-to-date: /home/ti5/ws_moveit2/install/chomp_motion_planner/include/chomp_motion_planner
+[15.416s] -- Up-to-date: /home/ti5/ws_moveit2/install/chomp_motion_planner/include/chomp_motion_planner/chomp_cost.h
+[15.417s] -- Up-to-date: /home/ti5/ws_moveit2/install/chomp_motion_planner/include/chomp_motion_planner/multivariate_gaussian.h
+[15.418s] -- Up-to-date: /home/ti5/ws_moveit2/install/chomp_motion_planner/include/chomp_motion_planner/chomp_optimizer.h
+[15.418s] -- Up-to-date: /home/ti5/ws_moveit2/install/chomp_motion_planner/include/chomp_motion_planner/chomp_planner.h
+[15.419s] -- Up-to-date: /home/ti5/ws_moveit2/install/chomp_motion_planner/include/chomp_motion_planner/chomp_trajectory.h
+[15.420s] -- Up-to-date: /home/ti5/ws_moveit2/install/chomp_motion_planner/include/chomp_motion_planner/chomp_parameters.h
+[15.421s] -- Up-to-date: /home/ti5/ws_moveit2/install/chomp_motion_planner/include/chomp_motion_planner/chomp_utils.h
+[15.423s] -- Up-to-date: /home/ti5/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/environment/library_path.sh
+[15.425s] -- Installing: /home/ti5/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/environment/library_path.dsv
+[15.427s] -- Up-to-date: /home/ti5/ws_moveit2/install/chomp_motion_planner/share/ament_index/resource_index/package_run_dependencies/chomp_motion_planner
+[15.428s] -- Up-to-date: /home/ti5/ws_moveit2/install/chomp_motion_planner/share/ament_index/resource_index/parent_prefix_path/chomp_motion_planner
+[15.430s] -- Up-to-date: /home/ti5/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/environment/ament_prefix_path.sh
+[15.431s] -- Installing: /home/ti5/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/environment/ament_prefix_path.dsv
+[15.432s] -- Up-to-date: /home/ti5/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/environment/path.sh
+[15.432s] -- Installing: /home/ti5/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/environment/path.dsv
+[15.433s] -- Up-to-date: /home/ti5/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.bash
+[15.433s] -- Up-to-date: /home/ti5/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.sh
+[15.434s] -- Up-to-date: /home/ti5/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.zsh
+[15.434s] -- Installing: /home/ti5/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.dsv
+[15.438s] -- Installing: /home/ti5/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/package.dsv
+[15.444s] -- Up-to-date: /home/ti5/ws_moveit2/install/chomp_motion_planner/share/ament_index/resource_index/packages/chomp_motion_planner
+[15.445s] -- Up-to-date: /home/ti5/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerTargetsExport.cmake
+[15.456s] -- Up-to-date: /home/ti5/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerTargetsExport-release.cmake
+[15.457s] -- Up-to-date: /home/ti5/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/cmake/ament_cmake_export_targets-extras.cmake
+[15.457s] -- Up-to-date: /home/ti5/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerConfig.cmake
+[15.458s] -- Up-to-date: /home/ti5/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerConfig-version.cmake
+[15.458s] -- Up-to-date: /home/ti5/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/package.xml
+[15.473s] Invoked command in '/home/ti5/ws_moveit2/build/chomp_motion_planner' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ti5/ws_moveit2/build/chomp_motion_planner

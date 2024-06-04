@@ -1,0 +1,47 @@
+[0.056s] Invoking command in '/home/ti5/ws_moveit2/build/demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ti5/ws_moveit2/src/demo -DCMAKE_INSTALL_PREFIX=/home/ti5/ws_moveit2/install/demo
+[0.128s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.765s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.924s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.950s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.979s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.055s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.161s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.543s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.551s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.101s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.085s] -- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+[7.888s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.393s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.393s] -- Configured cppcheck include dirs: 
+[8.394s] -- Configured cppcheck exclude dirs and/or files: 
+[8.396s] -- Added test 'lint_cmake' to check CMake code style
+[8.403s] -- Added test 'uncrustify' to check C / C++ code style
+[8.403s] -- Configured uncrustify additional arguments: 
+[8.405s] -- Added test 'xmllint' to check XML markup files
+[8.416s] -- Configuring done
+[8.498s] -- Generating done
+[8.508s] -- Build files have been written to: /home/ti5/ws_moveit2/build/demo
+[8.543s] Invoked command in '/home/ti5/ws_moveit2/build/demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ti5/ws_moveit2/src/demo -DCMAKE_INSTALL_PREFIX=/home/ti5/ws_moveit2/install/demo
+[8.546s] Invoking command in '/home/ti5/ws_moveit2/build/demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ti5/ws_moveit2/build/demo -- -j4 -l4
+[8.734s] [35m[1mConsolidate compiler generated dependencies of target demo[0m
+[8.842s] [100%] Built target demo
+[8.922s] Invoked command in '/home/ti5/ws_moveit2/build/demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ti5/ws_moveit2/build/demo -- -j4 -l4
+[9.067s] Invoking command in '/home/ti5/ws_moveit2/build/demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ti5/ws_moveit2/build/demo
+[9.114s] -- Install configuration: "Release"
+[9.115s] -- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/ament_index/resource_index/package_run_dependencies/demo
+[9.116s] -- Installing: /home/ti5/ws_moveit2/install/demo/share/ament_index/resource_index/parent_prefix_path/demo
+[9.118s] -- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/demo/environment/ament_prefix_path.sh
+[9.118s] -- Installing: /home/ti5/ws_moveit2/install/demo/share/demo/environment/ament_prefix_path.dsv
+[9.119s] -- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/demo/environment/path.sh
+[9.120s] -- Installing: /home/ti5/ws_moveit2/install/demo/share/demo/environment/path.dsv
+[9.121s] -- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/demo/local_setup.bash
+[9.121s] -- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/demo/local_setup.sh
+[9.122s] -- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/demo/local_setup.zsh
+[9.122s] -- Installing: /home/ti5/ws_moveit2/install/demo/share/demo/local_setup.dsv
+[9.123s] -- Installing: /home/ti5/ws_moveit2/install/demo/share/demo/package.dsv
+[9.124s] -- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/ament_index/resource_index/packages/demo
+[9.124s] -- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/demo/cmake/demoConfig.cmake
+[9.125s] -- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/demo/cmake/demoConfig-version.cmake
+[9.125s] -- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/demo/package.xml
+[9.128s] -- Up-to-date: /home/ti5/ws_moveit2/install/demo/lib/demo/demo
+[9.135s] Invoked command in '/home/ti5/ws_moveit2/build/demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ti5/ws_moveit2/build/demo

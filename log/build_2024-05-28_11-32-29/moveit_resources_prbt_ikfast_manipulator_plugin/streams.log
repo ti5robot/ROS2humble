@@ -1,0 +1,71 @@
+[0.155s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_resources_prbt_ikfast_manipulator_plugin': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ti5/ws_moveit2/moveit2/moveit_planners/test_configs/prbt_ikfast_manipulator_plugin -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin
+[0.564s] -- The C compiler identification is GNU 11.4.0
+[0.891s] -- The CXX compiler identification is GNU 11.4.0
+[0.927s] -- Detecting C compiler ABI info
+[1.307s] -- Detecting C compiler ABI info - done
+[1.365s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.366s] -- Detecting C compile features
+[1.369s] -- Detecting C compile features - done
+[1.385s] -- Detecting CXX compiler ABI info
+[1.796s] -- Detecting CXX compiler ABI info - done
+[1.853s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.853s] -- Detecting CXX compile features
+[1.855s] -- Detecting CXX compile features - done
+[1.891s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.997s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.573s] -- Found moveit_core: 2.5.5 (/home/ti5/ws_moveit2/install/moveit_core/share/moveit_core/cmake)
+[4.619s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[4.955s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[5.258s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.309s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.392s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.524s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.761s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.495s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.512s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.077s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.187s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.445s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.510s] -- Found Threads: TRUE  
+[8.804s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[8.831s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[9.398s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[10.156s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[12.341s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[19.608s] -- Found tf2_eigen_kdl: 0.25.6 (/opt/ros/humble/share/tf2_eigen_kdl/cmake)
+[20.038s] -- Configuring done
+[20.246s] -- Generating done
+[20.269s] -- Build files have been written to: /home/ti5/ws_moveit2/build/moveit_resources_prbt_ikfast_manipulator_plugin
+[20.351s] Invoked command in '/home/ti5/ws_moveit2/build/moveit_resources_prbt_ikfast_manipulator_plugin' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ti5/ws_moveit2/moveit2/moveit_planners/test_configs/prbt_ikfast_manipulator_plugin -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin
+[20.371s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_resources_prbt_ikfast_manipulator_plugin': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/moveit_resources_prbt_ikfast_manipulator_plugin -- -j4 -l4
+[21.058s] [ 50%] [32mBuilding CXX object CMakeFiles/prbt_manipulator_moveit_ikfast_plugin.dir/src/prbt_manipulator_ikfast_moveit_plugin.cpp.o[0m
+[1038.901s] [100%] [32m[1mLinking CXX shared library libprbt_manipulator_moveit_ikfast_plugin.so[0m
+[1041.015s] [100%] Built target prbt_manipulator_moveit_ikfast_plugin
+[1041.279s] Invoked command in '/home/ti5/ws_moveit2/build/moveit_resources_prbt_ikfast_manipulator_plugin' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/moveit_resources_prbt_ikfast_manipulator_plugin -- -j4 -l4
+[1041.568s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_resources_prbt_ikfast_manipulator_plugin': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ti5/ws_moveit2/build/moveit_resources_prbt_ikfast_manipulator_plugin
+[1041.633s] -- Install configuration: "Release"
+[1041.646s] -- Installing: /home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/prbt_manipulator_moveit_ikfast_plugin_description.xml
+[1041.648s] -- Installing: /home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib/libprbt_manipulator_moveit_ikfast_plugin.so
+[1041.661s] -- Set runtime path of "/home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib/libprbt_manipulator_moveit_ikfast_plugin.so" to ""
+[1041.669s] -- Installing: /home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/environment/library_path.sh
+[1041.671s] -- Installing: /home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/environment/library_path.dsv
+[1041.677s] -- Installing: /home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/ament_index/resource_index/package_run_dependencies/moveit_resources_prbt_ikfast_manipulator_plugin
+[1041.681s] -- Installing: /home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/ament_index/resource_index/parent_prefix_path/moveit_resources_prbt_ikfast_manipulator_plugin
+[1041.702s] -- Installing: /home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/environment/ament_prefix_path.sh
+[1041.704s] -- Installing: /home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/environment/ament_prefix_path.dsv
+[1041.709s] -- Installing: /home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/environment/path.sh
+[1041.715s] -- Installing: /home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/environment/path.dsv
+[1041.727s] -- Installing: /home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/local_setup.bash
+[1041.729s] -- Installing: /home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/local_setup.sh
+[1041.732s] -- Installing: /home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/local_setup.zsh
+[1041.735s] -- Installing: /home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/local_setup.dsv
+[1041.740s] -- Installing: /home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/package.dsv
+[1041.741s] -- Installing: /home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/ament_index/resource_index/packages/moveit_resources_prbt_ikfast_manipulator_plugin
+[1041.746s] -- Installing: /home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_resources_prbt_ikfast_manipulator_plugin
+[1041.754s] -- Installing: /home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/cmake/export_moveit_resources_prbt_ikfast_manipulator_pluginExport.cmake
+[1041.758s] -- Installing: /home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/cmake/export_moveit_resources_prbt_ikfast_manipulator_pluginExport-release.cmake
+[1041.766s] -- Installing: /home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/cmake/ament_cmake_export_targets-extras.cmake
+[1041.774s] -- Installing: /home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/cmake/moveit_resources_prbt_ikfast_manipulator_pluginConfig.cmake
+[1041.776s] -- Installing: /home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/cmake/moveit_resources_prbt_ikfast_manipulator_pluginConfig-version.cmake
+[1041.778s] -- Installing: /home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/package.xml
+[1041.800s] Invoked command in '/home/ti5/ws_moveit2/build/moveit_resources_prbt_ikfast_manipulator_plugin' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ti5/ws_moveit2/build/moveit_resources_prbt_ikfast_manipulator_plugin

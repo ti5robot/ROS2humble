@@ -168,11 +168,6 @@ alternative_path_costs: /home/ti5/ws_moveit2/install/srdfdom/lib/libsrdfdom.so.2
 alternative_path_costs: /opt/ros/humble/lib/liburdf.so
 alternative_path_costs: /opt/ros/humble/lib/x86_64-linux-gnu/libruckig.so
 alternative_path_costs: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_transforms.so.2.5.5
-alternative_path_costs: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_sensor.so.3.0
-alternative_path_costs: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model_state.so.3.0
-alternative_path_costs: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model.so.3.0
-alternative_path_costs: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_world.so.3.0
-alternative_path_costs: /usr/lib/x86_64-linux-gnu/libtinyxml.so
 alternative_path_costs: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_utils.so.2.5.5
 alternative_path_costs: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.74.0
 alternative_path_costs: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.74.0
@@ -199,6 +194,11 @@ alternative_path_costs: /usr/lib/x86_64-linux-gnu/liborocos-kdl.so
 alternative_path_costs: /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so
 alternative_path_costs: /usr/lib/x86_64-linux-gnu/libcrypto.so
 alternative_path_costs: /home/ti5/ws_moveit2/install/rviz_marker_tools/lib/librviz_marker_tools.so
+alternative_path_costs: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_sensor.so.3.0
+alternative_path_costs: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model_state.so.3.0
+alternative_path_costs: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model.so.3.0
+alternative_path_costs: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_world.so.3.0
+alternative_path_costs: /usr/lib/x86_64-linux-gnu/libtinyxml.so
 alternative_path_costs: /home/ti5/ws_moveit2/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.so
 alternative_path_costs: /opt/ros/humble/lib/libmoveit_msgs__rosidl_typesupport_fastrtps_c.so
 alternative_path_costs: /opt/ros/humble/lib/liboctomap_msgs__rosidl_typesupport_fastrtps_c.so

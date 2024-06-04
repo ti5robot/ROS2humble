@@ -428,11 +428,6 @@ src/stages/libmoveit_task_constructor_core_stages.so: /home/ti5/ws_moveit2/insta
 src/stages/libmoveit_task_constructor_core_stages.so: /opt/ros/humble/lib/liburdf.so
 src/stages/libmoveit_task_constructor_core_stages.so: /opt/ros/humble/lib/x86_64-linux-gnu/libruckig.so
 src/stages/libmoveit_task_constructor_core_stages.so: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_transforms.so.2.5.5
-src/stages/libmoveit_task_constructor_core_stages.so: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_sensor.so.3.0
-src/stages/libmoveit_task_constructor_core_stages.so: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model_state.so.3.0
-src/stages/libmoveit_task_constructor_core_stages.so: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model.so.3.0
-src/stages/libmoveit_task_constructor_core_stages.so: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_world.so.3.0
-src/stages/libmoveit_task_constructor_core_stages.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
 src/stages/libmoveit_task_constructor_core_stages.so: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_utils.so.2.5.5
 src/stages/libmoveit_task_constructor_core_stages.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.74.0
 src/stages/libmoveit_task_constructor_core_stages.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.74.0
@@ -565,7 +560,6 @@ src/stages/libmoveit_task_constructor_core_stages.so: /opt/ros/humble/lib/libtf2
 src/stages/libmoveit_task_constructor_core_stages.so: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so
 src/stages/libmoveit_task_constructor_core_stages.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so
 src/stages/libmoveit_task_constructor_core_stages.so: /opt/ros/humble/lib/libtf2.so
-src/stages/libmoveit_task_constructor_core_stages.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
 src/stages/libmoveit_task_constructor_core_stages.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so
 src/stages/libmoveit_task_constructor_core_stages.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 src/stages/libmoveit_task_constructor_core_stages.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
@@ -618,6 +612,12 @@ src/stages/libmoveit_task_constructor_core_stages.so: /opt/ros/humble/lib/libros
 src/stages/libmoveit_task_constructor_core_stages.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 src/stages/libmoveit_task_constructor_core_stages.so: /opt/ros/humble/lib/librcpputils.so
 src/stages/libmoveit_task_constructor_core_stages.so: /opt/ros/humble/lib/librcutils.so
+src/stages/libmoveit_task_constructor_core_stages.so: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_sensor.so.3.0
+src/stages/libmoveit_task_constructor_core_stages.so: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model_state.so.3.0
+src/stages/libmoveit_task_constructor_core_stages.so: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model.so.3.0
+src/stages/libmoveit_task_constructor_core_stages.so: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_world.so.3.0
+src/stages/libmoveit_task_constructor_core_stages.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
+src/stages/libmoveit_task_constructor_core_stages.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
 src/stages/libmoveit_task_constructor_core_stages.so: src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ti5/ws_moveit2/build/moveit_task_constructor_core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX shared library libmoveit_task_constructor_core_stages.so"
 	cd /home/ti5/ws_moveit2/build/moveit_task_constructor_core/src/stages && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/moveit_task_constructor_core_stages.dir/link.txt --verbose=$(VERBOSE)

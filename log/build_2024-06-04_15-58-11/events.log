@@ -1,0 +1,689 @@
+[0.000000] (-) TimerEvent: {}
+[0.000593] (-) JobUnselected: {'identifier': 'arm1'}
+[0.000736] (-) JobUnselected: {'identifier': 'arm2'}
+[0.000846] (-) JobUnselected: {'identifier': 'arm3'}
+[0.000952] (-) JobUnselected: {'identifier': 'arm5'}
+[0.001064] (-) JobUnselected: {'identifier': 'chomp_motion_planner'}
+[0.001173] (-) JobUnselected: {'identifier': 'launch_param_builder'}
+[0.001282] (-) JobUnselected: {'identifier': 'moveit'}
+[0.001606] (-) JobUnselected: {'identifier': 'moveit2_tutorials'}
+[0.001783] (-) JobUnselected: {'identifier': 'moveit_chomp_optimizer_adapter'}
+[0.001989] (-) JobUnselected: {'identifier': 'moveit_common'}
+[0.002159] (-) JobUnselected: {'identifier': 'moveit_configs_utils'}
+[0.002468] (-) JobUnselected: {'identifier': 'moveit_core'}
+[0.002709] (-) JobUnselected: {'identifier': 'moveit_hybrid_planning'}
+[0.002856] (-) JobUnselected: {'identifier': 'moveit_kinematics'}
+[0.002965] (-) JobUnselected: {'identifier': 'moveit_planners'}
+[0.003084] (-) JobUnselected: {'identifier': 'moveit_planners_chomp'}
+[0.003191] (-) JobUnselected: {'identifier': 'moveit_planners_ompl'}
+[0.003305] (-) JobUnselected: {'identifier': 'moveit_plugins'}
+[0.003412] (-) JobUnselected: {'identifier': 'moveit_resources'}
+[0.003557] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_description'}
+[0.003845] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_moveit_config'}
+[0.004142] (-) JobUnselected: {'identifier': 'moveit_resources_panda_description'}
+[0.004313] (-) JobUnselected: {'identifier': 'moveit_resources_panda_moveit_config'}
+[0.004481] (-) JobUnselected: {'identifier': 'moveit_resources_pr2_description'}
+[0.004622] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_ikfast_manipulator_plugin'}
+[0.004736] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_moveit_config'}
+[0.005045] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_pg70_support'}
+[0.005212] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_support'}
+[0.005396] (-) JobUnselected: {'identifier': 'moveit_ros'}
+[0.005542] (-) JobUnselected: {'identifier': 'moveit_ros_benchmarks'}
+[0.005680] (-) JobUnselected: {'identifier': 'moveit_ros_control_interface'}
+[0.005818] (-) JobUnselected: {'identifier': 'moveit_ros_move_group'}
+[0.006006] (-) JobUnselected: {'identifier': 'moveit_ros_occupancy_map_monitor'}
+[0.006329] (-) JobUnselected: {'identifier': 'moveit_ros_perception'}
+[0.006501] (-) JobUnselected: {'identifier': 'moveit_ros_planning'}
+[0.006624] (-) JobUnselected: {'identifier': 'moveit_ros_planning_interface'}
+[0.006767] (-) JobUnselected: {'identifier': 'moveit_ros_robot_interaction'}
+[0.006906] (-) JobUnselected: {'identifier': 'moveit_ros_visualization'}
+[0.007026] (-) JobUnselected: {'identifier': 'moveit_ros_warehouse'}
+[0.007134] (-) JobUnselected: {'identifier': 'moveit_runtime'}
+[0.007725] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.007919] (-) JobUnselected: {'identifier': 'moveit_setup_app_plugins'}
+[0.008211] (-) JobUnselected: {'identifier': 'moveit_setup_assistant'}
+[0.008383] (-) JobUnselected: {'identifier': 'moveit_setup_controllers'}
+[0.008500] (-) JobUnselected: {'identifier': 'moveit_setup_core_plugins'}
+[0.008640] (-) JobUnselected: {'identifier': 'moveit_setup_framework'}
+[0.008781] (-) JobUnselected: {'identifier': 'moveit_setup_srdf_plugins'}
+[0.008900] (-) JobUnselected: {'identifier': 'moveit_simple_controller_manager'}
+[0.009009] (-) JobUnselected: {'identifier': 'moveit_task_constructor_capabilities'}
+[0.009631] (-) JobUnselected: {'identifier': 'moveit_task_constructor_core'}
+[0.009747] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.009935] (-) JobUnselected: {'identifier': 'moveit_task_constructor_msgs'}
+[0.010378] (-) JobUnselected: {'identifier': 'moveit_task_constructor_visualization'}
+[0.010493] (-) JobUnselected: {'identifier': 'moveit_visual_tools'}
+[0.010610] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner'}
+[0.011139] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner_testutils'}
+[0.011579] (-) JobUnselected: {'identifier': 'rosparam_shortcuts'}
+[0.011745] (-) JobUnselected: {'identifier': 'rviz_marker_tools'}
+[0.011921] (-) JobUnselected: {'identifier': 'srdfdom'}
+[0.012646] (-) JobUnselected: {'identifier': 'ti5_urdf'}
+[0.012872] (demo) JobQueued: {'identifier': 'demo', 'dependencies': OrderedDict()}
+[0.013075] (demo) JobStarted: {'identifier': 'demo'}
+[0.087526] (demo) JobProgress: {'identifier': 'demo', 'progress': 'cmake'}
+[0.090186] (demo) JobProgress: {'identifier': 'demo', 'progress': 'build'}
+[0.093256] (demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ti5/ws_moveit2/build/demo', '--', '-j4', '-l4'], 'cwd': '/home/ti5/ws_moveit2/build/demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ti5'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/ti5/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/ti5/ws_moveit2/install/moveit_visual_tools/lib:/home/ti5/ws_moveit2/install/moveit_task_constructor_visualization/lib:/home/ti5/ws_moveit2/install/moveit_task_constructor_demo/lib:/home/ti5/ws_moveit2/install/moveit_task_constructor_capabilities/lib:/home/ti5/ws_moveit2/install/moveit_task_constructor_core/lib:/home/ti5/ws_moveit2/install/moveit_ros_control_interface/lib:/home/ti5/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/ti5/ws_moveit2/install/moveit_setup_assistant/lib:/home/ti5/ws_moveit2/install/moveit_setup_srdf_plugins/lib:/home/ti5/ws_moveit2/install/moveit_setup_core_plugins/lib:/home/ti5/ws_moveit2/install/moveit_setup_controllers/lib:/home/ti5/ws_moveit2/install/moveit_setup_app_plugins/lib:/home/ti5/ws_moveit2/install/moveit_setup_framework/lib:/home/ti5/ws_moveit2/install/moveit_servo/lib:/home/ti5/ws_moveit2/install/moveit_ros_visualization/lib:/home/ti5/ws_moveit2/install/moveit_hybrid_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/ti5/ws_moveit2/install/moveit_ros_benchmarks/lib:/home/ti5/ws_moveit2/install/moveit_ros_warehouse/lib:/home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/ti5/ws_moveit2/install/moveit_ros_perception/lib:/home/ti5/ws_moveit2/install/moveit_ros_move_group/lib:/home/ti5/ws_moveit2/install/moveit_planners_ompl/lib:/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/ti5/ws_moveit2/install/moveit_planners_chomp/lib:/home/ti5/ws_moveit2/install/moveit_kinematics/lib:/home/ti5/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib:/home/ti5/ws_moveit2/install/chomp_motion_planner/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:/home/ti5/ws_moveit2/install/rviz_marker_tools/lib:/home/ti5/ws_moveit2/install/rosparam_shortcuts/lib:/home/ti5/ws_moveit2/install/moveit_task_constructor_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ti5'), ('OLDPWD', '/home/ti5'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1456'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ti5/ws_moveit2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ti5'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ti5'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ti5/ws_moveit2/install/moveit_core/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ti5-SAZ1:@/tmp/.ICE-unix/1420,unix/ti5-SAZ1:/tmp/.ICE-unix/1420'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9c825503_88b0_4313_8c60_20fb8b99f80b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GDHKO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ti5/ws_moveit2/install/arm5:/home/ti5/ws_moveit2/install/arm3:/home/ti5/ws_moveit2/install/arm2:/home/ti5/ws_moveit2/install/arm1:/home/ti5/ws_moveit2/install/ti5_urdf:/home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/ti5/ws_moveit2/install/moveit_runtime:/home/ti5/ws_moveit2/install/moveit2_tutorials:/home/ti5/ws_moveit2/install/moveit:/home/ti5/ws_moveit2/install/moveit_planners:/home/ti5/ws_moveit2/install/pilz_industrial_motion_planner:/home/ti5/ws_moveit2/install/moveit_visual_tools:/home/ti5/ws_moveit2/install/moveit_task_constructor_visualization:/home/ti5/ws_moveit2/install/moveit_task_constructor_demo:/home/ti5/ws_moveit2/install/moveit_task_constructor_capabilities:/home/ti5/ws_moveit2/install/moveit_task_constructor_core:/home/ti5/ws_moveit2/install/moveit_ros_control_interface:/home/ti5/ws_moveit2/install/moveit_plugins:/home/ti5/ws_moveit2/install/moveit_simple_controller_manager:/home/ti5/ws_moveit2/install/moveit_setup_assistant:/home/ti5/ws_moveit2/install/moveit_setup_srdf_plugins:/home/ti5/ws_moveit2/install/moveit_setup_core_plugins:/home/ti5/ws_moveit2/install/moveit_setup_controllers:/home/ti5/ws_moveit2/install/moveit_setup_app_plugins:/home/ti5/ws_moveit2/install/moveit_setup_framework:/home/ti5/ws_moveit2/install/moveit_servo:/home/ti5/ws_moveit2/install/moveit_ros:/home/ti5/ws_moveit2/install/moveit_ros_visualization:/home/ti5/ws_moveit2/install/moveit_hybrid_planning:/home/ti5/ws_moveit2/install/moveit_ros_planning_interface:/home/ti5/ws_moveit2/install/moveit_ros_benchmarks:/home/ti5/ws_moveit2/install/moveit_ros_warehouse:/home/ti5/ws_moveit2/install/moveit_ros_robot_interaction:/home/ti5/ws_moveit2/install/moveit_ros_perception:/home/ti5/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/ti5/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/ti5/ws_moveit2/install/moveit_ros_move_group:/home/ti5/ws_moveit2/install/moveit_planners_ompl:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/ti5/ws_moveit2/install/moveit_planners_chomp:/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/ti5/ws_moveit2/install/chomp_motion_planner:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/moveit_configs_utils:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/rviz_marker_tools:/home/ti5/ws_moveit2/install/rosparam_shortcuts:/home/ti5/ws_moveit2/install/moveit_task_constructor_msgs:/home/ti5/ws_moveit2/install/moveit_resources_prbt_support:/home/ti5/ws_moveit2/install/moveit_resources:/home/ti5/ws_moveit2/install/moveit_resources_pr2_description:/home/ti5/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ti5/ws_moveit2/install/moveit_resources_panda_description:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_description:/home/ti5/ws_moveit2/install/moveit_common:/home/ti5/ws_moveit2/install/launch_param_builder:/home/ti5/ws_moveit2/install/demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ti5/ws_moveit2/build/demo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ti5/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/ti5/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/ti5/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ti5/ws_moveit2/install/arm5:/home/ti5/ws_moveit2/install/arm3:/home/ti5/ws_moveit2/install/arm2:/home/ti5/ws_moveit2/install/arm1:/home/ti5/ws_moveit2/install/ti5_urdf:/home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/ti5/ws_moveit2/install/moveit_runtime:/home/ti5/ws_moveit2/install/moveit2_tutorials:/home/ti5/ws_moveit2/install/moveit:/home/ti5/ws_moveit2/install/moveit_planners:/home/ti5/ws_moveit2/install/pilz_industrial_motion_planner:/home/ti5/ws_moveit2/install/moveit_visual_tools:/home/ti5/ws_moveit2/install/moveit_task_constructor_visualization:/home/ti5/ws_moveit2/install/moveit_task_constructor_demo:/home/ti5/ws_moveit2/install/moveit_task_constructor_capabilities:/home/ti5/ws_moveit2/install/moveit_task_constructor_core:/home/ti5/ws_moveit2/install/moveit_ros_control_interface:/home/ti5/ws_moveit2/install/moveit_plugins:/home/ti5/ws_moveit2/install/moveit_simple_controller_manager:/home/ti5/ws_moveit2/install/moveit_setup_assistant:/home/ti5/ws_moveit2/install/moveit_setup_srdf_plugins:/home/ti5/ws_moveit2/install/moveit_setup_core_plugins:/home/ti5/ws_moveit2/install/moveit_setup_controllers:/home/ti5/ws_moveit2/install/moveit_setup_app_plugins:/home/ti5/ws_moveit2/install/moveit_setup_framework:/home/ti5/ws_moveit2/install/moveit_servo:/home/ti5/ws_moveit2/install/moveit_ros:/home/ti5/ws_moveit2/install/moveit_ros_visualization:/home/ti5/ws_moveit2/install/moveit_hybrid_planning:/home/ti5/ws_moveit2/install/moveit_ros_planning_interface:/home/ti5/ws_moveit2/install/moveit_ros_benchmarks:/home/ti5/ws_moveit2/install/moveit_ros_warehouse:/home/ti5/ws_moveit2/install/moveit_ros_robot_interaction:/home/ti5/ws_moveit2/install/moveit_ros_perception:/home/ti5/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/ti5/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/ti5/ws_moveit2/install/moveit_ros_move_group:/home/ti5/ws_moveit2/install/moveit_planners_ompl:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/ti5/ws_moveit2/install/moveit_planners_chomp:/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/ti5/ws_moveit2/install/chomp_motion_planner:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/rviz_marker_tools:/home/ti5/ws_moveit2/install/rosparam_shortcuts:/home/ti5/ws_moveit2/install/moveit_task_constructor_msgs:/home/ti5/ws_moveit2/install/moveit_resources_prbt_support:/home/ti5/ws_moveit2/install/moveit_resources:/home/ti5/ws_moveit2/install/moveit_resources_pr2_description:/home/ti5/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ti5/ws_moveit2/install/moveit_resources_panda_description:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_description:/home/ti5/ws_moveit2/install/moveit_common:/home/ti5/ws_moveit2/install/demo:/home/ti5/ws_moveit2/install/moveit_configs_utils:/home/ti5/ws_moveit2/install/launch_param_builder:/opt/ros/humble')]), 'shell': False}
+[0.099148] (-) TimerEvent: {}
+[0.201668] (-) TimerEvent: {}
+[0.302606] (-) TimerEvent: {}
+[0.403222] (-) TimerEvent: {}
+[0.490957] (demo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo.dir/src/demo.cpp.o\x1b[0m\n'}
+[0.503493] (-) TimerEvent: {}
+[0.604131] (-) TimerEvent: {}
+[0.704896] (-) TimerEvent: {}
+[0.805681] (-) TimerEvent: {}
+[0.906382] (-) TimerEvent: {}
+[1.007155] (-) TimerEvent: {}
+[1.107916] (-) TimerEvent: {}
+[1.208690] (-) TimerEvent: {}
+[1.309487] (-) TimerEvent: {}
+[1.410252] (-) TimerEvent: {}
+[1.511006] (-) TimerEvent: {}
+[1.611764] (-) TimerEvent: {}
+[1.712519] (-) TimerEvent: {}
+[1.813275] (-) TimerEvent: {}
+[1.914047] (-) TimerEvent: {}
+[2.014688] (-) TimerEvent: {}
+[2.115461] (-) TimerEvent: {}
+[2.216141] (-) TimerEvent: {}
+[2.316999] (-) TimerEvent: {}
+[2.417853] (-) TimerEvent: {}
+[2.518531] (-) TimerEvent: {}
+[2.619338] (-) TimerEvent: {}
+[2.720147] (-) TimerEvent: {}
+[2.821026] (-) TimerEvent: {}
+[2.921849] (-) TimerEvent: {}
+[3.022549] (-) TimerEvent: {}
+[3.123348] (-) TimerEvent: {}
+[3.224172] (-) TimerEvent: {}
+[3.325052] (-) TimerEvent: {}
+[3.425876] (-) TimerEvent: {}
+[3.526556] (-) TimerEvent: {}
+[3.627233] (-) TimerEvent: {}
+[3.728079] (-) TimerEvent: {}
+[3.828894] (-) TimerEvent: {}
+[3.929740] (-) TimerEvent: {}
+[4.030428] (-) TimerEvent: {}
+[4.131235] (-) TimerEvent: {}
+[4.232116] (-) TimerEvent: {}
+[4.332923] (-) TimerEvent: {}
+[4.433711] (-) TimerEvent: {}
+[4.534404] (-) TimerEvent: {}
+[4.635188] (-) TimerEvent: {}
+[4.735986] (-) TimerEvent: {}
+[4.836773] (-) TimerEvent: {}
+[4.937562] (-) TimerEvent: {}
+[5.038382] (-) TimerEvent: {}
+[5.139162] (-) TimerEvent: {}
+[5.239941] (-) TimerEvent: {}
+[5.340739] (-) TimerEvent: {}
+[5.441537] (-) TimerEvent: {}
+[5.542324] (-) TimerEvent: {}
+[5.643105] (-) TimerEvent: {}
+[5.743874] (-) TimerEvent: {}
+[5.844812] (-) TimerEvent: {}
+[5.945613] (-) TimerEvent: {}
+[6.046422] (-) TimerEvent: {}
+[6.147212] (-) TimerEvent: {}
+[6.247976] (-) TimerEvent: {}
+[6.348769] (-) TimerEvent: {}
+[6.449565] (-) TimerEvent: {}
+[6.550359] (-) TimerEvent: {}
+[6.651130] (-) TimerEvent: {}
+[6.751899] (-) TimerEvent: {}
+[6.852689] (-) TimerEvent: {}
+[6.953491] (-) TimerEvent: {}
+[7.054332] (-) TimerEvent: {}
+[7.155097] (-) TimerEvent: {}
+[7.255880] (-) TimerEvent: {}
+[7.356706] (-) TimerEvent: {}
+[7.457515] (-) TimerEvent: {}
+[7.558311] (-) TimerEvent: {}
+[7.659102] (-) TimerEvent: {}
+[7.759908] (-) TimerEvent: {}
+[7.861568] (-) TimerEvent: {}
+[7.962386] (-) TimerEvent: {}
+[8.063177] (-) TimerEvent: {}
+[8.163961] (-) TimerEvent: {}
+[8.264753] (-) TimerEvent: {}
+[8.365563] (-) TimerEvent: {}
+[8.466384] (-) TimerEvent: {}
+[8.567236] (-) TimerEvent: {}
+[8.668013] (-) TimerEvent: {}
+[8.768798] (-) TimerEvent: {}
+[8.869597] (-) TimerEvent: {}
+[8.970390] (-) TimerEvent: {}
+[9.071180] (-) TimerEvent: {}
+[9.171968] (-) TimerEvent: {}
+[9.272760] (-) TimerEvent: {}
+[9.373723] (-) TimerEvent: {}
+[9.474414] (-) TimerEvent: {}
+[9.575191] (-) TimerEvent: {}
+[9.675947] (-) TimerEvent: {}
+[9.776736] (-) TimerEvent: {}
+[9.877545] (-) TimerEvent: {}
+[9.978396] (-) TimerEvent: {}
+[10.079178] (-) TimerEvent: {}
+[10.179947] (-) TimerEvent: {}
+[10.280757] (-) TimerEvent: {}
+[10.381555] (-) TimerEvent: {}
+[10.482401] (-) TimerEvent: {}
+[10.583188] (-) TimerEvent: {}
+[10.683953] (-) TimerEvent: {}
+[10.784756] (-) TimerEvent: {}
+[10.885557] (-) TimerEvent: {}
+[10.986415] (-) TimerEvent: {}
+[11.087229] (-) TimerEvent: {}
+[11.188030] (-) TimerEvent: {}
+[11.288803] (-) TimerEvent: {}
+[11.389587] (-) TimerEvent: {}
+[11.490411] (-) TimerEvent: {}
+[11.591172] (-) TimerEvent: {}
+[11.691937] (-) TimerEvent: {}
+[11.792744] (-) TimerEvent: {}
+[11.893587] (-) TimerEvent: {}
+[11.994371] (-) TimerEvent: {}
+[12.095153] (-) TimerEvent: {}
+[12.195931] (-) TimerEvent: {}
+[12.296766] (-) TimerEvent: {}
+[12.397609] (-) TimerEvent: {}
+[12.498413] (-) TimerEvent: {}
+[12.599187] (-) TimerEvent: {}
+[12.699960] (-) TimerEvent: {}
+[12.800793] (-) TimerEvent: {}
+[12.902402] (-) TimerEvent: {}
+[13.003166] (-) TimerEvent: {}
+[13.103960] (-) TimerEvent: {}
+[13.204750] (-) TimerEvent: {}
+[13.305587] (-) TimerEvent: {}
+[13.406371] (-) TimerEvent: {}
+[13.507135] (-) TimerEvent: {}
+[13.607939] (-) TimerEvent: {}
+[13.657892] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool init_can()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.658592] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:30:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KpInfo\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.659111] (demo) StderrLine: {'line': b'   30 |         VCI_BOARD_INFO \x1b[01;35m\x1b[KpInfo\x1b[m\x1b[K, pInfo1[50];\n'}
+[13.659572] (demo) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[13.660027] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:30:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KpInfo1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.660519] (demo) StderrLine: {'line': b'   30 |         VCI_BOARD_INFO pInfo, \x1b[01;35m\x1b[KpInfo1\x1b[m\x1b[K[50];\n'}
+[13.661003] (demo) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[13.664642] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint32_t sendSimpleCanCommand(uint8_t, uint8_t*, uint8_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.665310] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:137:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.665939] (demo) StderrLine: {'line': b'  137 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[13.666651] (demo) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.668768] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint32_t sendCanCommand(uint8_t, uint8_t*, uint8_t*, uint32_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.669338] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:159:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ksuggest parentheses around assignment used as truth value [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses\x07-Wparentheses\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.669892] (demo) StderrLine: {'line': b'  159 |                 while(\x1b[01;35m\x1b[Kreclen = VCI_Transmit(VCI_USBCAN2,0,0,send,1) <= 0 && cnt\x1b[m\x1b[K) cnt--;\n'}
+[13.670435] (demo) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.672669] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:170:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.673712] (demo) StderrLine: {'line': b'  170 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[13.674248] (demo) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.674768] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:\x1b[m\x1b[K At global scope:\n'}
+[13.675243] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:184:79:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmoveit_msgs::msg::DisplayTrajectory_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.675717] (demo) StderrLine: {'line': b'  184 |         void callback(const moveit_msgs::msg::DisplayTrajectory::ConstPtr &msg\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[13.676168] (demo) StderrLine: {'line': b'      |                                                                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.676629] (demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/display_trajectory.hpp:7\x1b[m\x1b[K,\n'}
+[13.677077] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:4\x1b[m\x1b[K:\n'}
+[13.677522] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/display_trajectory__struct.hpp:131:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[13.677955] (demo) StderrLine: {'line': b'  131 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[13.678457] (demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[13.708264] (-) TimerEvent: {}
+[13.809048] (-) TimerEvent: {}
+[13.909859] (-) TimerEvent: {}
+[13.963401] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Listener::callback(const ConstPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.964053] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:218:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparisons like \xe2\x80\x98\x1b[01m\x1b[KX<=Y<=Z\x1b[m\x1b[K\xe2\x80\x99 do not have their mathematical meaning [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses\x07-Wparentheses\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.964604] (demo) StderrLine: {'line': b'  218 |                 if (\x1b[01;35m\x1b[K0.3<periodTime\x1b[m\x1b[K<0.5)\n'}
+[13.965187] (demo) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.965760] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:220:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparisons like \xe2\x80\x98\x1b[01m\x1b[KX<=Y<=Z\x1b[m\x1b[K\xe2\x80\x99 do not have their mathematical meaning [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses\x07-Wparentheses\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.966560] (demo) StderrLine: {'line': b'  220 |                 else if(\x1b[01;35m\x1b[K0.001<periodTime\x1b[m\x1b[K<0.3)\n'}
+[13.967236] (demo) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.975377] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid move_up()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.975998] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:279:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Ktmp0\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kuint32_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.976433] (demo) StderrLine: {'line': b'  279 |         uint32_t para_v_p[10]={\x1b[01;35m\x1b[Ktmp0\x1b[m\x1b[K,tmp0,tmp0,tmp0,tmp0,tmp0},para_v_n[10]={tmp1,tmp1,tmp1,tmp1,tmp1,tmp1};\n'}
+[13.976841] (demo) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[13.977210] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:279:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Ktmp0\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kuint32_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.977589] (demo) StderrLine: {'line': b'  279 |         uint32_t para_v_p[10]={tmp0,\x1b[01;35m\x1b[Ktmp0\x1b[m\x1b[K,tmp0,tmp0,tmp0,tmp0},para_v_n[10]={tmp1,tmp1,tmp1,tmp1,tmp1,tmp1};\n'}
+[13.977955] (demo) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[13.978368] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:279:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Ktmp0\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kuint32_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.978834] (demo) StderrLine: {'line': b'  279 |         uint32_t para_v_p[10]={tmp0,tmp0,\x1b[01;35m\x1b[Ktmp0\x1b[m\x1b[K,tmp0,tmp0,tmp0},para_v_n[10]={tmp1,tmp1,tmp1,tmp1,tmp1,tmp1};\n'}
+[13.979218] (demo) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[13.979586] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:279:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Ktmp0\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kuint32_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.979964] (demo) StderrLine: {'line': b'  279 |         uint32_t para_v_p[10]={tmp0,tmp0,tmp0,\x1b[01;35m\x1b[Ktmp0\x1b[m\x1b[K,tmp0,tmp0},para_v_n[10]={tmp1,tmp1,tmp1,tmp1,tmp1,tmp1};\n'}
+[13.980330] (demo) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[13.980692] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:279:52:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Ktmp0\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kuint32_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.981115] (demo) StderrLine: {'line': b'  279 |         uint32_t para_v_p[10]={tmp0,tmp0,tmp0,tmp0,\x1b[01;35m\x1b[Ktmp0\x1b[m\x1b[K,tmp0},para_v_n[10]={tmp1,tmp1,tmp1,tmp1,tmp1,tmp1};\n'}
+[13.981480] (demo) StderrLine: {'line': b'      |                                                    \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[13.981845] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:279:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Ktmp0\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kuint32_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.982284] (demo) StderrLine: {'line': b'  279 |         uint32_t para_v_p[10]={tmp0,tmp0,tmp0,tmp0,tmp0,\x1b[01;35m\x1b[Ktmp0\x1b[m\x1b[K},para_v_n[10]={tmp1,tmp1,tmp1,tmp1,tmp1,tmp1};\n'}
+[13.982673] (demo) StderrLine: {'line': b'      |                                                         \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[13.983043] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:279:77:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Ktmp1\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kuint32_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.983447] (demo) StderrLine: {'line': b'  279 |         uint32_t para_v_p[10]={tmp0,tmp0,tmp0,tmp0,tmp0,tmp0},para_v_n[10]={\x1b[01;35m\x1b[Ktmp1\x1b[m\x1b[K,tmp1,tmp1,tmp1,tmp1,tmp1};\n'}
+[13.983832] (demo) StderrLine: {'line': b'      |                                                                             \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[13.984197] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:279:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Ktmp1\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kuint32_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.984574] (demo) StderrLine: {'line': b'  279 |         uint32_t para_v_p[10]={tmp0,tmp0,tmp0,tmp0,tmp0,tmp0},para_v_n[10]={tmp1,\x1b[01;35m\x1b[Ktmp1\x1b[m\x1b[K,tmp1,tmp1,tmp1,tmp1};\n'}
+[13.984938] (demo) StderrLine: {'line': b'      |                                                                                  \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[13.985301] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:279:87:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Ktmp1\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kuint32_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.985701] (demo) StderrLine: {'line': b'  279 |         uint32_t para_v_p[10]={tmp0,tmp0,tmp0,tmp0,tmp0,tmp0},para_v_n[10]={tmp1,tmp1,\x1b[01;35m\x1b[Ktmp1\x1b[m\x1b[K,tmp1,tmp1,tmp1};\n'}
+[13.986070] (demo) StderrLine: {'line': b'      |                                                                                       \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[13.986482] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:279:92:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Ktmp1\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kuint32_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.986871] (demo) StderrLine: {'line': b'  279 |         uint32_t para_v_p[10]={tmp0,tmp0,tmp0,tmp0,tmp0,tmp0},para_v_n[10]={tmp1,tmp1,tmp1,\x1b[01;35m\x1b[Ktmp1\x1b[m\x1b[K,tmp1,tmp1};\n'}
+[13.987236] (demo) StderrLine: {'line': b'      |                                                                                            \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[13.987605] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:279:97:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Ktmp1\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kuint32_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.987980] (demo) StderrLine: {'line': b'  279 |         uint32_t para_v_p[10]={tmp0,tmp0,tmp0,tmp0,tmp0,tmp0},para_v_n[10]={tmp1,tmp1,tmp1,tmp1,\x1b[01;35m\x1b[Ktmp1\x1b[m\x1b[K,tmp1};\n'}
+[13.988346] (demo) StderrLine: {'line': b'      |                                                                                                 \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[13.988709] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5/ws_moveit2/src/demo/src/demo.cpp:279:102:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Ktmp1\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kuint32_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.989084] (demo) StderrLine: {'line': b'  279 |         uint32_t para_v_p[10]={tmp0,tmp0,tmp0,tmp0,tmp0,tmp0},para_v_n[10]={tmp1,tmp1,tmp1,tmp1,tmp1,\x1b[01;35m\x1b[Ktmp1\x1b[m\x1b[K};\n'}
+[13.989474] (demo) StderrLine: {'line': b'      |                                                                                                      \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[14.010096] (-) TimerEvent: {}
+[14.110776] (-) TimerEvent: {}
+[14.211527] (-) TimerEvent: {}
+[14.312260] (-) TimerEvent: {}
+[14.412988] (-) TimerEvent: {}
+[14.513725] (-) TimerEvent: {}
+[14.614543] (-) TimerEvent: {}
+[14.715265] (-) TimerEvent: {}
+[14.815992] (-) TimerEvent: {}
+[14.916736] (-) TimerEvent: {}
+[15.017468] (-) TimerEvent: {}
+[15.118233] (-) TimerEvent: {}
+[15.218969] (-) TimerEvent: {}
+[15.319733] (-) TimerEvent: {}
+[15.420478] (-) TimerEvent: {}
+[15.521208] (-) TimerEvent: {}
+[15.621940] (-) TimerEvent: {}
+[15.722719] (-) TimerEvent: {}
+[15.823442] (-) TimerEvent: {}
+[15.924176] (-) TimerEvent: {}
+[16.024930] (-) TimerEvent: {}
+[16.125655] (-) TimerEvent: {}
+[16.226440] (-) TimerEvent: {}
+[16.327161] (-) TimerEvent: {}
+[16.427939] (-) TimerEvent: {}
+[16.528706] (-) TimerEvent: {}
+[16.629440] (-) TimerEvent: {}
+[16.730198] (-) TimerEvent: {}
+[16.830924] (-) TimerEvent: {}
+[16.931729] (-) TimerEvent: {}
+[17.032469] (-) TimerEvent: {}
+[17.133204] (-) TimerEvent: {}
+[17.233975] (-) TimerEvent: {}
+[17.334585] (-) TimerEvent: {}
+[17.435309] (-) TimerEvent: {}
+[17.536037] (-) TimerEvent: {}
+[17.636760] (-) TimerEvent: {}
+[17.737503] (-) TimerEvent: {}
+[17.838253] (-) TimerEvent: {}
+[17.938853] (-) TimerEvent: {}
+[18.039591] (-) TimerEvent: {}
+[18.140322] (-) TimerEvent: {}
+[18.241047] (-) TimerEvent: {}
+[18.341796] (-) TimerEvent: {}
+[18.442576] (-) TimerEvent: {}
+[18.543297] (-) TimerEvent: {}
+[18.644061] (-) TimerEvent: {}
+[18.744823] (-) TimerEvent: {}
+[18.845558] (-) TimerEvent: {}
+[18.946342] (-) TimerEvent: {}
+[19.047061] (-) TimerEvent: {}
+[19.147835] (-) TimerEvent: {}
+[19.248562] (-) TimerEvent: {}
+[19.349287] (-) TimerEvent: {}
+[19.450046] (-) TimerEvent: {}
+[19.550804] (-) TimerEvent: {}
+[19.651524] (-) TimerEvent: {}
+[19.752247] (-) TimerEvent: {}
+[19.852968] (-) TimerEvent: {}
+[19.953689] (-) TimerEvent: {}
+[20.054543] (-) TimerEvent: {}
+[20.155265] (-) TimerEvent: {}
+[20.255990] (-) TimerEvent: {}
+[20.356708] (-) TimerEvent: {}
+[20.457435] (-) TimerEvent: {}
+[20.558188] (-) TimerEvent: {}
+[20.658910] (-) TimerEvent: {}
+[20.759633] (-) TimerEvent: {}
+[20.860368] (-) TimerEvent: {}
+[20.961120] (-) TimerEvent: {}
+[21.061856] (-) TimerEvent: {}
+[21.162503] (-) TimerEvent: {}
+[21.263228] (-) TimerEvent: {}
+[21.363959] (-) TimerEvent: {}
+[21.464685] (-) TimerEvent: {}
+[21.565414] (-) TimerEvent: {}
+[21.666223] (-) TimerEvent: {}
+[21.766959] (-) TimerEvent: {}
+[21.867672] (-) TimerEvent: {}
+[21.968409] (-) TimerEvent: {}
+[22.069136] (-) TimerEvent: {}
+[22.169858] (-) TimerEvent: {}
+[22.270613] (-) TimerEvent: {}
+[22.371341] (-) TimerEvent: {}
+[22.472091] (-) TimerEvent: {}
+[22.572833] (-) TimerEvent: {}
+[22.673569] (-) TimerEvent: {}
+[22.774297] (-) TimerEvent: {}
+[22.875017] (-) TimerEvent: {}
+[22.975738] (-) TimerEvent: {}
+[23.076482] (-) TimerEvent: {}
+[23.177272] (-) TimerEvent: {}
+[23.278040] (-) TimerEvent: {}
+[23.378792] (-) TimerEvent: {}
+[23.479521] (-) TimerEvent: {}
+[23.580299] (-) TimerEvent: {}
+[23.681057] (-) TimerEvent: {}
+[23.781787] (-) TimerEvent: {}
+[23.882665] (-) TimerEvent: {}
+[23.983379] (-) TimerEvent: {}
+[24.084103] (-) TimerEvent: {}
+[24.184839] (-) TimerEvent: {}
+[24.285578] (-) TimerEvent: {}
+[24.386479] (-) TimerEvent: {}
+[24.487062] (-) TimerEvent: {}
+[24.587767] (-) TimerEvent: {}
+[24.688495] (-) TimerEvent: {}
+[24.789235] (-) TimerEvent: {}
+[24.889975] (-) TimerEvent: {}
+[24.990595] (-) TimerEvent: {}
+[25.091328] (-) TimerEvent: {}
+[25.192135] (-) TimerEvent: {}
+[25.292883] (-) TimerEvent: {}
+[25.393609] (-) TimerEvent: {}
+[25.494468] (-) TimerEvent: {}
+[25.595256] (-) TimerEvent: {}
+[25.696027] (-) TimerEvent: {}
+[25.796813] (-) TimerEvent: {}
+[25.897552] (-) TimerEvent: {}
+[25.998334] (-) TimerEvent: {}
+[26.099057] (-) TimerEvent: {}
+[26.199777] (-) TimerEvent: {}
+[26.300509] (-) TimerEvent: {}
+[26.401281] (-) TimerEvent: {}
+[26.502012] (-) TimerEvent: {}
+[26.602771] (-) TimerEvent: {}
+[26.703494] (-) TimerEvent: {}
+[26.804225] (-) TimerEvent: {}
+[26.904950] (-) TimerEvent: {}
+[27.005663] (-) TimerEvent: {}
+[27.106545] (-) TimerEvent: {}
+[27.207288] (-) TimerEvent: {}
+[27.308013] (-) TimerEvent: {}
+[27.408748] (-) TimerEvent: {}
+[27.509490] (-) TimerEvent: {}
+[27.610259] (-) TimerEvent: {}
+[27.711001] (-) TimerEvent: {}
+[27.811723] (-) TimerEvent: {}
+[27.912497] (-) TimerEvent: {}
+[28.013267] (-) TimerEvent: {}
+[28.114001] (-) TimerEvent: {}
+[28.214773] (-) TimerEvent: {}
+[28.315367] (-) TimerEvent: {}
+[28.416101] (-) TimerEvent: {}
+[28.516825] (-) TimerEvent: {}
+[28.617561] (-) TimerEvent: {}
+[28.718302] (-) TimerEvent: {}
+[28.819043] (-) TimerEvent: {}
+[28.919767] (-) TimerEvent: {}
+[29.020550] (-) TimerEvent: {}
+[29.121314] (-) TimerEvent: {}
+[29.222039] (-) TimerEvent: {}
+[29.322822] (-) TimerEvent: {}
+[29.423539] (-) TimerEvent: {}
+[29.524275] (-) TimerEvent: {}
+[29.625011] (-) TimerEvent: {}
+[29.725744] (-) TimerEvent: {}
+[29.826583] (-) TimerEvent: {}
+[29.927321] (-) TimerEvent: {}
+[30.028045] (-) TimerEvent: {}
+[30.128757] (-) TimerEvent: {}
+[30.229531] (-) TimerEvent: {}
+[30.330268] (-) TimerEvent: {}
+[30.431017] (-) TimerEvent: {}
+[30.531743] (-) TimerEvent: {}
+[30.632486] (-) TimerEvent: {}
+[30.733227] (-) TimerEvent: {}
+[30.833949] (-) TimerEvent: {}
+[30.934715] (-) TimerEvent: {}
+[31.035451] (-) TimerEvent: {}
+[31.136177] (-) TimerEvent: {}
+[31.236904] (-) TimerEvent: {}
+[31.337667] (-) TimerEvent: {}
+[31.438572] (-) TimerEvent: {}
+[31.539300] (-) TimerEvent: {}
+[31.640029] (-) TimerEvent: {}
+[31.740759] (-) TimerEvent: {}
+[31.841531] (-) TimerEvent: {}
+[31.942516] (-) TimerEvent: {}
+[32.043257] (-) TimerEvent: {}
+[32.143981] (-) TimerEvent: {}
+[32.244726] (-) TimerEvent: {}
+[32.345468] (-) TimerEvent: {}
+[32.446235] (-) TimerEvent: {}
+[32.546979] (-) TimerEvent: {}
+[32.647707] (-) TimerEvent: {}
+[32.748490] (-) TimerEvent: {}
+[32.849232] (-) TimerEvent: {}
+[32.949960] (-) TimerEvent: {}
+[33.050576] (-) TimerEvent: {}
+[33.151317] (-) TimerEvent: {}
+[33.252051] (-) TimerEvent: {}
+[33.352788] (-) TimerEvent: {}
+[33.453525] (-) TimerEvent: {}
+[33.554266] (-) TimerEvent: {}
+[33.654985] (-) TimerEvent: {}
+[33.755696] (-) TimerEvent: {}
+[33.856422] (-) TimerEvent: {}
+[33.957161] (-) TimerEvent: {}
+[34.057893] (-) TimerEvent: {}
+[34.158653] (-) TimerEvent: {}
+[34.259376] (-) TimerEvent: {}
+[34.360112] (-) TimerEvent: {}
+[34.460852] (-) TimerEvent: {}
+[34.561581] (-) TimerEvent: {}
+[34.662312] (-) TimerEvent: {}
+[34.763037] (-) TimerEvent: {}
+[34.863819] (-) TimerEvent: {}
+[34.964586] (-) TimerEvent: {}
+[35.065323] (-) TimerEvent: {}
+[35.166051] (-) TimerEvent: {}
+[35.266818] (-) TimerEvent: {}
+[35.367602] (-) TimerEvent: {}
+[35.468345] (-) TimerEvent: {}
+[35.569085] (-) TimerEvent: {}
+[35.669865] (-) TimerEvent: {}
+[35.770641] (-) TimerEvent: {}
+[35.871372] (-) TimerEvent: {}
+[35.972097] (-) TimerEvent: {}
+[36.072874] (-) TimerEvent: {}
+[36.173638] (-) TimerEvent: {}
+[36.274471] (-) TimerEvent: {}
+[36.375191] (-) TimerEvent: {}
+[36.475920] (-) TimerEvent: {}
+[36.576703] (-) TimerEvent: {}
+[36.677433] (-) TimerEvent: {}
+[36.778187] (-) TimerEvent: {}
+[36.878916] (-) TimerEvent: {}
+[36.979681] (-) TimerEvent: {}
+[37.080417] (-) TimerEvent: {}
+[37.181148] (-) TimerEvent: {}
+[37.281931] (-) TimerEvent: {}
+[37.382725] (-) TimerEvent: {}
+[37.483441] (-) TimerEvent: {}
+[37.584163] (-) TimerEvent: {}
+[37.684881] (-) TimerEvent: {}
+[37.785603] (-) TimerEvent: {}
+[37.886247] (-) TimerEvent: {}
+[37.986824] (-) TimerEvent: {}
+[38.087548] (-) TimerEvent: {}
+[38.188273] (-) TimerEvent: {}
+[38.288995] (-) TimerEvent: {}
+[38.389742] (-) TimerEvent: {}
+[38.490520] (-) TimerEvent: {}
+[38.591245] (-) TimerEvent: {}
+[38.692000] (-) TimerEvent: {}
+[38.792765] (-) TimerEvent: {}
+[38.893487] (-) TimerEvent: {}
+[38.994239] (-) TimerEvent: {}
+[39.094953] (-) TimerEvent: {}
+[39.195681] (-) TimerEvent: {}
+[39.296410] (-) TimerEvent: {}
+[39.397140] (-) TimerEvent: {}
+[39.497883] (-) TimerEvent: {}
+[39.598643] (-) TimerEvent: {}
+[39.699365] (-) TimerEvent: {}
+[39.800116] (-) TimerEvent: {}
+[39.900878] (-) TimerEvent: {}
+[40.001597] (-) TimerEvent: {}
+[40.102326] (-) TimerEvent: {}
+[40.203046] (-) TimerEvent: {}
+[40.303824] (-) TimerEvent: {}
+[40.404549] (-) TimerEvent: {}
+[40.505293] (-) TimerEvent: {}
+[40.606074] (-) TimerEvent: {}
+[40.706842] (-) TimerEvent: {}
+[40.807560] (-) TimerEvent: {}
+[40.908278] (-) TimerEvent: {}
+[41.009011] (-) TimerEvent: {}
+[41.109742] (-) TimerEvent: {}
+[41.210583] (-) TimerEvent: {}
+[41.311305] (-) TimerEvent: {}
+[41.412041] (-) TimerEvent: {}
+[41.512764] (-) TimerEvent: {}
+[41.613500] (-) TimerEvent: {}
+[41.714276] (-) TimerEvent: {}
+[41.815011] (-) TimerEvent: {}
+[41.915746] (-) TimerEvent: {}
+[42.016484] (-) TimerEvent: {}
+[42.117218] (-) TimerEvent: {}
+[42.218003] (-) TimerEvent: {}
+[42.318620] (-) TimerEvent: {}
+[42.419337] (-) TimerEvent: {}
+[42.520071] (-) TimerEvent: {}
+[42.620788] (-) TimerEvent: {}
+[42.721559] (-) TimerEvent: {}
+[42.822524] (-) TimerEvent: {}
+[42.923251] (-) TimerEvent: {}
+[43.024114] (-) TimerEvent: {}
+[43.124987] (-) TimerEvent: {}
+[43.225730] (-) TimerEvent: {}
+[43.326555] (-) TimerEvent: {}
+[43.427302] (-) TimerEvent: {}
+[43.528096] (-) TimerEvent: {}
+[43.628840] (-) TimerEvent: {}
+[43.729571] (-) TimerEvent: {}
+[43.830371] (-) TimerEvent: {}
+[43.931101] (-) TimerEvent: {}
+[44.031827] (-) TimerEvent: {}
+[44.132553] (-) TimerEvent: {}
+[44.233280] (-) TimerEvent: {}
+[44.334000] (-) TimerEvent: {}
+[44.434751] (-) TimerEvent: {}
+[44.535467] (-) TimerEvent: {}
+[44.636254] (-) TimerEvent: {}
+[44.737019] (-) TimerEvent: {}
+[44.837743] (-) TimerEvent: {}
+[44.938584] (-) TimerEvent: {}
+[45.039301] (-) TimerEvent: {}
+[45.140033] (-) TimerEvent: {}
+[45.240611] (-) TimerEvent: {}
+[45.341345] (-) TimerEvent: {}
+[45.442095] (-) TimerEvent: {}
+[45.542853] (-) TimerEvent: {}
+[45.643576] (-) TimerEvent: {}
+[45.744311] (-) TimerEvent: {}
+[45.845073] (-) TimerEvent: {}
+[45.945805] (-) TimerEvent: {}
+[46.046571] (-) TimerEvent: {}
+[46.147288] (-) TimerEvent: {}
+[46.248031] (-) TimerEvent: {}
+[46.348760] (-) TimerEvent: {}
+[46.449488] (-) TimerEvent: {}
+[46.550249] (-) TimerEvent: {}
+[46.650984] (-) TimerEvent: {}
+[46.751703] (-) TimerEvent: {}
+[46.852430] (-) TimerEvent: {}
+[46.953192] (-) TimerEvent: {}
+[47.053931] (-) TimerEvent: {}
+[47.154690] (-) TimerEvent: {}
+[47.255417] (-) TimerEvent: {}
+[47.356230] (-) TimerEvent: {}
+[47.456950] (-) TimerEvent: {}
+[47.557664] (-) TimerEvent: {}
+[47.658491] (-) TimerEvent: {}
+[47.759245] (-) TimerEvent: {}
+[47.859989] (-) TimerEvent: {}
+[47.960722] (-) TimerEvent: {}
+[48.061445] (-) TimerEvent: {}
+[48.162199] (-) TimerEvent: {}
+[48.262778] (-) TimerEvent: {}
+[48.363490] (-) TimerEvent: {}
+[48.464252] (-) TimerEvent: {}
+[48.564991] (-) TimerEvent: {}
+[48.665731] (-) TimerEvent: {}
+[48.766585] (-) TimerEvent: {}
+[48.867316] (-) TimerEvent: {}
+[48.968045] (-) TimerEvent: {}
+[49.068782] (-) TimerEvent: {}
+[49.169527] (-) TimerEvent: {}
+[49.270288] (-) TimerEvent: {}
+[49.371020] (-) TimerEvent: {}
+[49.471738] (-) TimerEvent: {}
+[49.572484] (-) TimerEvent: {}
+[49.673232] (-) TimerEvent: {}
+[49.773953] (-) TimerEvent: {}
+[49.874718] (-) TimerEvent: {}
+[49.975432] (-) TimerEvent: {}
+[50.076148] (-) TimerEvent: {}
+[50.176886] (-) TimerEvent: {}
+[50.277602] (-) TimerEvent: {}
+[50.378631] (-) TimerEvent: {}
+[50.479367] (-) TimerEvent: {}
+[50.580080] (-) TimerEvent: {}
+[50.680801] (-) TimerEvent: {}
+[50.781528] (-) TimerEvent: {}
+[50.882307] (-) TimerEvent: {}
+[50.983073] (-) TimerEvent: {}
+[51.083790] (-) TimerEvent: {}
+[51.088468] (demo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable demo\x1b[0m\n'}
+[51.184021] (-) TimerEvent: {}
+[51.284832] (-) TimerEvent: {}
+[51.385698] (-) TimerEvent: {}
+[51.486568] (-) TimerEvent: {}
+[51.587417] (-) TimerEvent: {}
+[51.688248] (-) TimerEvent: {}
+[51.789070] (-) TimerEvent: {}
+[51.889886] (-) TimerEvent: {}
+[51.990587] (-) TimerEvent: {}
+[52.091356] (-) TimerEvent: {}
+[52.192084] (-) TimerEvent: {}
+[52.228468] (demo) StdoutLine: {'line': b'[100%] Built target demo\n'}
+[52.292807] (demo) CommandEnded: {'returncode': 0}
+[52.294418] (-) TimerEvent: {}
+[52.397437] (-) TimerEvent: {}
+[52.498371] (-) TimerEvent: {}
+[52.511550] (demo) JobProgress: {'identifier': 'demo', 'progress': 'install'}
+[52.573695] (demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ti5/ws_moveit2/build/demo'], 'cwd': '/home/ti5/ws_moveit2/build/demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ti5'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/ti5/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/ti5/ws_moveit2/install/moveit_visual_tools/lib:/home/ti5/ws_moveit2/install/moveit_task_constructor_visualization/lib:/home/ti5/ws_moveit2/install/moveit_task_constructor_demo/lib:/home/ti5/ws_moveit2/install/moveit_task_constructor_capabilities/lib:/home/ti5/ws_moveit2/install/moveit_task_constructor_core/lib:/home/ti5/ws_moveit2/install/moveit_ros_control_interface/lib:/home/ti5/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/ti5/ws_moveit2/install/moveit_setup_assistant/lib:/home/ti5/ws_moveit2/install/moveit_setup_srdf_plugins/lib:/home/ti5/ws_moveit2/install/moveit_setup_core_plugins/lib:/home/ti5/ws_moveit2/install/moveit_setup_controllers/lib:/home/ti5/ws_moveit2/install/moveit_setup_app_plugins/lib:/home/ti5/ws_moveit2/install/moveit_setup_framework/lib:/home/ti5/ws_moveit2/install/moveit_servo/lib:/home/ti5/ws_moveit2/install/moveit_ros_visualization/lib:/home/ti5/ws_moveit2/install/moveit_hybrid_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/ti5/ws_moveit2/install/moveit_ros_benchmarks/lib:/home/ti5/ws_moveit2/install/moveit_ros_warehouse/lib:/home/ti5/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/ti5/ws_moveit2/install/moveit_ros_perception/lib:/home/ti5/ws_moveit2/install/moveit_ros_move_group/lib:/home/ti5/ws_moveit2/install/moveit_planners_ompl/lib:/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/ti5/ws_moveit2/install/moveit_planners_chomp/lib:/home/ti5/ws_moveit2/install/moveit_kinematics/lib:/home/ti5/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib:/home/ti5/ws_moveit2/install/chomp_motion_planner/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:/home/ti5/ws_moveit2/install/rviz_marker_tools/lib:/home/ti5/ws_moveit2/install/rosparam_shortcuts/lib:/home/ti5/ws_moveit2/install/moveit_task_constructor_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ti5'), ('OLDPWD', '/home/ti5'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1456'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ti5/ws_moveit2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ti5'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ti5'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ti5/ws_moveit2/install/moveit_core/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ti5-SAZ1:@/tmp/.ICE-unix/1420,unix/ti5-SAZ1:/tmp/.ICE-unix/1420'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9c825503_88b0_4313_8c60_20fb8b99f80b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GDHKO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ti5/ws_moveit2/install/arm5:/home/ti5/ws_moveit2/install/arm3:/home/ti5/ws_moveit2/install/arm2:/home/ti5/ws_moveit2/install/arm1:/home/ti5/ws_moveit2/install/ti5_urdf:/home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/ti5/ws_moveit2/install/moveit_runtime:/home/ti5/ws_moveit2/install/moveit2_tutorials:/home/ti5/ws_moveit2/install/moveit:/home/ti5/ws_moveit2/install/moveit_planners:/home/ti5/ws_moveit2/install/pilz_industrial_motion_planner:/home/ti5/ws_moveit2/install/moveit_visual_tools:/home/ti5/ws_moveit2/install/moveit_task_constructor_visualization:/home/ti5/ws_moveit2/install/moveit_task_constructor_demo:/home/ti5/ws_moveit2/install/moveit_task_constructor_capabilities:/home/ti5/ws_moveit2/install/moveit_task_constructor_core:/home/ti5/ws_moveit2/install/moveit_ros_control_interface:/home/ti5/ws_moveit2/install/moveit_plugins:/home/ti5/ws_moveit2/install/moveit_simple_controller_manager:/home/ti5/ws_moveit2/install/moveit_setup_assistant:/home/ti5/ws_moveit2/install/moveit_setup_srdf_plugins:/home/ti5/ws_moveit2/install/moveit_setup_core_plugins:/home/ti5/ws_moveit2/install/moveit_setup_controllers:/home/ti5/ws_moveit2/install/moveit_setup_app_plugins:/home/ti5/ws_moveit2/install/moveit_setup_framework:/home/ti5/ws_moveit2/install/moveit_servo:/home/ti5/ws_moveit2/install/moveit_ros:/home/ti5/ws_moveit2/install/moveit_ros_visualization:/home/ti5/ws_moveit2/install/moveit_hybrid_planning:/home/ti5/ws_moveit2/install/moveit_ros_planning_interface:/home/ti5/ws_moveit2/install/moveit_ros_benchmarks:/home/ti5/ws_moveit2/install/moveit_ros_warehouse:/home/ti5/ws_moveit2/install/moveit_ros_robot_interaction:/home/ti5/ws_moveit2/install/moveit_ros_perception:/home/ti5/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/ti5/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/ti5/ws_moveit2/install/moveit_ros_move_group:/home/ti5/ws_moveit2/install/moveit_planners_ompl:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/ti5/ws_moveit2/install/moveit_planners_chomp:/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/ti5/ws_moveit2/install/chomp_motion_planner:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/moveit_configs_utils:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/rviz_marker_tools:/home/ti5/ws_moveit2/install/rosparam_shortcuts:/home/ti5/ws_moveit2/install/moveit_task_constructor_msgs:/home/ti5/ws_moveit2/install/moveit_resources_prbt_support:/home/ti5/ws_moveit2/install/moveit_resources:/home/ti5/ws_moveit2/install/moveit_resources_pr2_description:/home/ti5/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ti5/ws_moveit2/install/moveit_resources_panda_description:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_description:/home/ti5/ws_moveit2/install/moveit_common:/home/ti5/ws_moveit2/install/launch_param_builder:/home/ti5/ws_moveit2/install/demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ti5/ws_moveit2/build/demo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ti5/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/ti5/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/ti5/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ti5/ws_moveit2/install/arm5:/home/ti5/ws_moveit2/install/arm3:/home/ti5/ws_moveit2/install/arm2:/home/ti5/ws_moveit2/install/arm1:/home/ti5/ws_moveit2/install/ti5_urdf:/home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/ti5/ws_moveit2/install/moveit_runtime:/home/ti5/ws_moveit2/install/moveit2_tutorials:/home/ti5/ws_moveit2/install/moveit:/home/ti5/ws_moveit2/install/moveit_planners:/home/ti5/ws_moveit2/install/pilz_industrial_motion_planner:/home/ti5/ws_moveit2/install/moveit_visual_tools:/home/ti5/ws_moveit2/install/moveit_task_constructor_visualization:/home/ti5/ws_moveit2/install/moveit_task_constructor_demo:/home/ti5/ws_moveit2/install/moveit_task_constructor_capabilities:/home/ti5/ws_moveit2/install/moveit_task_constructor_core:/home/ti5/ws_moveit2/install/moveit_ros_control_interface:/home/ti5/ws_moveit2/install/moveit_plugins:/home/ti5/ws_moveit2/install/moveit_simple_controller_manager:/home/ti5/ws_moveit2/install/moveit_setup_assistant:/home/ti5/ws_moveit2/install/moveit_setup_srdf_plugins:/home/ti5/ws_moveit2/install/moveit_setup_core_plugins:/home/ti5/ws_moveit2/install/moveit_setup_controllers:/home/ti5/ws_moveit2/install/moveit_setup_app_plugins:/home/ti5/ws_moveit2/install/moveit_setup_framework:/home/ti5/ws_moveit2/install/moveit_servo:/home/ti5/ws_moveit2/install/moveit_ros:/home/ti5/ws_moveit2/install/moveit_ros_visualization:/home/ti5/ws_moveit2/install/moveit_hybrid_planning:/home/ti5/ws_moveit2/install/moveit_ros_planning_interface:/home/ti5/ws_moveit2/install/moveit_ros_benchmarks:/home/ti5/ws_moveit2/install/moveit_ros_warehouse:/home/ti5/ws_moveit2/install/moveit_ros_robot_interaction:/home/ti5/ws_moveit2/install/moveit_ros_perception:/home/ti5/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/ti5/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/ti5/ws_moveit2/install/moveit_ros_move_group:/home/ti5/ws_moveit2/install/moveit_planners_ompl:/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/ti5/ws_moveit2/install/moveit_planners_chomp:/home/ti5/ws_moveit2/install/moveit_kinematics:/home/ti5/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/ti5/ws_moveit2/install/chomp_motion_planner:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/rviz_marker_tools:/home/ti5/ws_moveit2/install/rosparam_shortcuts:/home/ti5/ws_moveit2/install/moveit_task_constructor_msgs:/home/ti5/ws_moveit2/install/moveit_resources_prbt_support:/home/ti5/ws_moveit2/install/moveit_resources:/home/ti5/ws_moveit2/install/moveit_resources_pr2_description:/home/ti5/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ti5/ws_moveit2/install/moveit_resources_panda_description:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ti5/ws_moveit2/install/moveit_resources_fanuc_description:/home/ti5/ws_moveit2/install/moveit_common:/home/ti5/ws_moveit2/install/demo:/home/ti5/ws_moveit2/install/moveit_configs_utils:/home/ti5/ws_moveit2/install/launch_param_builder:/opt/ros/humble')]), 'shell': False}
+[52.598539] (-) TimerEvent: {}
+[52.623921] (demo) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[52.624689] (demo) StdoutLine: {'line': b'-- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/ament_index/resource_index/package_run_dependencies/demo\n'}
+[52.625211] (demo) StdoutLine: {'line': b'-- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/ament_index/resource_index/parent_prefix_path/demo\n'}
+[52.626257] (demo) StdoutLine: {'line': b'-- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/demo/environment/ament_prefix_path.sh\n'}
+[52.627201] (demo) StdoutLine: {'line': b'-- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/demo/environment/ament_prefix_path.dsv\n'}
+[52.627958] (demo) StdoutLine: {'line': b'-- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/demo/environment/path.sh\n'}
+[52.628719] (demo) StdoutLine: {'line': b'-- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/demo/environment/path.dsv\n'}
+[52.629388] (demo) StdoutLine: {'line': b'-- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/demo/local_setup.bash\n'}
+[52.630158] (demo) StdoutLine: {'line': b'-- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/demo/local_setup.sh\n'}
+[52.631020] (demo) StdoutLine: {'line': b'-- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/demo/local_setup.zsh\n'}
+[52.631704] (demo) StdoutLine: {'line': b'-- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/demo/local_setup.dsv\n'}
+[52.632263] (demo) StdoutLine: {'line': b'-- Installing: /home/ti5/ws_moveit2/install/demo/share/demo/package.dsv\n'}
+[52.635124] (demo) StdoutLine: {'line': b'-- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/ament_index/resource_index/packages/demo\n'}
+[52.635743] (demo) StdoutLine: {'line': b'-- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/demo/cmake/demoConfig.cmake\n'}
+[52.636213] (demo) StdoutLine: {'line': b'-- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/demo/cmake/demoConfig-version.cmake\n'}
+[52.636594] (demo) StdoutLine: {'line': b'-- Up-to-date: /home/ti5/ws_moveit2/install/demo/share/demo/package.xml\n'}
+[52.637460] (demo) StdoutLine: {'line': b'-- Installing: /home/ti5/ws_moveit2/install/demo/lib/demo/demo\n'}
+[52.644586] (demo) StdoutLine: {'line': b'-- Set runtime path of "/home/ti5/ws_moveit2/install/demo/lib/demo/demo" to ""\n'}
+[52.649987] (demo) CommandEnded: {'returncode': 0}
+[52.698706] (-) TimerEvent: {}
+[52.799458] (-) TimerEvent: {}
+[52.900248] (-) TimerEvent: {}
+[52.952467] (demo) JobEnded: {'identifier': 'demo', 'rc': 0}
+[52.955916] (-) EventReactorShutdown: {}

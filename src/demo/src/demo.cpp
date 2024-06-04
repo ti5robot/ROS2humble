@@ -67,9 +67,13 @@ bool init_can()
     	{
         	std::cout << "start-fail:" << dwRel << std::endl;
         	VCI_CloseDevice(VCI_USBCAN2, 0);
+        	return FALSE;
     	}
     	else
 		std::cout << "startsuccess:1" << std::endl;
+	
+	return true;
+	
 }
 
 
@@ -104,7 +108,7 @@ int32_t sendSimpleCanCommand(uint8_t numOfActuator, uint8_t *canIdList, uint8_t 
     	send[0].RemoteFlag = 0;
     	send[0].ExternFlag = 0;
     	send[0].DataLen = 1;
- 
+ 	
     	for (int i = 0; i < numOfActuator; i++)
 	{
 		send[0].ID=canIdList[i];
@@ -134,16 +138,19 @@ int32_t sendSimpleCanCommand(uint8_t numOfActuator, uint8_t *canIdList, uint8_t 
 
 
 
-int32_t sendCanCommand(uint8_t numOfActuator, uint8_t *canIdList, uint8_t *commandList, uint32_t *parameterList)
+void sendCanCommand(uint8_t numOfActuator, uint8_t *canIdList, uint8_t *commandList, uint32_t *parameterList)
 {
     	VCI_CAN_OBJ send[1];
     	send[0].SendType = 0;
     	send[0].RemoteFlag = 0;
     	send[0].ExternFlag = 0;
     	send[0].DataLen = 5;
+	int num=0;
 	for (int i = 0; i < numOfActuator; i++)
     	{
+		std::cout<<"i i i i:  "<<i<<"   num num num:  "<< num++ <<"   numOfActuator:  "<<numOfActuator<<"   zxzx"<<std::endl;
 		send[0].ID = canIdList[i];
+		std::cout<<"ID ID ID ID ID:  "<<send[0].ID<<std::endl;
 		send[0].Data[0] = commandList[i]; 
         	int res[4],cnt=2,reclen=0;
         	toIntArray(parameterList[i], res, 4);
@@ -272,8 +279,8 @@ void move_up()
 {
 	int tmp0=500,tmp1=-500;
 	uint32_t para_v_p[10]={tmp0,tmp0,tmp0,tmp0,tmp0,tmp0},para_v_n[10]={tmp1,tmp1,tmp1,tmp1,tmp1,tmp1};
-	uint8_t canidlist[10]={1,2,3,4,5,6};
-	uint8_t cmd_v_p[10]={36,36,36,36,36,36},cmd_v_n[10]={37,37,37,37,37,37},cmd_pos[10]={30,30,30,30,30,30};
+	uint8_t canidlist[6]={1,2,3,4,5,6};
+	uint8_t cmd_v_p[6]={36,36,36,36,36,36},cmd_v_n[6]={37,37,37,37,37,37},cmd_pos[6]={30,30,30,30,30,30};
 	
 	sendCanCommand(6,canidlist,cmd_v_p,para_v_p);
 	usleep(50);
@@ -295,15 +302,14 @@ int main(int argc, char **argv)
 	//rclcpp::Rate loop_rate_slow(2);
 
     	init_can(); 
-
 	move_up();
 	
 	while (rclcpp::ok())
 	{
         	rclcpp::spin(node);
         	loop_rate.sleep();
-        	uint8_t canidlist[10]={1,2,3,4,5,6},cmd[10]={8,8,8,8,8,8};
-        	sendSimpleCanCommand(6,canidlist,cmd);
+        	//uint8_t canidlist[10]={1,2,3,4,5,6},cmd[10]={8,8,8,8,8,8};
+        	//sendSimpleCanCommand(6,canidlist,cmd);
 	}
     	return 0;
 }

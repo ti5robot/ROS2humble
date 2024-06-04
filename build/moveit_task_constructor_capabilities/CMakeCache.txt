@@ -99,7 +99,7 @@ CMAKE_AR:FILEPATH=/usr/bin/ar
 
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=Release
+CMAKE_BUILD_TYPE:STRING=
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -571,6 +571,12 @@ moveit_ros_occupancy_map_monitor_DIR:PATH=/home/ti5/ws_moveit2/install/moveit_ro
 //The directory containing a CMake configuration file for moveit_ros_planning.
 moveit_ros_planning_DIR:PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning/share/moveit_ros_planning/cmake
 
+//The directory containing a CMake configuration file for moveit_ros_planning_interface.
+moveit_ros_planning_interface_DIR:PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake
+
+//The directory containing a CMake configuration file for moveit_ros_warehouse.
+moveit_ros_warehouse_DIR:PATH=/home/ti5/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake
+
 //Value Computed by CMake
 moveit_task_constructor_capabilities_BINARY_DIR:STATIC=/home/ti5/ws_moveit2/build/moveit_task_constructor_capabilities
 
@@ -578,10 +584,13 @@ moveit_task_constructor_capabilities_BINARY_DIR:STATIC=/home/ti5/ws_moveit2/buil
 moveit_task_constructor_capabilities_IS_TOP_LEVEL:STATIC=ON
 
 //Dependencies for the target
-moveit_task_constructor_capabilities_LIB_DEPENDS:STATIC=general;rclcpp_action::rclcpp_action;general;moveit_core::collision_detector_bullet_plugin;general;moveit_core::moveit_butterworth_filter;general;moveit_core::moveit_collision_distance_field;general;moveit_core::moveit_collision_detection;general;moveit_core::moveit_collision_detection_fcl;general;moveit_core::moveit_collision_detection_bullet;general;moveit_core::moveit_dynamics_solver;general;moveit_core::moveit_constraint_samplers;general;moveit_core::moveit_distance_field;general;moveit_core::moveit_exceptions;general;moveit_core::moveit_kinematics_base;general;moveit_core::moveit_kinematic_constraints;general;moveit_core::moveit_kinematics_metrics;general;moveit_core::moveit_planning_interface;general;moveit_core::moveit_planning_scene;general;moveit_core::moveit_planning_request_adapter;general;moveit_core::moveit_robot_model;general;moveit_core::moveit_robot_state;general;moveit_core::moveit_robot_trajectory;general;moveit_core::moveit_smoothing_base;general;moveit_core::moveit_test_utils;general;moveit_core::moveit_trajectory_processing;general;moveit_core::moveit_transforms;general;moveit_core::moveit_utils;general;moveit_ros_move_group::moveit_move_group_default_capabilities;general;moveit_ros_move_group::moveit_move_group_capabilities_base;general;moveit_task_constructor_msgs::moveit_task_constructor_msgs__rosidl_generator_c;general;moveit_task_constructor_msgs::moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c;general;moveit_task_constructor_msgs::moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp;general;moveit_task_constructor_msgs::moveit_task_constructor_msgs__rosidl_typesupport_introspection_c;general;moveit_task_constructor_msgs::moveit_task_constructor_msgs__rosidl_typesupport_c;general;moveit_task_constructor_msgs::moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp;general;moveit_task_constructor_msgs::moveit_task_constructor_msgs__rosidl_typesupport_cpp;general;moveit_task_constructor_msgs::moveit_task_constructor_msgs__rosidl_generator_py;general;Boost::system;general;Boost::filesystem;general;Boost::date_time;general;Boost::program_options;general;Boost::thread;general;Boost::chrono;
+moveit_task_constructor_capabilities_LIB_DEPENDS:STATIC=general;rclcpp_action::rclcpp_action;general;moveit_core::collision_detector_bullet_plugin;general;moveit_core::moveit_butterworth_filter;general;moveit_core::moveit_collision_distance_field;general;moveit_core::moveit_collision_detection;general;moveit_core::moveit_collision_detection_fcl;general;moveit_core::moveit_collision_detection_bullet;general;moveit_core::moveit_dynamics_solver;general;moveit_core::moveit_constraint_samplers;general;moveit_core::moveit_distance_field;general;moveit_core::moveit_exceptions;general;moveit_core::moveit_kinematics_base;general;moveit_core::moveit_kinematic_constraints;general;moveit_core::moveit_kinematics_metrics;general;moveit_core::moveit_planning_interface;general;moveit_core::moveit_planning_scene;general;moveit_core::moveit_planning_request_adapter;general;moveit_core::moveit_robot_model;general;moveit_core::moveit_robot_state;general;moveit_core::moveit_robot_trajectory;general;moveit_core::moveit_smoothing_base;general;moveit_core::moveit_test_utils;general;moveit_core::moveit_trajectory_processing;general;moveit_core::moveit_transforms;general;moveit_core::moveit_utils;general;moveit_ros_move_group::moveit_move_group_default_capabilities;general;moveit_ros_move_group::moveit_move_group_capabilities_base;general;moveit_ros_planning::moveit_rdf_loader;general;moveit_ros_planning::moveit_kinematics_plugin_loader;general;moveit_ros_planning::moveit_robot_model_loader;general;moveit_ros_planning::moveit_constraint_sampler_manager_loader;general;moveit_ros_planning::moveit_planning_pipeline;general;moveit_ros_planning::moveit_trajectory_execution_manager;general;moveit_ros_planning::moveit_plan_execution;general;moveit_ros_planning::moveit_planning_scene_monitor;general;moveit_ros_planning::moveit_collision_plugin_loader;general;moveit_ros_planning::moveit_default_planning_request_adapter_plugins;general;moveit_ros_planning::moveit_cpp;general;moveit_task_constructor_core::moveit_task_constructor_core_stages;general;moveit_task_constructor_core::moveit_task_constructor_core_stage_plugins;general;moveit_task_constructor_core::moveit_task_constructor_core;general;moveit_task_constructor_msgs::moveit_task_constructor_msgs__rosidl_generator_c;general;moveit_task_constructor_msgs::moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c;general;moveit_task_constructor_msgs::moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp;general;moveit_task_constructor_msgs::moveit_task_constructor_msgs__rosidl_typesupport_introspection_c;general;moveit_task_constructor_msgs::moveit_task_constructor_msgs__rosidl_typesupport_c;general;moveit_task_constructor_msgs::moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp;general;moveit_task_constructor_msgs::moveit_task_constructor_msgs__rosidl_typesupport_cpp;general;moveit_task_constructor_msgs::moveit_task_constructor_msgs__rosidl_generator_py;general;Boost::thread;general;Boost::system;general;Boost::filesystem;general;Boost::regex;general;Boost::date_time;general;Boost::program_options;
 
 //Value Computed by CMake
 moveit_task_constructor_capabilities_SOURCE_DIR:STATIC=/home/ti5/ws_moveit2/moveit_task_constructor/capabilities
+
+//The directory containing a CMake configuration file for moveit_task_constructor_core.
+moveit_task_constructor_core_DIR:PATH=/home/ti5/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake
 
 //The directory containing a CMake configuration file for moveit_task_constructor_msgs.
 moveit_task_constructor_msgs_DIR:PATH=/home/ti5/ws_moveit2/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake
@@ -739,6 +748,9 @@ rsl_DIR:PATH=/opt/ros/humble/share/rsl/cmake
 //The directory containing a CMake configuration file for ruckig.
 ruckig_DIR:PATH=/opt/ros/humble/lib/x86_64-linux-gnu/cmake/ruckig
 
+//The directory containing a CMake configuration file for rviz_marker_tools.
+rviz_marker_tools_DIR:PATH=/home/ti5/ws_moveit2/install/rviz_marker_tools/share/rviz_marker_tools/cmake
+
 //The directory containing a CMake configuration file for sensor_msgs.
 sensor_msgs_DIR:PATH=/opt/ros/humble/share/sensor_msgs/cmake
 
@@ -814,6 +826,9 @@ urdfdom_headers_DIR:PATH=/opt/ros/humble/lib/x86_64-linux-gnu/urdfdom_headers/cm
 //The directory containing a CMake configuration file for visualization_msgs.
 visualization_msgs_DIR:PATH=/opt/ros/humble/share/visualization_msgs/cmake
 
+//The directory containing a CMake configuration file for warehouse_ros.
+warehouse_ros_DIR:PATH=/opt/ros/humble/share/warehouse_ros/cmake
+
 //The directory containing a CMake configuration file for yaml.
 yaml_DIR:PATH=/opt/ros/humble/cmake
 
@@ -831,7 +846,7 @@ BACKWARD_INCLUDE_DIRS:INTERNAL=/usr/include;/opt/ros/humble/share/backward_ros/c
 //ADVANCED property for variable: BACKWARD_LIBRARIES
 BACKWARD_LIBRARIES-ADVANCED:INTERNAL=1
 //BACKWARD_LIBRARIES
-BACKWARD_LIBRARIES:INTERNAL=/usr/lib/x86_64-linux-gnu/libdw.so;/usr/lib/x86_64-linux-gnu/libdw.so;/usr/lib/x86_64-linux-gnu/libdw.so
+BACKWARD_LIBRARIES:INTERNAL=/usr/lib/x86_64-linux-gnu/libdw.so
 //ADVANCED property for variable: BULLET_COLLISION_LIBRARY
 BULLET_COLLISION_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: BULLET_COLLISION_LIBRARY_DEBUG
@@ -1006,9 +1021,9 @@ CURL_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CURL_LIBRARY_RELEASE
 CURL_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //Details about finding Backward
-FIND_PACKAGE_MESSAGE_DETAILS_Backward:INTERNAL=[/opt/ros/humble/share/backward_ros/cmake][/usr/lib/x86_64-linux-gnu/libdw.so;/usr/lib/x86_64-linux-gnu/libdw.so;/usr/lib/x86_64-linux-gnu/libdw.so][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_Backward:INTERNAL=[/opt/ros/humble/share/backward_ros/cmake][/usr/lib/x86_64-linux-gnu/libdw.so][v()]
 //Details about finding Boost
-FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake][cfound components: system filesystem date_time program_options thread chrono ][v1.74.0()]
+FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake][cfound components: thread system filesystem regex date_time program_options ][v1.74.0()]
 //Details about finding Eigen3
 FIND_PACKAGE_MESSAGE_DETAILS_Eigen3:INTERNAL=[1][v3.4.0()]
 //Details about finding FastRTPS

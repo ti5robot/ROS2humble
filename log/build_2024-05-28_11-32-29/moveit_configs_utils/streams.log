@@ -1,0 +1,55 @@
+[5.810s] Invoking command in '/home/ti5/ws_moveit2/moveit2/moveit_configs_utils': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/srdfdom LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ti5/ws_moveit2/build/moveit_configs_utils/prefix_override:/home/ti5/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/ti5/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/moveit_configs_utils build --build-base /home/ti5/ws_moveit2/build/moveit_configs_utils/build install --record /home/ti5/ws_moveit2/build/moveit_configs_utils/install.log --single-version-externally-managed install_data
+[7.745s] running egg_info
+[7.750s] creating ../../build/moveit_configs_utils/moveit_configs_utils.egg-info
+[7.752s] writing ../../build/moveit_configs_utils/moveit_configs_utils.egg-info/PKG-INFO
+[7.753s] writing dependency_links to ../../build/moveit_configs_utils/moveit_configs_utils.egg-info/dependency_links.txt
+[7.760s] writing entry points to ../../build/moveit_configs_utils/moveit_configs_utils.egg-info/entry_points.txt
+[7.761s] writing requirements to ../../build/moveit_configs_utils/moveit_configs_utils.egg-info/requires.txt
+[7.761s] writing top-level names to ../../build/moveit_configs_utils/moveit_configs_utils.egg-info/top_level.txt
+[7.774s] writing manifest file '../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[7.793s] reading manifest file '../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[7.802s] writing manifest file '../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[7.803s] running build
+[7.804s] running build_py
+[7.804s] creating /home/ti5/ws_moveit2/build/moveit_configs_utils/build
+[7.805s] creating /home/ti5/ws_moveit2/build/moveit_configs_utils/build/lib
+[7.809s] creating /home/ti5/ws_moveit2/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[7.810s] copying moveit_configs_utils/launch_utils.py -> /home/ti5/ws_moveit2/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[7.820s] copying moveit_configs_utils/__init__.py -> /home/ti5/ws_moveit2/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[7.820s] copying moveit_configs_utils/launches.py -> /home/ti5/ws_moveit2/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[7.821s] copying moveit_configs_utils/moveit_configs_builder.py -> /home/ti5/ws_moveit2/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[7.825s] creating /home/ti5/ws_moveit2/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions
+[7.826s] copying moveit_configs_utils/substitutions/xacro.py -> /home/ti5/ws_moveit2/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions
+[7.829s] copying moveit_configs_utils/substitutions/__init__.py -> /home/ti5/ws_moveit2/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions
+[7.834s] running install
+[7.837s] running install_lib
+[7.841s] creating /home/ti5/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[7.843s] copying /home/ti5/ws_moveit2/build/moveit_configs_utils/build/lib/moveit_configs_utils/launch_utils.py -> /home/ti5/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[7.843s] creating /home/ti5/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions
+[7.844s] copying /home/ti5/ws_moveit2/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions/xacro.py -> /home/ti5/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions
+[7.845s] copying /home/ti5/ws_moveit2/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions/__init__.py -> /home/ti5/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions
+[7.846s] copying /home/ti5/ws_moveit2/build/moveit_configs_utils/build/lib/moveit_configs_utils/__init__.py -> /home/ti5/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[7.846s] copying /home/ti5/ws_moveit2/build/moveit_configs_utils/build/lib/moveit_configs_utils/launches.py -> /home/ti5/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[7.847s] copying /home/ti5/ws_moveit2/build/moveit_configs_utils/build/lib/moveit_configs_utils/moveit_configs_builder.py -> /home/ti5/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[7.861s] byte-compiling /home/ti5/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/launch_utils.py to launch_utils.cpython-310.pyc
+[7.866s] byte-compiling /home/ti5/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions/xacro.py to xacro.cpython-310.pyc
+[7.878s] byte-compiling /home/ti5/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions/__init__.py to __init__.cpython-310.pyc
+[7.878s] byte-compiling /home/ti5/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/__init__.py to __init__.cpython-310.pyc
+[7.883s] byte-compiling /home/ti5/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/launches.py to launches.cpython-310.pyc
+[7.900s] byte-compiling /home/ti5/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/moveit_configs_builder.py to moveit_configs_builder.cpython-310.pyc
+[7.925s] running install_data
+[7.926s] creating /home/ti5/ws_moveit2/install/moveit_configs_utils/share/ament_index
+[7.927s] creating /home/ti5/ws_moveit2/install/moveit_configs_utils/share/ament_index/resource_index
+[7.932s] creating /home/ti5/ws_moveit2/install/moveit_configs_utils/share/ament_index/resource_index/packages
+[7.933s] copying resource/moveit_configs_utils -> /home/ti5/ws_moveit2/install/moveit_configs_utils/share/ament_index/resource_index/packages
+[7.933s] copying package.xml -> /home/ti5/ws_moveit2/install/moveit_configs_utils/share/moveit_configs_utils
+[7.934s] creating /home/ti5/ws_moveit2/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[7.934s] copying default_configs/chomp_planning.yaml -> /home/ti5/ws_moveit2/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[7.952s] copying default_configs/ompl_defaults.yaml -> /home/ti5/ws_moveit2/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[7.953s] copying default_configs/pilz_industrial_motion_planner_planning.yaml -> /home/ti5/ws_moveit2/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[7.953s] copying default_configs/ompl_planning.yaml -> /home/ti5/ws_moveit2/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[7.954s] running install_egg_info
+[7.954s] Copying ../../build/moveit_configs_utils/moveit_configs_utils.egg-info to /home/ti5/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils-2.5.5-py3.10.egg-info
+[7.964s] running install_scripts
+[8.098s] writing list of installed files to '/home/ti5/ws_moveit2/build/moveit_configs_utils/install.log'
+[8.268s] Invoked command in '/home/ti5/ws_moveit2/moveit2/moveit_configs_utils' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/srdfdom LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ti5/ws_moveit2/build/moveit_configs_utils/prefix_override:/home/ti5/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/ti5/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/moveit_configs_utils build --build-base /home/ti5/ws_moveit2/build/moveit_configs_utils/build install --record /home/ti5/ws_moveit2/build/moveit_configs_utils/install.log --single-version-externally-managed install_data

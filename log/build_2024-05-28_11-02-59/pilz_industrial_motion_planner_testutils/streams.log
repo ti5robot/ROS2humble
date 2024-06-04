@@ -1,0 +1,93 @@
+[0.142s] Invoking command in '/home/ti5/ws_moveit2/build/pilz_industrial_motion_planner_testutils': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ti5/ws_moveit2/moveit2/moveit_planners/pilz_industrial_motion_planner_testutils -DCMAKE_INSTALL_PREFIX=/home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils
+[0.234s] -- Found moveit_common: 2.5.5 (/home/ti5/ws_moveit2/install/moveit_common/share/moveit_common/cmake)
+[0.235s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.457s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[1.457s] -- BACKWARD_HAS_UNWIND=1
+[1.458s] -- BACKWARD_HAS_BACKTRACE=0
+[1.459s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[1.460s] -- BACKWARD_HAS_DW=1
+[1.461s] -- BACKWARD_HAS_BFD=0
+[1.462s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[1.464s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.606s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.624s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.664s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.760s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.849s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.231s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.241s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.868s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.006s] -- Found moveit_core: 2.5.5 (/home/ti5/ws_moveit2/install/moveit_core/share/moveit_core/cmake)
+[4.119s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[4.244s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[4.327s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[4.613s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[5.095s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[7.229s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[13.699s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[13.728s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.771s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.773s] -- Configured cppcheck include dirs: /home/ti5/ws_moveit2/moveit2/moveit_planners/pilz_industrial_motion_planner_testutils/include
+[13.773s] -- Configured cppcheck exclude dirs and/or files: 
+[13.778s] -- Added test 'xmllint' to check XML markup files
+[13.788s] -- Configuring done
+[13.948s] -- Generating done
+[13.960s] -- Build files have been written to: /home/ti5/ws_moveit2/build/pilz_industrial_motion_planner_testutils
+[14.015s] Invoked command in '/home/ti5/ws_moveit2/build/pilz_industrial_motion_planner_testutils' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ti5/ws_moveit2/moveit2/moveit_planners/pilz_industrial_motion_planner_testutils -DCMAKE_INSTALL_PREFIX=/home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils
+[14.018s] Invoking command in '/home/ti5/ws_moveit2/build/pilz_industrial_motion_planner_testutils': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/pilz_industrial_motion_planner_testutils -- -j4 -l4
+[14.256s] [35m[1mConsolidate compiler generated dependencies of target pilz_industrial_motion_planner_testutils[0m
+[14.534s] [100%] Built target pilz_industrial_motion_planner_testutils
+[14.584s] Invoked command in '/home/ti5/ws_moveit2/build/pilz_industrial_motion_planner_testutils' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/pilz_industrial_motion_planner_testutils -- -j4 -l4
+[14.757s] Invoking command in '/home/ti5/ws_moveit2/build/pilz_industrial_motion_planner_testutils': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ti5/ws_moveit2/build/pilz_industrial_motion_planner_testutils
+[14.830s] -- Install configuration: "Release"
+[14.831s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib/libpilz_industrial_motion_planner_testutils.so
+[14.834s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/include
+[14.838s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils
+[14.841s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/ptp.h
+[14.850s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/robotstatemsgconvertible.h
+[14.860s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/motioncmd.h
+[14.861s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/command_types_typedef.h
+[14.879s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/center.h
+[14.880s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/robotconfiguration.h
+[14.881s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/jointconfiguration.h
+[14.881s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/circauxiliary.h
+[14.882s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/circ_auxiliary_types.h
+[14.882s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/motionplanrequestconvertible.h
+[14.883s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/cartesianconfiguration.h
+[14.883s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/cartesianpathconstraintsbuilder.h
+[14.884s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/lin.h
+[14.884s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/default_values.h
+[14.886s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/interim.h
+[14.886s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/xml_testdata_loader.h
+[14.888s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/xml_constants.h
+[14.889s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/async_test.h
+[14.893s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/circ.h
+[14.894s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/basecmd.h
+[14.895s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/exception_types.h
+[14.899s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/gripper.h
+[14.900s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/sequence.h
+[14.900s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/goalconstraintsmsgconvertible.h
+[14.901s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/checks.h
+[14.910s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/testdata_loader.h
+[14.910s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/environment/library_path.sh
+[14.911s] -- Installing: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/environment/library_path.dsv
+[14.911s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/share/ament_index/resource_index/package_run_dependencies/pilz_industrial_motion_planner_testutils
+[14.912s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/share/ament_index/resource_index/parent_prefix_path/pilz_industrial_motion_planner_testutils
+[14.912s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/environment/ament_prefix_path.sh
+[14.913s] -- Installing: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/environment/ament_prefix_path.dsv
+[14.914s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/environment/path.sh
+[14.914s] -- Installing: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/environment/path.dsv
+[14.915s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/local_setup.bash
+[14.918s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/local_setup.sh
+[14.944s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/local_setup.zsh
+[14.944s] -- Installing: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/local_setup.dsv
+[14.945s] -- Installing: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/package.dsv
+[14.945s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/share/ament_index/resource_index/packages/pilz_industrial_motion_planner_testutils
+[14.945s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/cmake/export_pilz_industrial_motion_planner_testutilsExport.cmake
+[14.946s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/cmake/export_pilz_industrial_motion_planner_testutilsExport-release.cmake
+[14.946s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/cmake/ament_cmake_export_targets-extras.cmake
+[14.947s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.947s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/cmake/pilz_industrial_motion_planner_testutilsConfig.cmake
+[14.948s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/cmake/pilz_industrial_motion_planner_testutilsConfig-version.cmake
+[14.948s] -- Up-to-date: /home/ti5/ws_moveit2/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/package.xml
+[14.949s] Invoked command in '/home/ti5/ws_moveit2/build/pilz_industrial_motion_planner_testutils' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ti5/ws_moveit2/build/pilz_industrial_motion_planner_testutils

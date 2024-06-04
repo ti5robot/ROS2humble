@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "demo")
 set(demo_VERSION "0.0.0")
-set(demo_MAINTAINER "ti5 <ti5@todo.todo>")
+set(demo_MAINTAINER "ti5 <2290787180@qq.com>")
 set(demo_BUILD_DEPENDS "rclcpp" "std_msgs" "moveit_msgs")
 set(demo_BUILDTOOL_DEPENDS "ament_cmake")
 set(demo_BUILD_EXPORT_DEPENDS "rclcpp" "std_msgs" "moveit_msgs")

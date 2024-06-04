@@ -1,0 +1,136 @@
+[0.115s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_ros_perception': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ti5/ws_moveit2/moveit2/moveit_ros/perception -DCMAKE_INSTALL_PREFIX=/home/ti5/ws_moveit2/install/moveit_ros_perception
+[0.189s] -- Found moveit_common: 2.5.5 (/home/ti5/ws_moveit2/install/moveit_common/share/moveit_common/cmake)
+[0.194s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.350s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[1.350s] -- BACKWARD_HAS_UNWIND=1
+[1.351s] -- BACKWARD_HAS_BACKTRACE=0
+[1.351s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[1.352s] -- BACKWARD_HAS_DW=1
+[1.352s] -- BACKWARD_HAS_BFD=0
+[1.356s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[1.712s] -- Checking for module 'glut'
+[1.722s] --   No package 'glut' found
+[1.735s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.942s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.960s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.997s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.087s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.197s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.659s] -- Found moveit_core: 2.5.5 (/home/ti5/ws_moveit2/install/moveit_core/share/moveit_core/cmake)
+[3.731s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[3.859s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[4.175s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.183s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.879s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.874s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[6.175s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[6.366s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[7.825s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[14.750s] -- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)
+[14.825s] -- Found moveit_ros_occupancy_map_monitor: 2.5.5 (/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake)
+[15.935s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[16.238s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[16.345s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[16.348s] -- Configured cppcheck include dirs: /home/ti5/ws_moveit2/moveit2/moveit_ros/perception/depth_image_octomap_updater/include;/home/ti5/ws_moveit2/moveit2/moveit_ros/perception/lazy_free_space_updater/include;/home/ti5/ws_moveit2/moveit2/moveit_ros/perception/mesh_filter/include;/home/ti5/ws_moveit2/moveit2/moveit_ros/perception/point_containment_filter/include;/home/ti5/ws_moveit2/moveit2/moveit_ros/perception/pointcloud_octomap_updater/include;/home/ti5/ws_moveit2/moveit2/moveit_ros/perception/semantic_world/include
+[16.349s] -- Configured cppcheck exclude dirs and/or files: 
+[16.361s] -- Added test 'lint_cmake' to check CMake code style
+[16.374s] -- Added test 'xmllint' to check XML markup files
+[16.399s] -- Configuring done
+[17.365s] -- Generating done
+[17.388s] -- Build files have been written to: /home/ti5/ws_moveit2/build/moveit_ros_perception
+[17.458s] Invoked command in '/home/ti5/ws_moveit2/build/moveit_ros_perception' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ti5/ws_moveit2/moveit2/moveit_ros/perception -DCMAKE_INSTALL_PREFIX=/home/ti5/ws_moveit2/install/moveit_ros_perception
+[17.464s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_ros_perception': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/moveit_ros_perception -- -j4 -l4
+[17.700s] [35m[1mConsolidate compiler generated dependencies of target moveit_lazy_free_space_updater[0m
+[17.789s] [ 10%] Built target moveit_lazy_free_space_updater
+[17.849s] [35m[1mConsolidate compiler generated dependencies of target moveit_semantic_world[0m
+[18.050s] [ 20%] Built target moveit_semantic_world
+[18.122s] [35m[1mConsolidate compiler generated dependencies of target moveit_mesh_filter[0m
+[18.294s] [ 50%] Built target moveit_mesh_filter
+[18.349s] [35m[1mConsolidate compiler generated dependencies of target moveit_point_containment_filter[0m
+[18.478s] [ 60%] Built target moveit_point_containment_filter
+[18.536s] [35m[1mConsolidate compiler generated dependencies of target moveit_depth_image_octomap_updater_core[0m
+[18.697s] [ 70%] Built target moveit_depth_image_octomap_updater_core
+[18.753s] [35m[1mConsolidate compiler generated dependencies of target moveit_pointcloud_octomap_updater_core[0m
+[18.894s] [ 80%] Built target moveit_pointcloud_octomap_updater_core
+[18.951s] [35m[1mConsolidate compiler generated dependencies of target moveit_depth_image_octomap_updater[0m
+[19.078s] [ 90%] Built target moveit_depth_image_octomap_updater
+[19.137s] [35m[1mConsolidate compiler generated dependencies of target moveit_pointcloud_octomap_updater[0m
+[19.364s] [100%] Built target moveit_pointcloud_octomap_updater
+[19.424s] Invoked command in '/home/ti5/ws_moveit2/build/moveit_ros_perception' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ti5/ws_moveit2/build/moveit_ros_perception -- -j4 -l4
+[19.640s] Invoking command in '/home/ti5/ws_moveit2/build/moveit_ros_perception': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ti5/ws_moveit2/build/moveit_ros_perception
+[19.687s] -- Install configuration: "Release"
+[19.690s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/include
+[19.691s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/include/moveit
+[19.692s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/include/moveit/lazy_free_space_updater
+[19.693s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/include/moveit/lazy_free_space_updater/lazy_free_space_updater.h
+[19.695s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/include
+[19.697s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/include/moveit
+[19.699s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/include/moveit/point_containment_filter
+[19.700s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/include/moveit/point_containment_filter/shape_mask.h
+[19.701s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/include
+[19.704s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/include/moveit
+[19.707s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/include/moveit/pointcloud_octomap_updater
+[19.707s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/include/moveit/pointcloud_octomap_updater/pointcloud_octomap_updater.h
+[19.709s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/include
+[19.710s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/include/moveit
+[19.710s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/include/moveit/mesh_filter
+[19.713s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/include/moveit/mesh_filter/transform_provider.h
+[19.713s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/include/moveit/mesh_filter/stereo_camera_model.h
+[19.715s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/include/moveit/mesh_filter/filter_job.h
+[19.717s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/include/moveit/mesh_filter/sensor_model.h
+[19.718s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/include/moveit/mesh_filter/gl_mesh.h
+[19.720s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/include/moveit/mesh_filter/mesh_filter_base.h
+[19.720s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/include/moveit/mesh_filter/gl_renderer.h
+[19.721s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/include/moveit/mesh_filter/depth_self_filter_nodelet.h
+[19.722s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/include/moveit/mesh_filter/mesh_filter.h
+[19.724s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/include/moveit_mesh_filter_export.h
+[19.725s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/include
+[19.729s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/include/moveit
+[19.730s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/include/moveit/depth_image_octomap_updater
+[19.730s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/include/moveit/depth_image_octomap_updater/depth_image_octomap_updater.h
+[19.731s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/include
+[19.732s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/include/moveit
+[19.734s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/include/moveit/semantic_world
+[19.735s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/include/moveit/semantic_world/semantic_world.h
+[19.737s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/lib/libmoveit_depth_image_octomap_updater.so.2.5.5
+[19.739s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/lib/libmoveit_depth_image_octomap_updater.so
+[19.740s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/lib/libmoveit_depth_image_octomap_updater_core.so.2.5.5
+[19.742s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/lib/libmoveit_depth_image_octomap_updater_core.so
+[19.744s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/lib/libmoveit_lazy_free_space_updater.so.2.5.5
+[19.746s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/lib/libmoveit_lazy_free_space_updater.so
+[19.747s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/lib/libmoveit_mesh_filter.so.2.5.5
+[19.748s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/lib/libmoveit_mesh_filter.so
+[19.748s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/lib/libmoveit_point_containment_filter.so.2.5.5
+[19.749s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/lib/libmoveit_point_containment_filter.so
+[19.768s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/lib/libmoveit_pointcloud_octomap_updater.so.2.5.5
+[19.770s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/lib/libmoveit_pointcloud_octomap_updater.so
+[19.770s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/lib/libmoveit_pointcloud_octomap_updater_core.so.2.5.5
+[19.771s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/lib/libmoveit_pointcloud_octomap_updater_core.so
+[19.771s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/lib/libmoveit_semantic_world.so.2.5.5
+[19.772s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/lib/libmoveit_semantic_world.so
+[19.772s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/share/moveit_ros_perception/environment/library_path.sh
+[19.773s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_perception/share/moveit_ros_perception/environment/library_path.dsv
+[19.773s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/share/moveit_ros_perception/pointcloud_octomap_updater_plugin_description.xml
+[19.774s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/share/moveit_ros_perception/depth_image_octomap_updater_plugin_description.xml
+[19.777s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/share/ament_index/resource_index/package_run_dependencies/moveit_ros_perception
+[19.777s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/share/ament_index/resource_index/parent_prefix_path/moveit_ros_perception
+[19.778s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/share/moveit_ros_perception/environment/ament_prefix_path.sh
+[19.778s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_perception/share/moveit_ros_perception/environment/ament_prefix_path.dsv
+[19.779s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/share/moveit_ros_perception/environment/path.sh
+[19.790s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_perception/share/moveit_ros_perception/environment/path.dsv
+[19.790s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/share/moveit_ros_perception/local_setup.bash
+[19.792s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/share/moveit_ros_perception/local_setup.sh
+[19.793s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/share/moveit_ros_perception/local_setup.zsh
+[19.793s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_perception/share/moveit_ros_perception/local_setup.dsv
+[19.793s] -- Installing: /home/ti5/ws_moveit2/install/moveit_ros_perception/share/moveit_ros_perception/package.dsv
+[19.794s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/share/ament_index/resource_index/packages/moveit_ros_perception
+[19.794s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/share/ament_index/resource_index/moveit_ros_occupancy_map_monitor__pluginlib__plugin/moveit_ros_perception
+[19.795s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/share/moveit_ros_perception/cmake/export_moveit_ros_perceptionExport.cmake
+[19.795s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/share/moveit_ros_perception/cmake/export_moveit_ros_perceptionExport-release.cmake
+[19.795s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/share/moveit_ros_perception/cmake/ConfigExtras.cmake
+[19.796s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/share/moveit_ros_perception/cmake/ament_cmake_export_targets-extras.cmake
+[19.807s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/share/moveit_ros_perception/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.809s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/share/moveit_ros_perception/cmake/moveit_ros_perceptionConfig.cmake
+[19.811s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/share/moveit_ros_perception/cmake/moveit_ros_perceptionConfig-version.cmake
+[19.812s] -- Up-to-date: /home/ti5/ws_moveit2/install/moveit_ros_perception/share/moveit_ros_perception/package.xml
+[19.813s] Invoked command in '/home/ti5/ws_moveit2/build/moveit_ros_perception' returned '0': AMENT_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/ti5/ws_moveit2/install/moveit_core:/home/ti5/ws_moveit2/install/srdfdom:/home/ti5/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/ti5/ws_moveit2/install/moveit_ros_planning/lib:/home/ti5/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/ti5/ws_moveit2/install/moveit_core/lib:/home/ti5/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/ti5/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/ti5/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ti5/ws_moveit2/build/moveit_ros_perception

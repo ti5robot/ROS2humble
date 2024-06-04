@@ -1,0 +1,14 @@
+/usr/bin/ld: gtest/libgtest.a: error adding symbols: archive has no index; run ranlib to add one
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/test_servo_integration.dir/build.make:372: test_servo_integration] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:393: CMakeFiles/test_servo_integration.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+/usr/bin/ld: gtest/libgtest.a: error adding symbols: archive has no index; run ranlib to add one
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/test_servo_collision.dir/build.make:372: test_servo_collision] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/test_servo_collision.dir/all] Error 2
+/usr/bin/ld: gtest/libgtest.a: error adding symbols: archive has no index; run ranlib to add one
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/servo_calcs_unit_tests.dir/build.make:373: servo_calcs_unit_tests] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:480: CMakeFiles/servo_calcs_unit_tests.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

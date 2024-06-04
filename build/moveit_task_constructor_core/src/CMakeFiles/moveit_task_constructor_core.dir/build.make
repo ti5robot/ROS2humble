@@ -396,11 +396,6 @@ src/libmoveit_task_constructor_core.so: /home/ti5/ws_moveit2/install/srdfdom/lib
 src/libmoveit_task_constructor_core.so: /opt/ros/humble/lib/liburdf.so
 src/libmoveit_task_constructor_core.so: /opt/ros/humble/lib/x86_64-linux-gnu/libruckig.so
 src/libmoveit_task_constructor_core.so: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_transforms.so.2.5.5
-src/libmoveit_task_constructor_core.so: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_sensor.so.3.0
-src/libmoveit_task_constructor_core.so: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model_state.so.3.0
-src/libmoveit_task_constructor_core.so: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model.so.3.0
-src/libmoveit_task_constructor_core.so: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_world.so.3.0
-src/libmoveit_task_constructor_core.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
 src/libmoveit_task_constructor_core.so: /home/ti5/ws_moveit2/install/moveit_core/lib/libmoveit_utils.so.2.5.5
 src/libmoveit_task_constructor_core.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.74.0
 src/libmoveit_task_constructor_core.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.74.0
@@ -584,7 +579,12 @@ src/libmoveit_task_constructor_core.so: /opt/ros/humble/lib/librosidl_runtime_c.
 src/libmoveit_task_constructor_core.so: /opt/ros/humble/lib/librcpputils.so
 src/libmoveit_task_constructor_core.so: /opt/ros/humble/lib/librcutils.so
 src/libmoveit_task_constructor_core.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+src/libmoveit_task_constructor_core.so: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_sensor.so.3.0
+src/libmoveit_task_constructor_core.so: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model_state.so.3.0
+src/libmoveit_task_constructor_core.so: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model.so.3.0
+src/libmoveit_task_constructor_core.so: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_world.so.3.0
 src/libmoveit_task_constructor_core.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
+src/libmoveit_task_constructor_core.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
 src/libmoveit_task_constructor_core.so: src/CMakeFiles/moveit_task_constructor_core.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ti5/ws_moveit2/build/moveit_task_constructor_core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX shared library libmoveit_task_constructor_core.so"
 	cd /home/ti5/ws_moveit2/build/moveit_task_constructor_core/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/moveit_task_constructor_core.dir/link.txt --verbose=$(VERBOSE)

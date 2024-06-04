@@ -21,15 +21,6 @@
         <joint name="E" value="0"/>
         <joint name="F" value="0"/>
     </group_state>
-    <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
-    <end_effector name="end_effector" parent_link="base_link" group="armgroup"/>
-    <!--PASSIVE JOINT: Purpose: this element is used to mark joints that are not actuated-->
-    <passive_joint name="A"/>
-    <passive_joint name="B"/>
-    <passive_joint name="C"/>
-    <passive_joint name="D"/>
-    <passive_joint name="E"/>
-    <passive_joint name="F"/>
     <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
     <disable_collisions link1="A_Link" link2="B_Link" reason="Adjacent"/>
     <disable_collisions link1="A_Link" link2="C_Link" reason="Never"/>

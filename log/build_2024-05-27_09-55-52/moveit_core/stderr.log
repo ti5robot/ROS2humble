@@ -1,0 +1,35 @@
+In file included from [01m[K/home/ti5/ws_moveit2/moveit2/moveit_core/planning_interface/include/moveit/planning_interface/planning_response.h:40[m[K,
+                 from [01m[K/home/ti5/ws_moveit2/moveit2/moveit_core/planning_interface/include/moveit/planning_interface/planning_interface.h:41[m[K,
+                 from [01m[K/home/ti5/ws_moveit2/moveit2/moveit_core/planning_interface/src/planning_interface.cpp:37[m[K:
+[01m[K/home/ti5/ws_moveit2/moveit2/moveit_core/utils/include/moveit/utils/moveit_error_code.h:50:72:[m[K [01;31m[Kerror: [m[K‘[01m[KUNDEFINED[m[K’ is not a member of ‘[01m[Kmoveit_msgs::msg::MoveItErrorCodes[m[K’ {aka ‘[01m[Kmoveit_msgs::msg::MoveItErrorCodes_<std::allocator<void> >[m[K’}
+   50 | (const int code = moveit_msgs::msg::MoveItErrorCodes::[01;31m[KUNDEFINED[m[K, const std::string& error_message = "",
+      |                                                       [01;31m[K^~~~~~~~~[m[K
+
+[01m[K/home/ti5/ws_moveit2/moveit2/moveit_core/utils/include/moveit/utils/moveit_error_code.h:[m[K In constructor ‘[01m[Kmoveit::core::MoveItErrorCode::MoveItErrorCode(int, const string&, const string&)[m[K’:
+[01m[K/home/ti5/ws_moveit2/moveit2/moveit_core/utils/include/moveit/utils/moveit_error_code.h:54:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+   54 |     [01;31m[Kmessage[m[K = error_message;
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/ti5/ws_moveit2/moveit2/moveit_core/utils/include/moveit/utils/moveit_error_code.h:55:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksource[m[K’ was not declared in this scope
+   55 |     [01;31m[Ksource[m[K = error_source;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/ti5/ws_moveit2/moveit2/moveit_core/utils/include/moveit/utils/moveit_error_code.h:[m[K In constructor ‘[01m[Kmoveit::core::MoveItErrorCode::MoveItErrorCode(const MoveItErrorCodes&)[m[K’:
+[01m[K/home/ti5/ws_moveit2/moveit2/moveit_core/utils/include/moveit/utils/moveit_error_code.h:60:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+   60 |     [01;31m[Kmessage[m[K = code.message;
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/ti5/ws_moveit2/moveit2/moveit_core/utils/include/moveit/utils/moveit_error_code.h:60:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst MoveItErrorCodes[m[K’ {aka ‘[01m[Kconst struct moveit_msgs::msg::MoveItErrorCodes_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kmessage[m[K’
+   60 |     message = code.[01;31m[Kmessage[m[K;
+      |                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/ti5/ws_moveit2/moveit2/moveit_core/utils/include/moveit/utils/moveit_error_code.h:61:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksource[m[K’ was not declared in this scope
+   61 |     [01;31m[Ksource[m[K = code.source;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/ti5/ws_moveit2/moveit2/moveit_core/utils/include/moveit/utils/moveit_error_code.h:61:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst MoveItErrorCodes[m[K’ {aka ‘[01m[Kconst struct moveit_msgs::msg::MoveItErrorCodes_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksource[m[K’
+   61 |     source = code.[01;31m[Ksource[m[K;
+      |                   [01;31m[K^~~~~~[m[K
+[01m[K/home/ti5/ws_moveit2/moveit2/moveit_core/utils/include/moveit/utils/moveit_error_code.h:[m[K In function ‘[01m[Kstd::string moveit::core::errorCodeToString(const moveit::core::MoveItErrorCode&)[m[K’:
+[01m[K/home/ti5/ws_moveit2/moveit2/moveit_core/utils/include/moveit/utils/moveit_error_code.h:88:41:[m[K [01;31m[Kerror: [m[K‘[01m[KUNDEFINED[m[K’ is not a member of ‘[01m[Kmoveit::core::MoveItErrorCode[m[K’
+   88 |     case moveit::core::MoveItErrorCode::[01;31m[KUNDEFINED[m[K:
+      |                                         [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [planning_interface/CMakeFiles/moveit_planning_interface.dir/build.make:76: planning_interface/CMakeFiles/moveit_planning_interface.dir/src/planning_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1957: planning_interface/CMakeFiles/moveit_planning_interface.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2
